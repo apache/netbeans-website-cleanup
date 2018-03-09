@@ -1,0 +1,72 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ru
+:description: Apache NetBeans  index_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Java на клиенте
+
+link:client-main-full.png[image:client-main-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+IDE NetBeans позволяет быстро и эффективно разрабатывать клиенты Java для Java SE с помощью JavaFX и Swing, а также приложения Java ME и встроенные приложения.
+
+    [overview-right]#link:client-javafx-full.png[image:client-javafx-cut.png[]]#
+
+=== JavaFX
+
+JavaFX является следующим шагом в развитии Java как платформы "толстого" клиента. Эта технология обеспечивает упрощенную платформу пользовательского интерфейса Java с аппаратным ускорением для бизнес-приложений уровня предприятия. JavaFX позволяет разработчикам создавать приложения JavaFX полностью на языке программирования Java с использованием стандартных инструментов разработки Java. Вы сможете получить доступ к встроенным возможностям системы или легко подключиться к серверным приложениям промежуточного ПО.
+
+IDE предоставляет проекты JavaFX и интеграцию с JavaFX Scene Builder вместе с редакторами, отладчиками и примерами проектов.
+
+link:javafx.html[JavaFX в IDE NetBeans]
+
+     [overview-left]#link:client-swing-full.png[image:client-swing-cut.png[]]#
+
+=== Swing
+
+Создание графических интерфейсов пользователя на Swing осуществляется путем перетаскивания элементов графического интерфейса из палитры на холст. Конструктор графического интерфейса автоматически выполняет правильную простановку интервалов и выравнивание. Щелкните компоненты JLabels, JButtons, ButtonGroups, JTrees, JTextFields или ComboBoxes и выполните правку соответствующих свойств непосредственно на месте.
+
+С помощью конструктора графического интерфейса можно создавать прототип графического интерфейса непосредственно в присутствии заказчиков.
+
+link:swing.html[Swing в IDE NetBeans]
+
+     [overview-right]#link:client-jme-full.png[image:client-jme-cut.png[]]#
+
+=== Приложения Java ME и встроенные приложения
+
+Используйте IDE для создания, тестирования, отладки и развертывания приложений, которые будут запускаться на мобильных телефонах, КПК, приставках и встраиваемых системах.
+
+link:java-me.html[Приложения Java ME и встроенные приложения в IDE NetBeans]
+
+ 
+
+=== См. также
+
+* link:../../community/releases/81/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список выделенных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

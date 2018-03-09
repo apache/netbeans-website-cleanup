@@ -1,0 +1,123 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+== Java ME (Micro Edition) &amp; Incorporado
+
+link:gamebuilder.png[image:gamebuilder-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+*Crie, teste, depure e implante aplicações que serão executadas em telefones celulares, PDAs, decodificadores de sinais, sistemas incorporados - literalmente bilhões de dispositivos.*
+
+|===
+|=== Telefones, Dispositivos Portáteis, Cartão Java e Decodificadores de Sinal
+
+Aplicações para a criação, teste e depuração para o Perfil do Dispositivo de Informação Móvel (MIDP) 1.0, 2.0, 2.1 (MSA), Configuração de Dispositivo Limitado Conectado (CLDC) 1.0 e 1.1 e Configuração de Dispositivo Conectado (CDC).
+
+O NetBeans IDE vem com o Java ME SDK 3.0.5 mais recente que oferece suporte a desenvolvimento CLDC e CDC. É possível registrar outro celular e plataformas inseridas do menu Ferramentas.
+
+=== Cartão Java
+
+A Plataforma do Cartão Java 3.0 é uma JVM que executa cartões inteligentes. Essa plataforma suporta APIs Java familiares como servlets e permite gravar aplicações web que são executadas em pequenos dispositivos que encaixam na palma da mão. O NetBeans suporta projetos de Cartão Java, implantação do applet do Cartão Java e uma console do dispositivo do Cartão Java.
+
+=== Visual Mobile Designer (VMD)
+
+Desenvolva GUIs rapidamente com o Visual Mobile Designer (VMD): estão incluídos componentes de arrastar e soltar como telas de espera, telas de log-in, browsers de arquivos, compositores SMS e telas de splash. A ferramenta Analisador o ajuda a diminuir o tamanho dos arquivos, identificando componentes não utilizados para remoção e verificando a conformidade com o MIDP 1.0. O VMD também torna a localização da GUI mais fácil.
+
+_O Visual Mobile Designer está disponível no Centro de Atualização do NetBeans. Para executar o VMD no IDE é necessário instalar o plug-in do Visual Mobile Designer do Centro de Atualização (Ferramentas > Plug-ins > Plug-ins Disponíveis)._
+
+ |
+
+image:mobile-designer.png[]
+
+image:java-card.png[]
+
+ 
+
+|=== Paleta de Componentes SVG
+
+Selecione as formas básicas na paleta de imagens SVG para conhecer e usar os outros componentes SVG na paleta, tais como Form SVG, Botões, Caixas de Seleção, Campos de Texto, Controles Deslizantes, etc., a fim de criar interfaces ricas em conteúdo para suas aplicações móveis.
+
+=== Componentes SVG Personalizados
+
+Use o Composer SVG para criar e modificar componentes de IU baseados em SVG. O Composer SVG suporta rotação de 90/180/270 graus e componentes Rich SVG. Arraste e solte arquivos SVG em um Form SVG e utilize o editor de Propriedades do form SVG para exibir e modificar os arquivos de IU. Todas as imagens SVG que você cria e edita podem ser exportadas como arquivos PNG e JPG.
+
+ |
+
+image:mobile-svg-palette.png[]
+
+ 
+
+|=== Bind de Dados
+
+O Bind de Dados com componentes de UI é uma forma simples e coerente de fazer com que as aplicações interajam e exibam dados utilizando o editor da propriedade de Bind de Dados juntamente com o componente Conjunto de Dados no Visual Mobile Designer.
+
+=== Desenvolvedor de Jogos para Dispositivos Móveis
+
+Desenvolva jogos para dispositivos móveis com um editor visual projetado para MIDP 2.0 Game API. A API permite criar cenas de jogos com sprites em uma tela de jogo, utilizando camadas lado a lado e gerenciamento de camadas.
+
+ |
+
+image:mobile-data-binding.png[]
+
+ 
+
+|=== Uma Solução para o Problema de Fragmentação do Dispositivo
+
+Resolva os problemas de fragmentação de dispositivo criando várias configurações de dispositivo para os seus projetos. Utilize o Gerenciador de Configuração de Projeto para adicionar novas configurações do projeto, criar várias construções e reutilizar opções de configuração existentes para novos projetos. Para realizar a depuração, teste sua aplicação móvel em vários emuladores de dispositivos de destino dos principais fabricantes e implante em dispositivos reais.
+
+ |
+
+image:mobile-conf-mgr.png[]
+
+ 
+
+|=== Acesso para Web Services
+
+Grava aplicações que acessam os web services diretamente dos telefones compatível cm JSR-172. Utilize a Ponte para Conexão Sem Fio para acessar web services ou outros dados do servidor por meio de servlets de qualquer dispositivo que use MIDlets.
+
+=== Sistema de Construção Modular
+
+Aprimore o pacote Mobility conectando seus próprios componentes. É possível adicionar novos tipos de plataforma, tipos de implantação, provedores de configurações e mais.
+
+ |
+
+image:mobile-preprocessor.png[]
+
+ 
+
+|=== Ferramentas Integradas
+
+Ferramentas integradas do IDE para teste do JMUnit 1.1.0, assinatura de MIDlet, gerenciamento de certificados, ofuscação automática de códigos com ProGuard 4.2, emulação OTA (over-the-air) integrada, emulação do push registry, emulação do WMA para mensagens SMS e CBS, novos métodos de implantação e mensagens sem fio e APIs multimídia. É possível ter controle completo sobre essa ferramenta usando os scripts Apache Ant.
+
+ 
+
+image:arrow-button.gif[] link:../../kb/trails/mobility.html[Trilha de Aprendizado do Mobility]
+
+ |link:http://www.ikivo.com/java/java.html[image:ikivo_logo_small.jpg[]] Ikivo Animator: imagem SVG avançada para a edição e animação do NetBeans IDE. Saiba mais sobre este link:http://www.ikivo.com/java/white_paper1.html[artigo] e link:http://www.ikivo.com/java/netbeans_tutorial.html[tutorial]. 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

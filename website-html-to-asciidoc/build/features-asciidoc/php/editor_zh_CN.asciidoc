@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= editor_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  editor_zh_CN
+:description: Apache NetBeans  editor_zh_CN
+:toc: left
+:toc-title:
+
+== 编辑和重构
+
+<img src="../../images_www/v7/3/features/php/editor-top.png" alt="PHP development in NetBeans IDE" class="box" border="none"
+
+可识别语言的 NetBeans 编辑器会在您键入内容时检测错误，并通过文档和智能代码完成功能来为您提供帮助 - 所有这些功能使用起来既快捷、又简便，它将不愧为您的首选小型文本编辑器。
+
+[overview-right]#image:php-54-traitcc_small.png[]#
+
+=== PHP 5.4 支持
+
+IDE 的 PHP 代码完成功能支持 PHP 5.4 数组样式，例如，link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_array[数组解除引用]和link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_short[简要数组语法]。NetBeans IDE 还可识别link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_traits[特性]和link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_anonymous[匿名对象变量]（也称为“变数实例化”）。最后，适用于 PHP 的 NetBeans IDE 可提供可调用的类型提示、整数的二进制表示法以及 `Class::{expr}()` 调用等link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_minor[次要功能]。
+
+  [overview-left]#image:php-code-completion_small.png[]#
+
+=== 代码完成
+
+该编辑器提供自动代码完成功能（同样适用于最常用的 PHPDoc 标注）。输入的时候，编辑器会列出可能的完成：最明显和最普通的选项列在顶部，但是您也可以从底部的全集选项中选择。如果用户完成了某个带有参数的方法，则 IDE 将尝试计算和插入恰好在该已完成方法之前声明的最适合的变量。
+
+  [overview-right]#image:php-code-navigation_small.png[]#
+
+=== 方便的代码导航
+
+可以使用导航器窗口或 "Go To Type"（转至类型）、"Go To File"（转至文件）、"Go To Symbol"（转至符号）、"Go To Declaration"（转至声明）或 "Find Usages"（查找使用实例）菜单项方便地导航器较大项目中的代码。编辑器可通过标记潜在的代码问题并在弹出式窗口中提供提示来提醒您这些问题。任务窗口可列出项目中的所有警告，以使您轻松查找和解决这些问题。
+
+ 
+
+|===
+|=== 重构
+
+ |
+
+=== 提示
+
+ |
+
+=== 插入代码
+
+ 
+
+|[overview-centre]#image:php-refactoring_small.png[]#
+IDE 提供元素（类、接口、方法、字段等）的一些基本重命名重构。它与 "Find Usages"（查找用例）支持紧密连接，该支持提供一种在整个项目中查找所选元素并将该用例显示在 UI 中的方法。
+
+ |
+
+[overview-centre]#image:php-hints_small.png[]#
+IDE 提供了一组“提示”，可帮助您分析代码并发现某些奇怪部分（未使用的变量、未初始化的变量等），而且其中大多数提示都会向您建议如何修复所发现问题的某种简单解决方案。
+
+ |
+
+[overview-centre]#image:php-insert-code_small.png[]#
+该编辑器可以使用 PHP 生成常用代码片段。提供了一个对话框，使您能完全控制创建的方法以及方法所访问的类属性。IDE 会在覆盖方法和生成存取方法时向您提供帮助。
+
+ 
+
+|=== 修复 Use 语句
+
+ |
+
+=== 类型分层结构视图
+
+ 
+
+|[overview-centre]#image:php-fix-uses.png[]#
+适用于 PHP 的 NetBeans IDE 最强大的操作之一即是 "Fix Uses..."（修复用法...）操作。它会分析代码并尝试查找没有其对应 Use 语句的类型用例（类、接口）（它也会分析 PHPDocs）。如果出现某些命名冲突，则会显示对话框，用户可以解决该问题。
+
+ |
+
+[overview-centre]#image:php-hierarchy-view_small.png[]#
+IDE 提供了一种如何向用户显示所需类型的类型分层结构（超类型和子类型）的方法。它的图形表示形式显示在导航器窗口旁的单独窗口中。
+
+ 
+|===
+
+=== 另请参见
+
+* link:/community/releases/81/index.html[NetBeans IDE 8.1 发行版页]，提供最新稳定发行版中的特定功能的列表。
+* link:../../kb/trails/php.html[PHP 和 HTML5 学习资源]，提供将帮助您入门的教程。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

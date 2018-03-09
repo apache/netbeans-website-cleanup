@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_zh_CN
+:description: Apache NetBeans  index_zh_CN
+:toc: left
+:toc-title:
+
+ 
+
+== 基本 IDE
+
+link:ide-basic-full.png[image:ide-basic-cut.png[][font-11]#单击图像查看全屏预览#]
+
+NetBeans IDE 是适用于各种应用程序开发技术的模块化开发者工具。基本 IDE 包含高级多语言编辑器、调试器和分析器以及实现版本化控制和开发者协作的工具。
+
+    [overview-right]#link:ide-basic-templates-full.png[image:ide-basic-templates-full-cut.png[]]#
+
+=== 模板和样例应用程序
+
+NetBeans IDE 通过其支持的所有技术的项目模板形式，向您提供框架应用程序。此外，它还提供了一组样例应用程序，其中的某些样例应用程序可以通过遵循 NetBeans.org 上可用的相关教程重新分步创建。
+
+IDE 提供了项目模板和样例项目，可帮助您创建 Java SE 应用程序、Java EE 应用程序、Java ME 应用程序、HTML5 应用程序、NetBeans 平台应用程序、PHP 应用程序和 C/C++ 应用程序。
+
+link:../../kb/index.html[NetBeans 技术学习资源]
+
+     [overview-left]#link:ide-basic-services-full.png[image:ide-basic-services-cut.png[]]#
+
+=== 数据库和服务
+
+通过 "Services"（服务）窗口可以访问许多辅助资源，例如，数据库、服务器、Web 服务和问题跟踪器。
+
+您可以直接在 IDE 中启动和停止数据库和服务器。使用数据库时，您可以在 IDE 中添加、删除和修改数据。将应用程序部署到服务器之后，您可以管理部署的资源，因为它们显示在 "Servers"（服务器）节点中。
+
+可以连接到错误数据库（例如 Issuezilla 或 Bugzilla），并列出有关 IDE 中的项目的问题报告。
+
+link:../../kb/trails/tools.html[与外部工具和服务的集成]
+
+     [overview-right]#link:ide-basic-plugins.png[image:ide-basic-plugins-cut.png[]]#
+
+=== 插件管理器
+
+使用 IDE 时，您始终可以从 "Tools"（工具）菜单转到插件管理器以添加、删除或更新已安装的功能集。
+
+为所有开发类型提供了各种各样可用的插件，从 Java SE、Java EE、Java ME、HTML5、Groovy 和 PHP 到 C/C++ 开发。
+
+在 NetBeans 插件门户中还可以获取社区提供的插件。
+
+link:http://plugins.netbeans.org/[NetBeans 插件门户]
+
+ 
+|===
+
+|=== 快速搜索
+
+ |
+
+=== 操作项
+
+ |
+
+=== 可定制的工作区
+
+ 
+
+|[overview-centre]#image:ide-basic-quick-search.png[]#
+快速搜索是您可以对 JDK 中的所有 Java 类型、IDE 中的操作、帮助集、选项设置和项目执行搜索的集中位置。
+
+ |
+
+[overview-centre]#image:ide-basic-actionitems-cut.png[]#
+"Action Items"（操作项）窗口自动扫描代码，并列出包含 "TODO" 或 "FIXME" 等字样的注释行，以及包含编译错误、快速修复和样式警告的代码行。
+
+ |
+
+[overview-centre]#image:ide-basic-customize.png[]#
+可以修改 IDE 的工作区。您可以在工具栏中定制按钮，并在 IDE 应用程序框架中拖动和重定位标签以适合单个工作流。您可以取消停靠标签并将其拖到应用程序框架外部，甚至拖到不同监视器上。
+
+ 
+|===
+
+=== 另请参见
+
+* link:../../community/releases/81/index.html[NetBeans IDE 8.1 发行版页]，提供最新的稳定发行版中的重要功能列表。
+* link:../../kb/trails/java-se.html[常规 Java 开发学习资源]，提供将帮助您入门的教程。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

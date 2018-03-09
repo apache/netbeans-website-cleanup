@@ -1,0 +1,155 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= java-ee_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  java-ee_pt_BR
+:description: Apache NetBeans  java-ee_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Suporte ao Java Enterprise Edition
+
+link:web-app.png[image:web-app-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+O NetBeans IDE oferece excelente suporte para o desenvolvimento de aplicações no servidor ou na Web que usem a plataforma Java EE. O suporte ao IDE foi desenvolvido em cooperação estreita com as equipes do Java EE e do GlassFish para oferecer a maior integração e a de mais fácil uso possível da especificação Java EE. Consequentemente, se você for iniciante em framework e especificações Java EE, usar o NetBeans IDE é a melhor forma de aprender rapidamente e se tornar produtivo em programação Java EE.
+
+    [overview-right]#link:java-ee-7-full.png[image:java-ee-7-full-cut.png[]]#
+
+=== Suporte ao Java Enterprise Edition 7
+
+O NetBeans IDE oferece suporte completo aos padrões Java EE 7 mais recentes, incluindo suporte para JSF 2.2 (Facelets), Java Persistence 2.1 e Contexts and Dependency Injection 1.1, link:web-services.html[Web services baseados em JAX-RS e JAX-WS] e as plataformas Java EE 6 e Java EE 5 mais antigas.
+
+O suporte oferecido no IDE varia de assistentes que podem ser usados para criar rapidamente a aplicação, suporte ao editor na geração e no consumo de artefatos Java EE, configuração de aplicações e suporte a criação, implantação, execução e teste. Com todos esses recursos, seus esforços serão concentrados na implementação dos aspectos lógicos do negócio na sua aplicação.
+
+link:../../kb/trails/java-ee.html[Trilha de Aprendizado da Web Java EE e Java]
+
+     [overview-left]#link:ejb-dev.png[image:ejb-dev-cut.png[]]#
+
+=== Desenvolvimento Simplificado de EJB
+
+O IDE suporta a especificação EJB 3.2 mais recente, inclusive nos projetos da aplicação. O assistente de arquivos de projeto do EJB oferece opções de criação de beans da Sessão, incluindo beans da sessão Singleton, beans Orientados para mensagens para processamento de mensagens assíncronas, assim como beans da sessão do Temporizador para o trabalho com notificações cronometradas. Você pode usar um assistente para criar facilmente um Session Bean para uma classe de entidade, incluindo as anotações apropriadas e os métodos default normalmente usados. Beans podem ser expostos com uma interface local ou não-exibição de interface. Também há suporte para chamar beans do EJB usando assistentes com inserção de código no editor
+
+link:../../kb/docs/javaee/javaee-entapp-ejb.html[Criando uma Aplicação Corporativa com o EJB 3.1]
+
+     [overview-right]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Desenvolvimento do JSF
+
+O NetBeans IDE suporta o padrão JavaServer Faces (JSF) 2.2 mais recente, assim como os padrões antigos 2.1 e os mais recentes. O Netbeans IDE suporta Facelets, a tecnologia oficial da view de JSF 2.2. Você pode criar um novo projeto com base na aplicação Web de framework de Facelets e trabalhar com componentes de implementação de referência de JSF.
+
+O IDE também suporta várias bibliotecas de componentes JSF (*PrimeFaces, RichFaces, ICEfaces*) que podem simplificar o desenvolvimento de páginas de Facelets. Estão incluídos assistentes e modelos de código para gerar aplicações PrimeFaces, com código de interação de banco de dados incluído.
+
+link:../../kb/docs/web/jsf20-intro.html[Introdução ao JavaServer Faces]
+
+     [overview-left]#link:jpa-dev.png[image:jpa-dev-cut.png[]]#
+
+=== Suporte a JPA
+
+O IDE oferece ferramentas para trabalhar com a API 2.1 da Persistência Java. Os assistentes permitem que você gere classes de entidades de um banco de dados e uma aplicação JavaServer Faces CRUD (Create Retrieve Update Delete) de classes de entidade. O IDE aceita todos os tipos de relacionamentos de entidades (um-para-um, um-para-muitos, muitos-para-um e muitos-para-muitos) e todos os tipos de chaves primárias (coluna única, composta e gerada). O IDE também fornece modelos e editores de gráfico para criar e manter unidades de persistência.
+
+O IDE agora tem um editor JPQL standalone em que você pode executar sua consulta JPQL diretamente do IDE.
+
+ 
+|===
+
+|=== Suporte a Modelos JSF
+
+ |
+
+=== Desenvolvimento JSP
+
+ |
+
+=== Suporte ao Perfil Web
+
+ 
+
+|[overview-centre]#image:template-wizard-cut.png[]#
+O IDE oferece um assistente de Modelo de Facelets para a criação de modelos de Facelets e um assistente de Cliente de modelo de Facelets para a criação de arquivos que dependem de um modelo.
+
+ |
+
+[overview-centre]#image:jsp-dev-cut.png[]#
+Nos arquivos JavaServer Pages (JSP), o editor ajuda você com o recurso autocompletar código, a navegação de hipertexto, a verificação de erros e a depuração. Você pode arrastar e soltar snippets do código de uma paleta. Há suporte para criação e uso das bibliotecas de tags.
+
+link:../../kb/docs/web/quickstart-webapps.html[Introdução ao desenvolvimento de aplicações Web usando o JSP]
+
+ |
+
+[overview-centre]#image:ee-7-web-profile-cut.png[]#
+O link:http://www.oracle.com/technetwork/java/javaee/tech/index.html[Perfil Java EE Web] define um subconjunto de especificações que podem ser usadas para criar aplicações Web. O NetBeans oferece suporte inovador para a criação de aplicações com perfil Web.
+
+ 
+
+|=== Geração de Cliente Baseada em Assistente
+
+ |
+
+=== Suporte a CDI
+
+ |
+
+=== JPQL Editor
+
+ 
+
+|[overview-centre]#image:jsf-crud-gen-cut.png[]#
+Utilize o gerador de aplicações em JSF CRUD (Create/Read/Update/Delete, criar/ler/atualizar/apagar) para criar uma página JSF completa e funcional para manipular dados de um banco de dados. O assistente Novo Arquivo pode gerar páginas JSF CRUD personalizáveis de entidades existentes.
+
+ |
+
+[overview-centre]#image:cdi-support-cut.png[]#
+Utilize o Novo Assistente de projeto ou o novo assistente de Arquivo para criar arquivos que estão prontos para Injeção de Contextos e Dependência (CDI). O suporte ao editor, como clique com botão direito do mouse em qualquer ponto da injeção para acessar ações do menu Ir para Intejáveis e Verificar Injetáveis, está disponível.
+
+link:../../kb/docs/javaee/cdi-intro.html[Conceitos Básicos sobre CDI e JSF 2.0]
+
+ |
+
+[overview-centre]#image:jpa-jpql-cut.png[]#
+Com o editor standalone do JPQL, você pode executar sua consulta diretamente do IDE, em vez de executar sua aplicação JPA para testar as consultas. O JPQL Editor suporta o recurso de autocompletar código para palavras-chaves JPQL. Para entidades gerenciadas, ele pode oferecer sua representação SQL da consulta JPQL, se o provedor eclipselink ou hibernate for usado. Ele também pode sugerir o que está errado com sua consulta JPQL.
+
+ 
+
+|=== Suporte ao WebSocket
+
+ |
+
+ |
+
+ 
+
+|[overview-centre]#image:websocket-endpoint-cut.png[]#
+O IDE fornece suporte para criar aplicações Web que usam Java API para WebSocket (JSR 356) para ativar comunicação biderecional entre os clientes do browser e o servidor de aplicações.
+
+link:../../kb/docs/javaee/maven-websocketapi.html[Usando a API do WebSocket]
+
+ 
+|===
+
+=== Consulte Também
+
+* link:/community/releases/81/index.html[Página da Release NetBeans IDE 8.1] para obter uma lista de funcionalidades realçadas na última versão estável.
+* link:../../kb/trails/java-ee.html[Trilha de Aprendizagem do Java EE e Java Web] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

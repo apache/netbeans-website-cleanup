@@ -1,0 +1,474 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= all
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  all
+:description: Apache NetBeans  all
+:toc: left
+:toc-title:
+
+== All Features and Supported Technologies
+
+The NetBeans IDE is a free, open-source Integrated Development Environment for software developers. You get all the tools you need to create professional desktop, enterprise, web and mobile applications, in Java, C/C++ and a variety of dynamic languages. The IDE runs on many platforms including Windows, Linux, Solaris, and Mac OS; it is easy to install and use straight out of the box.
+
+|===
+|* link:#base-ide[Base IDE]
+* link:#general[General IDE Features]
+* link:#editor[Source Code Editor]
+* link:#vcs[Version Control]
+* link:#collab[Connected Developer]
+* link:#tools[Build Tools] (link:#maven[Maven], link:#hudson[Hudson])
+* link:#platform[NetBeans Platform]
+* link:#osgi[OSGi]
+* link:#plugins[Plugins (Stable and Beta)]
+* link:all.html#java-me[Mobile and Embedded Applications (Java ME)]
+ |
+
+* link:#java-se[Java Desktop Applications (Java SE)]
+* link:#java[Java Development]
+* link:#swing[Swing GUI Builder(formerly known as Matisse)]
+* link:#profiler[Java Profiler]
+* link:#debugger[Java Debugger]
+* link:#java-web[Web and Enterprise Applications (Java EE)]
+* link:#java-webapp[Web Applications]
+* link:#java-ee[Java EE Applications]
+* link:#db[Databases]
+* link:#java-ws[Web Services]
+ |
+
+* link:all.html#javafx[JavaFX 2.0]
+* link:#groovy[Groovy, Grails]
+* link:#php[PHP]
+* link:#js[JavaScript]
+* link:#cplusplus[C, C++, Fortran]
+* link:http://wiki.netbeans.org/NetBeansArchivedFeatures[Archived Features]
+ 
+|===
+
+=== Base IDE
+
+==== General IDE features
+
+* Non-proprietary Apache Ant 1.8 build scripts
+* Projects, Files, Services, and Favorites views
+* Fully configurable user interface (fonts, colors, toolbars, views)
+* Code formatting settings customizable per project
+* Exporting and importing of NetBeans options
+* All views can be positioned, maximized/minimized, split, cloned and (un)docked
+* Navigator with members and hierarchy inspectors
+* Open As... action for associating file extensions with MIME-types
+* Project grouping
+* Included templates and sample applications
+* Go to File, Go to Type, Go to Symbol, Go to Declaration actions
+* Head-less build support
+* Task List integration (iCalendar format): Automatic scanning for errors, warnings, TODO/FIXME tasks, and bug database integration
+* Sharable projects (relative library paths, name variable paths), support for MS Windows UNC paths.
+* Eclipse project and JBuilder project importer, Eclipse project synchronization
+* Quick Search bar: Quick access to files/types/symbols, projects, option panels, menu actions, and documentation
+
+link:ide/index.html[IDE Features Page]
+
+==== Source Code Editor
+
+* Full editor support for Java, XML, DTD, CSS, HTML, ERB, RHTML, JSP, Javadoc, JavaScript, PHP, Groovy, C and C++, and more.
+* Smart Code Completion including CamelCase abbreviations
+* Syntactic and semantic code highlighting, word and bracket matching
+* Mark occurences, errors and warnings; hints, quick fixes
+* Automatic compile on save, and deploy on save (for Java projects)
+* Automatic code generation (accessors, surround-with, and more...)
+* Source Code folding
+* Customizable code formatting and identation
+* Refactoring actions:
+* Rename
+* Introduce Variable, Constant, Field, or Method
+* Change Method Parameters
+* Encapsulate Fields (getters and setters)
+* Pull Up, Push Down
+* Move Class, Copy Class
+* Move Inner to Outer Level
+* Convert Anonymous Class to Inner
+* Extract Interface, Extract Superclass
+* Use Supertype Where Possible
+* Safely Delete
+* Local History for non-version-controlled files
+* Documentation pop-up windows including Javadoc and rdoc
+* Editor can be extended to support any language (Project Schlieman)
+* An action to Remove Trailing Whitespace from lines
+
+link:ide/editor.html[Editor Features Page]
+
+==== Version Control
+
+* Support for CVS 1.11.x and 1.12.x; Subversion 1.4.x, 1.5.x, 1.6.x; and Mercurial 1.x, 2.x; ClearCase V7.0 (available from the Plugin Manager).
+* Subversion authentication protocols: file, http, https, svn, svn+ssh
+* CVS authentication protocols: pserver, ext, local, fork.
+* Git support
+* Automatic recognition of existing version-controlled directories
+* Versioning window shows new, removed, or modified files
+* Color-coded status of lines, files and folders: New, removed, up-to-date, or modified
+* Color-coded Diff Viewer for intuitive merge conflict resolution
+* Export Diff Patch action
+* Sharable project metadata
+
+link:ide/collaboration.html[Version Control Features Page]
+
+==== Connected Developer (Project Kenai Team Server)
+
+* Create, host and manage NetBeans projects on a Team Server, through the IDE interface
+* Versioning integration: Check out and commit to Kenai-hosted projects
+* Versioning integration: Change issue status in same step as commiting the fix
+* Issue tracker integration for Jira and BugZilla: Queries, create/close, apply patches, assign tasks
+* Integrated issue tracker with editor navigation
+* Instant messenger chat client and member presence service
+
+* The Jira plugin is available from the plugin manager (Tools > Plugins).
+
+link:ide/collaboration.html[Team Collaboration Features Page]
+
+==== Hudson Integration
+
+* Hudson continuous build servers for Maven and (Ant-based) Java SE project types
+* Hudson project can be using Subversion or Mercurial
+* Browse hosted jobs, builds, workspaces, and artifacts
+* Failure notifications
+
+link:ide/build-tools.html[Build Tools Features Page]
+
+==== Maven Integration
+
+* Open, build, run, test, debug, profile Apache Maven projects (2 and 3)
+* Support for Maven web applications, EJB and enterprise projects (J2EE 1.4, Java EE 5, Java EE 6), JAX-WS 2.2 Web Services
+* Bind custom Maven goals to IDE actions
+* Create projects from Maven Archetype templates
+* Maven Repository Browser
+* Maven Dependency Graph
+* Maven project configurations
+* Artifact Details Viewer
+* Compile on Save for Maven Java SE projects, Deploy on Save for Maven Web Applications
+
+link:ide/build-tools.html[Build Tools Features Page]
+
+=== Desktop Applications (Java SE)
+
+==== Java Development
+
+* Develop for JDK 1.1, 1.2, 1.3, 1.4, JDK 5.0, JDK 6, JDK 7
+* Unit testing with JUnit 3 and 4
+* Library and Template Manager
+* Call Hierarchy window displays callers and callees of a method in a project
+* Javadoc Analyzer, Javadoc Auto Comment
+* Automatic Javadoc and source root detection in JARs and NetBeans Libraries
+* Java Beans support: Bean property generation, BeanInfo editor
+* Visual Swing GUI Builder link:#swing[(More...)]
+* Integrated debugger link:#debugger[(More...)]
+* Integrated profiler link:#profiler[(More...)]
+
+link:java/javase.html[Java SE Features Page]
+
+==== Java Swing GUI Builder (formerly known as Matisse)
+
+* Visual Swing GUI designer for Free Design, null layout, or any Swing layout manager.
+* Extendable component palette with pre-installed Swing and AWT components
+* Visual menu designer
+* Component and Properties inspector
+* Support for Beans Binding technology (JSR 295)
+* Support for Swing Application Framework (JSR 296)
+* Support for GUI localization and accessibility
+* Easy access to properties of ComboBox, JTree, ButtonGroup, etc components
+* GUI Preview in Nimbus Looks&amp;Feel (JDK 6 Update 10)
+* Configure the GUI Builder to generate either simple of fully qualified class names
+
+link:java/swing.html[Java Swing Features Page]
+
+==== Java Profiler
+
+* CPU Performance analysis and load generation tools
+* Memory analysis and memory leak detection
+* Threads profiling
+* Local and remote attachment
+* HeapWalker, including OQL support
+* Profiling Points
+* JMeter integration
+* Save snapshots (CSV, HTML and XML) and process them offline
+
+link:java/profiler.html[Profiler Features Page]
+
+==== Java Debugger
+
+* Multi-language debugger
+* Configurable breakpoints
+* Options dialog for specifying Variable Formatters, Step Filters, and more
+* Multi-threaded debugging (default breakpoint only suspends breakpoint thread)
+* Customizable Debugging View displays threads, sessions, call stacks
+* Current Thread Chooser for switching threads, threads navigation directly accessible from editor gutter
+* Automatic deadlock detection among suspended threads
+* Watches window
+* Call Stack window
+* Local and remote debugging
+* Run into, step over, step into and step out actions
+* Expression evaluation
+
+link:java/debugger.html[Debugger Features Page]
+
+=== JavaFX 2.0
+
+* Projects using FXML or pure Java
+* FXML editor
+* Add preloaders to projects, or create preloader project
+* Leverage JavaSE editor
+* Leverage JavaSE and Java GUI debugger, including visual debugger
+
+link:javafx/index.html[JavaFX Features Page]
+
+=== Web Applications and Enterprise Applications (Java EE)
+
+==== Web Applications
+
+* JavaServer Pages (JSP 2.1)
+* JavaServer Faces (JSF 2.0) framework
+* Apache Struts 1.3.8
+* Spring Web MVC 2.5
+* Hibernate 3.2.5 framework, HQL queries, Hibernate Reverse Engineering wizard
+* Ajax-enabled JSF components
+* Generate JSF CRUD application (Create-Read-Update-Delete) from JPA entity classes
+* Hyperlink navigation for JSF and JSP pages
+* Editor for deployment descriptors
+* JavaServer Pages Standard Tag Library (JSTL).
+* Editor supports HTML, XHTML, JavaScript, PHP, JSP, JSF, and CSS
+* Property values error checking in CSS code
+* HTTP monitor for web application debugging
+* Support for persistence units
+* Deploying Java applications and Applets via Java Web Start (JNLP) including external resources
+
+link:web/web-app.html[Web Application Features Page]
+
+==== Databases
+
+* The NetBeans Database Explorer supports any relational database for which there is a link:http://wiki.netbeans.org/wiki/view/DatabasesAndDrivers[JDBC driver]: JavaDB (Derby) 10.4, MySQL 5.1.6, PostgreSQL 8.3; Oracle 10.2, Microsoft SQL Server 1.2, PointBase 5.2, jTDS 1.2.1, DataDirect Connect for JDBC 3.6, IBM Redistributable DB2, and more.
+* Visual Query Editor (Data Provider API)
+* Sakila plugin installs a sample MySQL database for use with tutorials
+* Integration of MySQL servers (start/stop)
+* Auto-detection of existing MySQL databases
+* Database Explorer to connect to, browse, create, or delete databases
+* Integration for external administration tools like phpMyAdmin
+* SQL Editor with code completion and query history. Edit, sort and filter results directly, view large data sets page by page.
+
+link:ide/database.html[Databases Features Page]
+
+==== Enterprise Applications (Java EE)
+
+* Java EE 6, Java EE 5, J2EE 1.4 standards, including Annotations
+* Java Persistence API (JPA 2.0 )
+* Contexts and Dependency Injection (CDI)
+* JavaServer Pages (JSP)
+* JavaServer Faces (JSF 2.0) Facelets
+* Enterprise JavaBeans (EJB 2.1, EJB 3, EJB 3.1)
+* EJBs in web applications
+* Java Servlet API
+* GlassFish Server Open Source Edition 3.1.2, Apache Tomcat 5.5 and 6.0.20, JBoss 5.0, WebLogic 11g (10.3.1.0), and others.
+
+link:web/java-ee.html[Java EE Features Page]
+
+==== Web Services
+
+* Support for JAX-WS 2.2, designer UI for JAX-WS services
+* Support for JAX-RS RESTful Web Services 1.1 (JSR 311)
+* Support for JAX-RPC Web Service standards 1.6 (JSR 101)
+* Web Service Customization editor
+* Secure identity management with the Sun Java System Access Manager
+* SOAP-based and RESTful Web Services
+* Create JSR-311-compliant RESTful web services from JPA entity classes and patterns, or from databases
+* Google Maps, StrikeIron, and Yahoo News Search RESTful web services
+* JBI Java Business Integration (JSR 208)
+* Java Architecture for XML Binding API (JAXB) wizard
+* Mobile Java ME Web services (JSR 172)
+* Interoperable Web services (JSR 109)
+* SoapUI integration for Web Service testing and monitoring
+* Support for SaaS (Software as a Service provided by among others, Google, Facebook, Yahoo, and YouTube).
+
+link:web/web-services.html[Web Services Features Page]
+
+=== Mobile and Embedded Applications (Java ME, Java Card)
+
+* Full support for
+* Mobile Information Device Profile (MIDP) 1.0, 2.0 and 2.1
+* Connected Limited Device Configuration (CLDC) 1.0 and 1.1
+* Connected Device Configuration (CDC)
+* Bundled with Java ME SDK 3.0.5
+* Java Card
+* Apache Ant 1.8 build scripts
+* Visual Mobile GUI Designer with localization and data binding support
+* Mobile Screen Designer
+* Mobile Game Builder for the MIDP 2.0 Game API
+* Support for SVG graphics (JSR 226): SVG Composer with SVG UI components, SVG property editor
+* Component palette, custom component creation wizard
+* JMUnit 1.1.0 testing
+* MIDlet signing and certificate management
+* Integrated over-the-air (OTA) emulation
+* Push-registry emulation
+* WMA emulation features for SMS and CBS messages
+* Wireless Messaging and Multimedia APIs
+* Code obfuscation with ProGuard 4.2
+* Multiple project configurations
+* On-device testing and debugging
+* Mobile Java ME Web service (JSR 172)
+* SDK MpowerPlayer platform support for Mac OS (link:http://wiki.netbeans.org/FaqMobilityMpowerMacOs[How to install])
+
+link:javame/index.html[Java ME Features Page]
+
+ 
+
+=== Groovy and Grails
+
+* Groovy 1.6.4-ready editor with syntax highlighting, navigator, code folding, occurrences highlighting, code completion, and more
+* Create Grails 1.3 projects, or open existing Grails applications (no import required, no meta-data is added)
+* Support for mixed Java SE/Groovy projects
+* Integrated Grails commands, Services window integration
+
+link:groovy/index.html[Groovy Features Page]
+
+=== PHP
+
+A Java Development Kit (JDK) is not required to run the PHP-only IDE; the Java Runtime Environment (JRE) suffices.
+
+* Support for PHP 5 projects including PHP 5.4 (traits, etc.), 5.3, 5.2, 5.1
+* PHP editor with syntactic and semantic code highlighting for mixed code (PHP/HTML/CSS/JavaScript), occurences and error highlighting
+* Code completion and dynamic help (also for PHPDoc tags and included elements), code generators, comment completion, php doc generation, abbreviations, code snippet palette
+* Support for php short tags and php HEREDOC strings, code folding, bracket matching, indentation
+* Integrated FTP and SFTP access for remotely hosted projects (upload, download, delete)
+* IDE recognizes default location of document root in different operating systems
+* Support for PHP include path (global for all projects, or one per project)
+* Run project/single file, debug project/single file, run script in command line
+* Wizard for creating new PHTML and PHP files
+* Navigator and hyperlinking (Go to Declaration, Go to Type, Go to the included/required file)
+* Rename Refactoring
+* Debugger supports breakpoint, local variables, watches and bubble watches (tooltip)
+* Remote and local debugging, debugging of scripts and web pages (xdebug)
+* Local path mapping for remote servers (for debugging, symlinks)
+* Support for multiple project configurations
+* PHPUnit integration and Selenium test cases (also for Maven and web projects)
+* Code Coverage report for PHP projects
+* Zend and Symfony framework support including executing commands.
+* Smarty template support
+* Find Usages action
+
+link:php/index.html[PHP Features Page]
+
+=== JavaScript
+
+* Support JavaScript 1.7
+* XML object embedding with ECMAScript for XML (E4X)
+* JavaScript editor with syntax highlighting, code completion, pop-up documentation, and error checking.
+* The Editor recognizes JavaScript code in stand-alone JavaScript files as well as in HTML, RHTML, and JSP files.
+
+link:javascript/index.html[JavaScript Features Page]
+
+=== C, C++, Fortran
+
+* Project types for C and C++ NetBeans Projects
+* The C/C++ plugin also supports Fortran files
+* Compiler-neutral: Compile C, C++, and Fortran files with the GNU Compiler (GCC), MinGW, or others.
+* Project templates, import of existing projects
+* Support for dynamic and static libraries
+* Virtual console
+* Editor with syntactic and semantic code highlighting, indentation, formatting.
+* Code assistance including code completion, refactoring, error highlighting, navigation for C/C++.
+* Classes Browser
+* Call Graph window (direct and reverse)
+* Memory Window
+* Macro expansion view
+* Customizable pre-processor definitions and compile-time options
+* Makefile wizard
+* Remote development (using tools on remote hosts, build and run from your client system)
+* GNU debugger (gdb) support
+* D-Light profiler (Observability) displays CPU, Thread and Memory usage
+* Qt toolkit support (GUI forms, resources, translations)
+* Support for standard Qt editing tools (Qt Designer, Qt Linguist)
+* Supported platforms: Microsoft Windows, Linux, Mac OS, Solaris 10 Operating Systems
+
+link:cpp/index.html[C and C++ Features Page]
+
+=== NetBeans Platform
+
+* Tools for rich-client application development
+* Runtime container for lifecycle management
+* Module system for pluggability
+* Advanced Swing components for data visualization
+
+link:platform/index.html[NetBeans Platform Features Page]
+
+=== OSGi
+
+* Develop OSGi bundles in Maven-based projects
+* Bundled Felix container, ability to register other containers such as Equinox
+* OSGi interoperability (developing and consuming OSGi bundles in Platform-based applications)
+
+link:http://nbstaging.czech.sun.com/features/java/osgi.html[OSGi Support Features Page]
+
+=== Available from the Plugins Manager
+
+Install these and more NetBeans Plugins using the Plugin Manager (Tools > Plugins > Available Plugins).
+You can get additional third-party plugins on the link:http://plugins.netbeans.org/[Plugin Portal], where you can also contribute your own.
+
+==== Stable Plugins
+
+* Jira bug tracker integration
+* NetBeans Platform API documentation
+* BlueJ project support
+* Java Card, Oberthur smart card Platform support
+* Scan on Demand Plugin (manually invoke source rescan)
+* Load Generator, JMeter
+* Subversion client (for Microsoft Windows)
+* Ant 1.8 documentation
+* Facelets 1.1.14 (JavaServer Faces 1.2)
+* Java Management Extensions (JMX) and JConsole
+* JBuilder project importer
+* Sakila sample database
+* jIndent plugin
+* Apache Ivy integration
+* Developer Collaboration plugin (for NetBeans IDE 6.5 and earlier only)
+
+==== Beta Plugins
+
+More plugins in beta and development stage are available from the link:http://wiki.netbeans.org/FaqPluginsInDevelopment[beta and dev Update centers] and from the link:http://plugins.netbeans.org/[Plugin Portal].
+
+* Selenium plugin for PHP / Ant / Maven projects
+* Clearcase version control
+* Copy and paste History: link:http://plugins.netbeans.org/PluginPortal/faces/PluginDetailPage.jsp?pluginid=78[Plugin Portal]
+* Web Preview plugin and Embedded Browser (Mozilla's XUL Runner)
+* Free-Form Projects - Extras
+* Code Coverage for Java SE and NetBeans NBM projects
+* Python, Jython
+* Ajax-based Echo2 web framework with Visual designer
+* WADL Designer (Web Application Description Language)
+* Axis web services framework
+
+And many more...
+
+
+Back to link:../features/index.html[Features Overview Page]
+
+Back to link:../community/releases/71/relnotes.html[NetBeans IDE 7.1 Release Notes]
+
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,109 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= javase_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  javase_ja
+:description: Apache NetBeans  javase_ja
+:toc: left
+:toc-title:
+
+== Java SE (Standard Edition)
+
+link:java-se.png[image:java-se-cut1.png[][font-11]#イメージをクリックして全画面表示#]
+
+*NetBeans IDEには、Java開発者が本格的なJava SEアプリケーションを作成するために必要なツールがすべて用意されています。NetBeans IDEは、JDK 6およびJDK 7を使用した開発をサポートしています。*
+
+|===
+|=== デスクトップ・アプリケーションの開発
+
+Java SEは、デスクトップ・ユーザー向けのブラウザ・アプレット、コマンド行ツール、およびグラフィカル・ユーザー・インタフェースを作成する開発者を対象としたプログラミング・プラットフォームです。Javaで作成したアプリケーションは、Windows、Mac OS、Linux、Solaris、およびその他のオペレーティング・システムで動作します。
+
+ 
+
+=== 注釈プロセッサ
+
+ 
+
+注釈プロセッサをプロジェクトにアタッチして、コーディング中に使用します。NetBeans IDEは、JEEのJPA 2.0やカスタム・プロセッサなどのサードパーティの注釈プロセッサをサポートしています。
+
+ 
+
+=== Javadocの統合
+
+自動コメント・アクションを使用して、メソッド用のJavadocコードを生成できます。「Javadocアナライザ」プラグインを使用して、既存のJavadocコメントを確認および修正できます。
+
+ 
+
+=== Javaコール階層
+
+「Javaコール階層」ビューに、プロジェクト内で選択したメソッドのコール元およびコール先の階層を示すツリーが表示されます。
+
+ 
+
+=== 保存時にコンパイル
+
+「ビルド」アクションが「保存時にコンパイル」機能に置き換えられました。IDEがプロジェクトを自動的にビルドし、ファイルが保存された後、実行、デバッグ、テストなどのアクションをすぐに使用できるようになりました。
+
+すでにデバッガが実行されている状態で、メソッドへの変更を保存すると、実行中のアプリケーションが自動的に再ロードされます。メソッド内のコンパイル・エラーによって、プログラムの実行が停止されることはありません。プログラムが問題のメソッドまで実行されると、デバッガが停止します。
+
+ |
+
+image:javaSE_logo_150px.png[]
+
+image:annotation-processor.png[]
+
+
+image:java-call-hierarchy.png[]
+
+ 
+
+|=== 単体テスト・ツール
+
+JUnit 3と4がIDEに統合されています。単体テストの作成、実行と再実行、およびテスト結果の表示をIDEで簡単に行うことができます。エディタには、テストと、テスト中のクラスの間を簡単にナビゲートできるキーボード・ショートカットがあります。
+
+ |
+
+image:unit-test.png[]
+
+ 
+
+|=== 独自仕様ではないプロジェクト・ビルド・システム
+
+NetBeans IDEのプロジェクト情報は、Apache AntおよびMavenスクリプトのように、オープンで拡張可能な、独自仕様ではない形式で保存されます。
+
+ 
+
+=== 統合されたツール
+
+Java Beanサポートによって、Beanプロパティの生成とBeanInfoの編集が簡単になります。NetBeans GUIビルダーは、プロトタイプから、最終的なグラフィカル・ユーザー・インタフェースまで、Java Swing開発を支援します。正しく統合されたNetBeansデバッガ、およびNetBeansプロファイラは、堅牢なJavaデスクトップ・ソフトウェアの作成に役立ちます。
+
+ |image:baseIDE_ant_powered_150px.png[] 
+|===
+
+ 
+
+image:arrow-button.gif[] link:../../kb/trails/java-se.html[基本的なIDEおよびJavaプログラミングの学習]
+
+image:arrow-button.gif[] link:../../kb/trails/platform.html[NetBeansプラットフォームの学習]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

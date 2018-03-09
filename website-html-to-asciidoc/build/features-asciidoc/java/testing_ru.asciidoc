@@ -1,0 +1,65 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= testing_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  testing_ru
+:description: Apache NetBeans  testing_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Тестирование и анализ кода
+
+link:ide-findbugs-full.png[image:ide-analysis-main-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+При тестировании приложения IDE предоставляет инструменты JUnit и TestNG, а также анализаторы кода, в том числе FindBugs.
+
+    [overview-right]#link:ide-testing-full.png[image:ide-testing-cut.png[]]#
+
+=== Проверка
+
+IDE позволяет создавать тесты с помощью мастеров и шаблонов для популярных платформ тестирования JUnit и TestNG.
+
+После создания тестов для классов Java их можно запускать по отдельности или одновременно.
+
+В окне 'Результаты тестирования' показываются результаты выполненного тестирования.
+
+link:../../kb/docs/java/junit-intro.html[Написание тестов JUnit в IDE NetBeans]
+link:../../kb/docs/java/testng-screencast.html[Видеоролик об использовании TestNG в IDE NetBeans]     [overview-left]#link:ide-findbugs-full.png[image:ide-findbugs-cut.png[]]#
+
+=== Анализ кода
+
+Инструменты статического анализа интегрированы в IDE. Используя шаблоны кода, определенные в IDE, созданные участниками сообщества или вами, вы можете воспользоваться базой кодов для поиска старых языковых конструкций, распространенных синтаксических ошибок и других проблем. Например, вы можете одновременно искать анонимные внутренние класс с одним абстрактным методом по всем приложениям и обновлять их до лямбда-выражений Java 8.
+
+В частности, IDE обеспечивает поддержку популярного инструмента для работы с открытым исходным кодом FindBugs. FindBugs - это инструмент статического анализа, который позволяет определить ошибки в коде Java.
+
+link:../../kb/docs/java/code-inspect.html[Статический анализ кода в редакторе Java IDE NetBeans]
+
+ 
+
+=== См. также
+
+* link:/community/releases/8.1/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список специальных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

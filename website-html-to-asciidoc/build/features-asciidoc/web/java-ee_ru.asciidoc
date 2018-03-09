@@ -1,0 +1,99 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= java-ee_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  java-ee_ru
+:description: Apache NetBeans  java-ee_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Поддержка Java Enterprise Edition
+
+link:web-app.png[image:web-app-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+Среда NetBeans IDE обеспечивает отличную поддержку для разработки веб- и серверных приложений, использующих платформу приложений Java EE. Поддержка IDE была разработана в тесном сотрудничестве с рабочими группами Java EE и GlassFish, что позволило обеспечить тесную интеграцию и максимальную простоту использования спецификации Java EE. Поэтому при отсутствии опыта работы со спецификацией и структурой Java EE использование IDE NetBeans является оптимальным способом быстрого изучения и получения эффективных результатов при программировании на Java EE.
+
+    [overview-right]#link:java-ee-6-full.png[image:java-ee-6-full-cut.png[]]#
+
+=== Полная поддержка Java Enterprise Edition 6
+
+IDE NetBeans обеспечивает полную поддержку последних стандартов Java EE 6, включая поддержку JSF 2.1 (Facelets), Java Persistence 2.0, учет контекстов и зависимостей (CDI) 1.0, а также поддержку платформ Java EE 5 и J2EE 1.4.
+
+Поддержка в диапазонах IDE с помощью мастеров, которые могут использоваться для быстрого создания приложений, поддержка с помощью редакторов при создании артефактов Java EE и их потреблении, настройка и создание приложений, поддержка при развертывании, выполнении и тестировании. Благодаря этим возможностям вы сможете сконцентрироваться на реализации коммерческих и логических аспектов вашего приложения.
+
+link:web-app.html[Поддержка разработки веб-приложений в среде NetBeans]
+link:../../kb/docs/javaee/javaee-gettingstarted.html[Начало работы с приложениями Java EE 6]
+
+     [overview-left]#link:ejb-dev.png[image:ejb-dev-cut.png[]]#
+
+=== Упрощенная разработка EJB
+
+IDE поддерживает EJB 3.1, в том числе в проектах веб-приложений. Мастер создания файлов проектов EJB предоставляет возможности для создания компонентов сеансов, в том числе одиночных компонентов сеансов, компонентов под управлением сообщений для обработки асинхронных сообщений, а также компонентов сеансов с таймерами для работы с временными уведомлениями. Можно использовать мастер для быстрого создания сеансного компонента для класса сущностей, включая соответствующие аннотации и часто используемые методы по умолчанию. Компоненты могут быть отображены в представлении с локальным интерфейсом или без интерфейса. Предусмотрена также поддержка для вызова компонентов EJB с использованием мастеров вставки кода в редакторе
+
+link:../../kb/docs/javaee/javaee-entapp-ejb.html[Создание корпоративных приложений с EJB 3.1]
+
+     [overview-right]#link:cdi-support.png[image:cdi-support-cut.png[]]#
+
+=== Поддержка учета контекстов и зависимостей
+
+Используйте мастер создания проекта или мастер создания файла для создания файлов, готовых для учета контекстов и зависимостей (CDI). CDI позволяет компонентам Java EE, в частности, сервлетам, компонентам EJB и JavaBeans существовать в рамках жизненного цикла приложения с четко определенными областями действия. Щелкните правой кнопкой мыши любую точку учета для вызова действий перехода к объектам учета и проверки объектов учета. Используйте функцию автозавершения кода и справку по документации java в редакторе для удобного добавления примечаний в код.
+
+link:../../kb/docs/javaee/cdi-intro.html[Начало работы с CDI и JSF 2.0]
+
+ 
+|===
+
+|=== Сохранение состояния Java
+
+ |
+
+=== Развертывание на сервере
+
+ |
+
+=== Развертывание при сохранении
+
+ 
+
+|В среду IDE входят средства для работы с интерфейсом API 2.0 сохранения состояния Java. С помощью мастеров можно создать классы сущностей из базы данных, а также приложение CRUD из классов сущностей. Среда IDE поддерживает все типы взаимосвязей сущностей (один к одному, один ко многим, многие к одному и многие ко многим), а также все типы первичных ключей (в один столбец, составной и сгенерированный). В среде IDE также предусмотрены шаблоны и графические редакторы для создания и управления блоками сохранения состояния. IDE теперь имеет автономный редактор jpql, позволяющий выполнить jpql непосредственно из ide.
+
+ |
+
+[overview-centre]#image:javaee-serverdeploy.png[]#
+Среда IDE работает с любым стандартным контейнером Java Enterprise Edition (Java EE) и протестирована с серверами GlassFish Open Source Edition 3.1.2, WebLogic 12c и 11g, Apache Tomcat 7.0 и 6.0, JBoss 6.1 и другими.
+
+ |
+
+Среда IDE мгновенно выполняет повторное развертывание любого выполняющегося приложения Java EE при любом изменении проекта. Функция развертывания при сохранении доступна для веб-приложений, приложений EJB и EAR, а также поддерживается для GlassFish 3.x, WebLogic и Tomcat (развертывание из каталога обязательно).
+
+ 
+|===
+
+=== См. также
+
+* link:/community/releases/73/index.html[На странице сведений о версии IDE NetBeans 7.3] приведен список специальных функций в последней стабильной версии.
+* Более подробно о функциях последней стабильной версии см. на странице link:http://wiki.netbeans.org/NewAndNoteworthyNB73[Новые замечательные возможности IDE NetBeans 7.3].
+* link:../../kb/trails/java-ee.html[Учебная карта по Java EE и Java Web] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

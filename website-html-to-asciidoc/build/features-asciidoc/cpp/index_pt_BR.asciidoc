@@ -1,0 +1,151 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+== Desenvolvimento em C e C++
+
+link:cnd.png[image:cnd-cut.png[]] 
+link:cnd.png[[font-11]# Clique na imagem para exibição em tela inteira#]
+
+Desenvolva aplicações nativas profissionais em C, C++ e Fortran para uma variedade de plataformas, incluindo os sistemas operacionais Windows, Linux, Mac OS e Solaris.
+
+[overview-right]#image:cpp-editor.png[]
+
+image:cpp-11.png[]#
+
+=== Projetos em C e C++
+
+O NetBeans IDE inclui tipos de projeto para C e C++ e modelos de projeto apropriados. É possível trabalhar e criar aplicações em C/C++ com bibliotecas dinâmicas e estáticas, e também é possível criar projetos C/C++ usando o código existente. Os projetos em C/C++ também suportam arquivos Fortran e Assembler.
+
+É fácil criar novos projetos desde o início arrastando e soltando um arquivo binário até o IDE. O sistema de projetos automaticamente encontra os arquivos de código-fonte, adiciona-os ao projeto, configura a assistência do código e até explora as dependências do projeto. Os usuários agora têm mais flexibilidade para configurar o comando “Executar” e "Depurar", assim, podem executar uma estatística de depuração de erros e bibliotecas dinâmicas.
+
+  [overview-left]#image:cpp-debugger_200px.jpg[]
+
+image:cnddebugger-eval-window.png[]#
+
+=== Integração do Depurador GNU
+
+O editor C e C++ está bem integrado ao depurador GNU gdb multissessão. Também é possível definir variável, exceção, chamada do sistema, pontos de interrupção de linha e de função, e exibi-los na janela de pontos de interrupção. Inspecione a pilha de chamadas e as variáveis locais, crie watches e exiba threads. É possível avaliar uma expressão selecionada ao mover o cursor sobre a mesma e exibir a dica de ferramenta. A janela Desmontador exibe as instruções de montagem para o arquivo de código-fonte atual.
+
+O suporte adicional para impressão pretty permite que os usuários analisem variáveis com tipos STL em um usuário amigável nas views de Variáveis ou de Watches.
+
+A janela "Avaliação da expressão" permite que os usuários avaliem qualquer expressão personalizada no contexto do programa atual.
+
+  [overview-right]#image:cnd-template-annotations.png[]#
+
+=== Assistência ao Código
+
+Obtenha benefícios do autocompletar código e da refatoração mais rápidos para C/C++ e arquivos Qt, incluindo autocompletar código e navegação para diretivas e blocos de pré-processador. As refatorações estão disponíveis no Editor, na View de Classe e no Navegador. Use-as para alterar parâmetros do método e gerar códigos básicos de encapsulação de campo (Alt+Insert). Verificação ortográfica disponível nos comentários e sequências literais.
+
+ 
+
+|===
+|=== Editor C e C++
+
+ |
+
+=== Suporte ao C++ 11
+
+ |
+
+=== Teste de Unidade
+
+ 
+
+|O editor C/C++ oferece realce semântico e sintático, recuo e formatação automática (inclusive escolha de estilos de formatação), correspondência de colchetes, dobramento de código e modelos.
+
+ |
+
+Netbeans IDE para C ++ oferece diversas funcionalidades específicas para desenvolver com 11. C ++. As funcionalidades do C ++11 estão disponíveis no editor, na assistência de código, na navegação e no sistema do projeto.
+
+ |
+
+É possível criar e executar testes C/C++ direto do IDE. Os resultados do teste são exibidos em uma forma clara e amigável ao usuário.
+
+ 
+
+|=== Configurações do Compilador
+
+ |
+
+=== Encapsulamento
+
+ |
+
+=== Suporte ao Kit de Ferramentas Qt
+
+ 
+
+|O NetBeans IDE aceita uma variedade de compiladores principais, tais como os compiladores Oracle Solaris Studio,  GNU, CLang/LLVM, Cygwin e MinGW. Você pode especificar o compilador, as definições do pré-processador, as opções do tempo de compilação, padrões de linguagem (por exemplo, C++11) e muito mais.
+
+ |
+
+É possível configurar o projeto para que ele encapsule automaticamente as aplicações compiladas como arquivos TAR, arquivos ZIP, pacotes SVR4, RPMs ou pacotes Debian.
+
+ |
+
+Utilize o framework de desenvolvimento de aplicações Qt para criar arquivos Qt, como recursos, traduções e forms de GUI. As ferramentas de edição Qt padrão, como o Qt Designer para arquivos de forms e o Qt Linguist para traduções, são iniciadas automaticamente, conforme o necessário. As propriedades específicas do projeto Qt permitem aperfeiçoar o arquivo de projeto qmake gerado.
+
+ 
+
+|=== Inspeção de Origem
+
+ |
+
+=== Desenvolvimento Remoto
+
+ |
+
+=== Navegação de Arquivo
+
+ 
+
+|Você pode inspecionar a hierarquia de herança de classe, uma hierarquia de inclusão do cabeçalho, a hierarquia de tipos, etc. Utilize a janela Classes para navegar nas hierarquias de classe: ver todas as classes do projeto, além dos membros e campos de cada classe. A janela de Gráfico de Chamada mostra todos os chamadores/chamados da função selecionada. É possível escolher entre um gráfico de chamada direto e um gráfico de chamada reverso, e também alterar o layout do gráfico. Também está disponível a macroexibição para ajudar a ver a aparência do código depois do pré-processamento. Use as anotações Substituir/É Substituído para navegar entre classes parentes e descendentes. A navegação entre modelo e especializações de modelo também está disponível por meio das anotações correspondentes.
+
+ |
+
+Use as ferramentas de desenvolvimento em hosts remotos para construir, executar projetos e até depurar projetos a partir do sistema cliente tão facilmente quanto seria numa máquina local. Diferentes métodos de sincronização com o host remoto oferecem o desempenho, a confiabilidade e a simplicidade necessárias. A navegação pelo sistema de arquivos remoto agora é mais direto e disponível onde isso é logicamente esperado.
+
+Explore uma nova Barra de Ferramentas Remota (Exibir > Barras de Ferramentas >Remota) que permite que você alterne hosts, projetos abertos em e criar novos projetos em um host remoto.
+
+ |
+
+Use as ações Ir para Arquivo, Ir para Tipo e Ir Símbolo para navegar rapidamente em um elemento de interesse. Hiperlinks permitem que você alterne entre uso e declaração de qualquer coisa sob o cursor com um único clique.
+
+O botão Ir para Cabeçalho/Origem disponível na barra de ferramentas do editor permite alternar rapidamente entre a origem e os arquivos de cabeçalho.
+
+A janela Usos mostra onde uma classe (estrutura), função, variável, macro, diretiva #include ou arquivo é usado no código-fonte do seu projeto. Compatível também com sistemas de arquivo remotos.
+
+ 
+|===
+
+=== Consulte Também
+
+* link:/community/releases/81/index.html[Página de Release do NetBeans IDE 8.1] para obter uma lista de funcionalidades específicas da última versão estável.
+* link:../../kb/trails/cnd.html[Trilha de Aprendizado de C/C++] para obter tutoriais que ajudarão você a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

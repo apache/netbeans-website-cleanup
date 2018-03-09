@@ -1,0 +1,139 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= web-app_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  web-app_ja
+:description: Apache NetBeans  web-app_ja
+:toc: left
+:toc-title:
+
+ 
+
+== Webアプリケーション・フレームワークでの開発
+
+link:web-app2.png[image:web-app2-cut1.png[][font-11]#イメージをクリックして全画面表示#]
+
+NetBeans IDEは、Java EE仕様の一部として提供されているWebアプリケーション開発用のすべての仕様を含め、様々なWebアプリケーション・フレームワークをサポートしています。選択した他のフレームワークで作業できるように、IDEをカスタマイズすることもできます。
+
+    [overview-right]#link:ee-6-web-profile.png[image:ee-6-web-profile-cut.png[]]#
+
+=== Java EE 6 Webプロファイルのサポート
+
+link:http://www.oracle.com/technetwork/java/javaee/downloads/javaee6-standards-jsp-141130.html[Java EE 6 Webプロファイル]は、Webアプリケーションのビルドに使用できる仕様のサブセットを定義したものです。NetBeansは、Java EE仕様を完全にサポートするだけでなく、JSF、JSP、サーブレットなどWebプロファイルに対するサポートも提供しています。
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== JSF開発
+
+NetBeans IDEは、古い2.0と1.2の標準に加えて、最新のJavaServer Faces (JSF) 2.1の標準をサポートしています。NetBeans IDEは、Facelets (JSF 2.1の公式ビュー・テクノロジ)をサポートしています。Faceletsフレームワークに基づいて新しいWebアプリケーション・プロジェクトを作成し、標準のJSFリファレンス実装コンポーネントで操作できます。
+
+IDEは、Faceletページの開発を簡略化できる様々なJSFコンポーネント・ライブラリ(*PrimeFaces、RichFaces、ICEfaces*)もサポートしています。
+
+link:../../kb/docs/web/jsf20-intro.html[JavaServer Faces入門]
+
+     [overview-right]#link:jsf-crud-gen.png[image:jsf-crud-gen-cut.png[]]#
+
+=== ウィザード・ベースのクライアント生成
+
+JSF CRUD (作成、読取り、更新、削除)アプリケーション・ジェネレータを使用して、データベースのデータを操作するために機能する完全なJSFページを作成できます。新規ファイル・ウィザードでは、カスタマイズ可能なCRUD JSFページを既存のエンティティから作成できます。カスタマイズ可能なHTMLおよびJSFコンポーネント・パレットを使用して、HTMLおよびJSFフォームをWebページにドラッグ・アンド・ドロップし、エンティティからJSFデータ表を生成します。Faceletsテンプレートを作成および使用する機能も提供されています。
+
+これで可能な場合は、デプロイメント・ディスクリプタのかわりに注釈を使用して、コードを生成できるようになりました。
+
+ 
+|===
+
+|=== JSFテンプレートのサポート
+
+ |
+
+=== JSP開発
+
+ |
+
+=== Hibernateのサポート
+
+ 
+
+|[overview-centre]#image:template-wizard-cut.png[]#
+IDEには、Faceletsテンプレートを作成するためのFaceletsテンプレート・ウィザードと、テンプレートに依存するファイルを作成するためのFaceletsテンプレート・クライアント・ウィザードが用意されています。
+
+ |
+
+[overview-centre]#image:jsp-dev-cut.png[]#
+JavaServer Pages (JSP)ファイルのエディタは、コード補完、ハイパーテキスト・ナビゲーション、エラー・チェック、デバッグなどでユーザーを支援します。コード・スニペットをパレットからドラッグ・アンド・ドロップできます。カスタム・タグ・ライブラリの作成および使用がサポートされています。
+
+link:../../kb/docs/web/quickstart-webapps.html[JSPによるWebアプリケーション開発入門]
+
+ |
+
+[overview-centre]#image:hibernate-web-apps.png[]#
+新規プロジェクト・ウィザードでHibernateフレームワークを選択すると、アプリケーションにHibernateライブラリが自動的にバンドルされます。IDEには、Hibernateリバース・エンジニアリングおよび構成XMLファイルとPOJOクラスを作成するためのウィザードが用意されています。
+
+link:../../kb/docs/web/hibernate-webapp.html[WebアプリケーションでのHibernateの使用]
+
+ 
+
+|=== Springのサポート
+
+ |
+
+=== Strutsのサポート
+
+ |
+
+=== その他のフレームワーク
+
+ 
+
+|[overview-centre]#image:spring-completion.png[]#
+新規プロジェクト・ウィザードでSpringフレームワークを選択して、スケルトンSpring Web MVCアプリケーションからすぐに作業を開始することができます。リファクタリング(XML構成ファイルを含む)やエディタでのコード補完を利用できます。
+
+link:../../kb/docs/web/quickstart-webapps-spring.html[Spring Web MVC入門]
+
+ |
+
+[overview-centre]#image:struts.png[]#
+JSPページ、JavaBeans、リソース・バンドル、XMLなどの標準テクノロジに基づいた、柔軟性のあるWebアプリケーションを作成するには、Strutsフレームワークを選択します。Strutsタグのコード補完、およびエディタでのStruts Javadocのポップアップを活用できます。
+
+link:../../kb/docs/web/quickstart-webapps-struts.html[Struts Webフレームワーク入門]
+
+ |
+
+[overview-centre]#image:plugin-portal-uc.png[]#
+IDEのアップデート・センターから、他のフレームワークをサポートするその他のプラグインをインストールすることもできます(用意されている場合)。
+
+たとえば、Wicketフレームワークのサポートを可能にする*Wicket*プラグインをインストールできます。
+
+link:../../kb/docs/web/quickstart-webapps-wicket.html[Wicket Webフレームワーク入門]
+
+link:../../kb/docs/web/framework-adding-support.html[Webフレームワークのサポートの追加]
+
+ 
+|===
+
+=== 関連項目
+
+* 最新の安定版リリースの個別機能のリストについては、link:/community/releases/73/index.html[NetBeans IDE 7.3リリース・ページ]を参照してください。
+* 最近の安定版リリースの機能の詳細は、link:http://wiki.netbeans.org/NewAndNoteworthyNB73[NetBeans IDE 7.3の新機能と注目すべき機能のページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/java-ee.html[「Java EEおよびJava Webの学習」]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

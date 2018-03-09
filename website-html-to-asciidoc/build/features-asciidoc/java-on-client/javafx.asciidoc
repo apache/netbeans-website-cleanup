@@ -1,0 +1,77 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= javafx
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  javafx
+:description: Apache NetBeans  javafx
+:toc: left
+:toc-title:
+
+ 
+
+== JavaFX
+
+link:client-javafx-main-full.png[image:client-javafx-main-cut.png[][font-11]#Click image for fullscreen preview#]
+
+JavaFX is the next step in the evolution of Java as a rich client platform. It is designed to provide a lightweight, hardware-accelerated Java UI platform for enterprise business applications. With JavaFX, developers can create JavaFX applications completely in the Java programming language using standard Java development tools. You can access native system capabilities, or seamlessly connect to server-based middleware applications.
+
+    [overview-right]#link:client-javafx-scene-full.png[image:client-javafx-scene-cut.png[]]#
+
+=== Templates and GUI Editing
+
+NetBeans IDE gives you skeleton JavaFX applications in the form of project templates. In addition, the IDE provides a set of sample applications, some of which can be recreated step by step by following a related tutorial available on NetBeans.org.
+
+Via the NetBeans Options window, you can register the Scene Builder so that FXML files will automatically be opened into it.
+
+link:http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm[Getting Started With JavaFX]
+link:http://www.youtube.com/watch?v=EGEONliKWDk[Scene Builder with NetBeans IDE]     [overview-left]#link:client-javafx-fxml-full.png[image:client-javafx-fxml-cut.png[]]#
+
+=== FXML Editor
+
+The IDE provides an XML editor with support for FXML, the XML-based declarative markup language for defining user interfaces in JavaFX applications.
+
+     [overview-right]#link:client-javafx-deploy-full.png[image:client-javafx-deploy-cut.png[]]#
+
+=== Deployment Tools
+
+Build and run a JavaFX application as you build and run a standard Java SE application.
+
+In the IDE, you can configure a JavaFX project to run as a standalone application, via Java Web Start, or in a browser.
+
+     [overview-left]#link:client-swing-visual-full.png[image:client-swing-visual-cut.png[]]#
+
+=== Visual Debugger
+
+Debug a JavaFX GUI application without looking into the source code and control the execution flow in terms of high-level structures.
+
+Choose "Take GUI Snapshot" to make a screenshot of the application GUI that serves as a basis of the Visual Debugger functionality.
+
+link:../../kb/docs/java/debug-visual.html[Using the Visual Debugger in NetBeans IDE]
+
+ 
+
+=== See Also
+
+* link:../../community/releases/81/index.html[NetBeans IDE 8.1 Release Page] for a list of highlighted features in the latest stable release.
+* link:../../kb/trails/java-se.html[General Java Development Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

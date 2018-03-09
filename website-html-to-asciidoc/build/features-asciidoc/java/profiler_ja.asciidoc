@@ -1,0 +1,88 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= profiler_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  profiler_ja
+:description: Apache NetBeans  profiler_ja
+:toc: left
+:toc-title:
+
+== プロファイラ
+
+link:profiler.png[image:profiler-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+*NetBeansプロファイラでは、アプリケーションの処理速度とメモリー使用状況を最適化するためのエキスパート向け支援を提供しています。また、信頼性とスケーラビリティに優れたJava SE、JavaFX、およびJava EEの各アプリケーションを簡単にビルドできます。*
+
+=== タスク・ベースのプロファイリング
+
+CPUまたはメモリーの標準的なプロファイリングや単純なモニタリングなどの一般的なタスクから、任意で選択できます。オプションは、エキスパートによって事前にデフォルトの値に設定されています。設定はアプリケーションごとにカスタマイズできます。
+
+プロファイラによるオーバーヘッドの量を詳細に制御できるので、フル・スピードに近い速度で実行されているときにアプリケーションを解析できます。分析データをオフライン処理用に格納できます。収集された結果のスナップショットは、CSV、HTML、またはXMLファイルとして保存およびエクスポートできます。
+
+|===
+|=== ヒープ・ウォーカ
+
+ヒープ・ウォーカを使用してJavaのヒープの内容を評価し、メモリー・リークの原因となる不要な参照を特定できます。ヒープ上にあるクラスやクラスのインスタンス、各インスタンスまたはクラスのフィールド、および各インスタンスへの参照を確認できます。jHatとの互換性があるOQL問合せを使用して、ヒープ・ダンプの内容を分析できます。このとき、OQLの基本的な構文強調表示とコード補完を使用できます。
+
+ |image:profiler-heapwalker_p150.png[] 
+
+|=== プロファイリング・ポイント
+
+ソース・コード内にプロファイリング・ポイントを挿入し、プロファイリング結果の収集をより詳細に制御できます。プロファイリング・ポイントはデバッガのブレークポイントに似ています。
+
+プロファイリング・ポイントを使用して、特定のコード行の実行、経過時間、使用メモリーなど、特定の条件を満たしたときに処理を自動的にトリガーできます。プロファイリング・ポイントでは、ヒープ・ダンプ、収集された結果のリセット、負荷ジェネレータ・スクリプトの実行、結果スナップショットの作成などをトリガーできます。
+
+ |image:javaSE_profiler_profiling_points2_150px.png[] 
+
+|=== CPUボトルネックの識別
+
+NetBeansプロファイラは、特定のメソッドのみについて報告するか、アプリケーション全体について報告するかを設定できます。どこでCPU時間が使用されたかがグラフでカテゴリ化されます。グラフの各セクションをクリックして、上位のカテゴリからより詳細なプロファイリング情報にドリルダウンできます。
+
+アプリケーションの全体または一部を、実際のワークロード下でプロファイルできます。プロファイリング・セッションの開始時にJMeterスクリプトを実行することで、負荷テストを実行できます。
+
+=== メモリー使用状況のトラック
+
+リークしているオブジェクトを、メモリー割当ておよびガベージ・コレクションの特殊なパターン、またはその有無に基づいて特定できます。オブジェクト・ライブのプロファイリングでは、オブジェクト作成イベントとガベージ・コレクション・イベントの両方がトラックされます。現在メモリー内にあるオブジェクトの数、年齢、割当てパス、およびその他の特性をウォッチし、またメモリー・スナップショットを比較できます。
+
+ |image:javaSE_profiler_drilldown_150px.png[] 
+
+|=== スレッド・ステータスのモニタリング
+
+NetBeansプロファイラでは、スレッドのタイムラインにアプリケーション内のすべてのスレッドの現在のステータスと過去のステータスが表示されます。スレッドの詳細には、スレッドの生存期間中のすべての状態変化のリストも含め、選択した1つ以上のスレッドに関する詳細情報が表示されます。
+
+=== リモート・プロファイリング
+
+NetBeans IDEとは異なるシステムで実行しているアプリケーションをプロファイルできます。プロファイラのリモート・パックをリモート・システムにインストールすると、そのシステムで起動されるアプリケーションをプロファイルできます。
+
+=== プロファイラのアタッチ
+
+プロファイラを任意のJavaアプリケーションにアタッチします。これには、IDEから起動されないアプリケーションも含まれます。JavaアプリケーションとIDEの両方がJDK 6を使用して実行されている場合は、プロファイラを動的にアタッチして、すでに実行中のアプリケーションをプロファイリングすることもできます。
+
+ |image:profiler-threads.png[] 
+|===
+
+ 
+
+image:arrow-button.gif[] link:../../kb/trails/java-se.html[Java SEと基本IDEの学習]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

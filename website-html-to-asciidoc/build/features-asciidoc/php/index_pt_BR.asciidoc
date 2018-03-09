@@ -1,0 +1,94 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+== Desenvolvimento em PHP
+
+image:php-ide_top.png[]
+
+Um ambiente de codificação PHP dedicado e uma integração completa com padrões Web, com suporte completo ao desenvolvimento HTML5, JavaScript e CSS3, conforme descrito na página link:../html5/index.html[Suporte ao Desenvolvimento Web HTML5].
+
+[overview-right]#image:php-code-completion_small.png[]#
+
+=== Editor de Código-Fonte de PHP Avançado
+
+O editor PHP do NetBeans fornece modelos de código e ferramentas de geração de código, como geração de "getter e setter", refatoração, "renomeação instantânea", dicas de ferramentas de parâmetros, dicas e correções rápidas e i recurso autocompletar código inteligente.
+
+Benefício do código sintático e semântico, destacando documentação pop-up e formatação e dobramento do código, marcando pontos de saída e ocorrências, funcionalidade autocompletar código try/catch inteligente, preenchimento de parâmetro do método inteligente e seleção retangular.
+
+  [overview-left]#image:php-54-traitcc_small.png[]#
+
+=== Suporte a PHP 5.4
+
+O NetBeans IDE para PHP 7.3 oferece várias funcionalidades específicas para serem desenvolvidas com PHP 5.4. Você pode configurar seu projeto PHP 5.4 para ser executado no link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_built[servidor web incorporado] no PHP 5.4. O recurso autocompletar do PHP de IDE suporta estilos de array de PHP 5.4, como link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_array[cancelamento da referência de array] e link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_short[sintaxe curta de array]. O NetBeans IDE também reconhece link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_traits[Características] e link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_anonymous[variáveis de objeto anônimo] (também chamadas "instanciação fluente"). Finalmente, o NetBeans IDE para PHP 7.3 inclui link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_minor[funcionalidades mínimas], como dicas de tipo chamáveis, notação binária de inteiros e chamada de `Classe::{expr}()`.
+
+  [overview-right]#image:frameworks.png[]#
+
+=== Frameworks Web
+
+O NetBeans IDE suporta os seguintes frameworks comuns da Web:
+
+* link:http://framework.zend.com/[Zend Framework] (link:https://netbeans.org/kb/docs/php/zend-framework-screencast.html[screencast])
+* link:http://symfony.com/[Framework Symfony2]
+* link:http://symfony.com/legacy[Framework Symfony1] (link:https://netbeans.org/kb/docs/php/symfony-screencast.html[screencast])
+
+Crie novos projetos PHP com esses frameworks, execute comandos do framework, navegue dos controladores (ação) para suas views, use anotações do framework e o recurso autocompletar código no editor e personalize suas configurações.
+
+  [overview-left]#image:ide-collaboration-hudson-cut.png[]#
+
+=== Suporte de Integração Contínua
+
+O NetBeans IDE para PHP tem suporte para integração contínua. Integração contínua é uma prática de desenvolvimento de software que envolve o controle da versão e um servidor especializado. O servidor especializado é executado em testes de Cobertura de Código e PHPUnit no software.
+
+Os resultados de teste são associados com informações de controle de versão, de modo que os desenvolvedores possam identificar de forma rápida e fácil bugs que eles introduzem no software. O IDE usa link:http://jenkins-php.org/[Modelo para Jobs de Jenkins para projetos PHP], que deve ser configurado com os plug-ins necessários e ferramentas no servidor de integração.
+
+link:https://netbeans.org/kb/docs/php/screencast-continuous-builds.html[Suporte para PHP em Servidores de Construção Contínua]
+
+  [overview-right]#image:php-project.png[]#
+
+=== Projetos PHP
+
+O projeto NetBeans oferece uma versão de IDE sob medida para desenvolver sites de PHP que compreende uma variedade de linguagens de marcação e script. O editor PHP é integrado dinamicamente com as funcionalidades de edição de HTML, JavaScript e CSS.
+
+Concentre-se no código e agilize a análise do código ao excluir os diretórios individuais nas propriedades do Projeto. O NetBeans IDE é totalmente compatível com o desenvolvimento interativo, portanto o teste de projetos PHP segue os padrões clássicos familiares para desenvolvedores da Web.
+
+  [overview-left]#image:php-debugger.png[]#
+
+=== Depurador
+
+Depure código de PHP usando o Xdebug: é possível inspecionar variáveis locais, definir watches, determinar pontos de detenção e avaliar códigos ao vivo. Navegue para declarações, tipos e arquivos usando atalhos Ir para e links de hipertexto. Use um caminho de inclusão de PHP global para todos os projetos ou personalize-o por projeto.
+
+O NetBeans IDE para PHP também oferece depuração de linhas de comandos: a saída de programa PHP é exibida em uma exibição de linha de comandos no próprio IDE e você pode inspecionar o HTML gerado sem a necessidade de alternar para um browser.
+
+É possível depurar scripts e páginas Web, tanto local quanto remotamente. A integração do depurador PHP do NetBeans permite mapear os caminhos do servidor para os caminhos locais a fim de ativar a depuração remota.
+
+=== Consulte Também
+
+* link:/community/releases/81/index.html[Página de Release do NetBeans IDE 8.1] para obter uma lista de funcionalidades específicas da última versão estável.
+* link:../../kb/trails/php.html[Trilha de Aprendizado de PHP e HTML5] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

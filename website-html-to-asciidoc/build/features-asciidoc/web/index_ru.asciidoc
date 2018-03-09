@@ -1,0 +1,74 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ru
+:description: Apache NetBeans  index_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Разработка приложений Java EE и веб-приложений
+
+link:web-app-cut.png[image:web-app-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+Создавайте основанные на стандартах веб-приложения и приложения уровня предприятия с возможностью доступа в различных клиентах, например веб-браузерах, мобильных устройствах и пр. Используйте уникальные возможности, входящие в стандартный пакет: создавайте приложения Java EE 6 с поддержкой всех необходимых технологий Java EE 6 при помощи нескольких щелчков кнопкой мыши. Воспользуйтесь полной подсветкой синтаксиса, функцией автозавершения кода, всплывающей документацией и проверкой ошибок для JSP, JSF, XML, JavaScript, CSS и даже PHP!
+
+    [overview-right]#link:ee-dev.png[image:ee-dev-cut.png[]]#
+
+=== Разработка корпоративных приложений
+
+IDE NetBeans обеспечивает полную поддержку для Java EE 6. Разработка компонентов, включая веб-страницы, сервлеты, веб-службы, Enterprise Java Beans, JSF, JPA, а также поддержка Contexts and Dependency Injection (CDI).
+
+link:java-ee.html[Поддержка Java EE в NetBeans]
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Разработка веб-приложений
+
+IDE NetBeans предельно упрощает создание проектов веб-приложений на основе Java EE с JSF 2.1 (фейслет), JSP или сервлетов. Кроме того, можно создавать и работать с веб-приложениями с помощью других платформ, таких как Spring, Struts и Hibernate. Редактор поддерживает автозавершение кода, переходы и реорганизацию для сопоставления файлов.
+
+link:web-app.html[Поддержка разработки веб-приложений в среде NetBeans].
+
+     [overview-right]#link:rest-services-support.png[image:rest-services-support-cut.png[]]#
+
+=== Разработка веб-служб
+
+IDE NetBeans поддерживает стандарты веб-служб как для Java EE 6, так и для Java EE 5. Можно создавать и использовать веб-службы с помощью таких функций, как создание кода на основе мастеров и вставки кода в редактор. В функциональные возможности дополнения кода входят аннотации, пригодные для веб-служб.
+
+link:web-services[Поддержка веб-сервисов в NetBeans]
+
+     [overview-left]#link:http-monitor.png[image:http-monitor-cut.png[]]#
+
+=== Развертывание, отладка, мониторинг и профилирование
+
+Созданные приложения можно развертывать на сервере GlassFish, WebLogic, Tomcat или JBoss. Функция развертывания при сохранении позволяет просматривать результаты изменений в приложении сразу после сохранения файлов в редакторе. Кроме того, в файлах Java или JSP можно также размещать точки останова и выполнять отладку или профилирование приложения при помощи средства профилирования NetBeans. Предусмотрен также монитор на стороне HTTP-сервера, который позволяет диагностировать ошибки потока данных из JSP и выполнения сервлетов на веб-сервере.
+
+ 
+
+=== См. также
+
+* link:/community/releases/73/index.html[На странице редакции IDE NetBeans 7.3] приведен список специальных функций в последней стабильной версии.
+* Более подробно о функциях последней стабильной версии см. на странице link:http://wiki.netbeans.org/NewAndNoteworthyNB73[Новые замечательные возможности IDE NetBeans 7.3].
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

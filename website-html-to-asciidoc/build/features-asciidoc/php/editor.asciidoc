@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= editor
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  editor
+:description: Apache NetBeans  editor
+:toc: left
+:toc-title:
+
+== Editing and Refactoring
+
+image:editor-top.png[]
+
+The language-aware NetBeans editor detects errors while you type and assists you with documentation and smart code completion—all with the speed and simplicity of your favorite lightweight text editor.
+
+[overview-right]#image:php-54-traitcc_small.png[]#
+
+=== PHP 5.4 Support
+
+The IDE's PHP code completion supports PHP 5.4 array styles such as link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_array[array dereferencing] and link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_short[short array syntax]. NetBeans IDE also recognizes link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_traits[Traits] and link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_anonymous[anonymous object variables] ( also called "fluent instantiation"). Finally, NetBeans IDE for PHP includes link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_minor[minor features] such as callable type hints, binary notation for integers, and `Class::{expr}()` invocation.
+
+  [overview-left]#image:php-code-completion_small.png[]#
+
+=== Code Completion
+
+The editor provides automatic code completion (for most common PHPDoc annotations as well). While you type, it lists possible completions: The most obvious and common options are listed at the top, but you can always choose from the full set of options at the bottom. If one completes a method with parameters, IDE tries to compute and insert the most proper variable which is declared right before the completed method.
+
+  [overview-right]#image:php-code-navigation_small.png[]#
+
+=== Easy Code Navigation
+
+Use the navigator window or the Go To Type, Go To File, Go To Symbol, Go To Declaration, Find Usages menu items for easy code navigation in large projects. The editor warns about potential code problems by flagging them and giving an hint in a pop-up. A tasks window lists all warnings in the project, making it easy to find and resolve problems.
+
+ 
+
+|===
+|=== Refactoring
+
+ |
+
+=== Hints
+
+ |
+
+=== Insert Code
+
+ 
+
+|[overview-centre]#image:php-refactoring_small.png[]#
+The IDE provides some basic rename refactorings of elements (classes, interfaces, methods, fields, etc.). It's closely connected with the Find Usages support which provides a way how to find a selected element through the whole project and display that usages in a UI.
+
+ |
+
+[overview-centre]#image:php-hints_small.png[]#
+The IDE provides a set of "Hints" which helps you to analyse your code and find some strange parts (unused variables, uninitialized variables, etc.) and most of them suggest you some simple solution how to fix that found problem.
+
+ |
+
+[overview-centre]#image:php-insert-code_small.png[]#
+The editor can generate common code snippets for you in PHP. A dialog is provided to give you complete control over which methods are created and which class attributes they access. The IDE assists you when overriding methods and generating accessors.
+
+ 
+
+|=== Fixing Use Statements
+
+ |
+
+=== Type Hierarchy View
+
+ 
+
+|[overview-centre]#image:php-fix-uses.png[]#
+One of the most powerful actions of the NetBeans IDE for PHP is "Fix Uses..." action. It analysis your code and tries to find usages of types (classes, interfaces) which doesn't have its corresponding use statement (it analysis PHPDocs as well). If some naming conflicts appear the dialog is displayed and user can solve that problem.
+
+ |
+
+[overview-centre]#image:php-hierarchy-view_small.png[]#
+The IDE provides a way how to show to user a type hierarchy (supertypes and subtypes) of a required type. Its graphical representation is displayed in a sepatate window next to a navigator window.
+
+ 
+|===
+
+=== See Also
+
+* link:/community/releases/81/index.html[NetBeans IDE 8.1 Release Page] for a list of specific features in the latest stable release.
+* link:../../kb/trails/php.html[PHP and HTML5 Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

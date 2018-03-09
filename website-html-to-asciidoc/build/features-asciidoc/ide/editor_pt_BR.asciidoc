@@ -1,0 +1,139 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= editor_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  editor_pt_BR
+:description: Apache NetBeans  editor_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Editando e Refatorando
+
+link:ide-editor-full.png[image:ide-editor-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+O editor sensível a idiomas do NetBeans detecta erros enquanto você digita. Ele ajuda com pop-ups de documentação e com o preenchimento inteligente de código - tudo com a velocidade e a simplicidade do seu editor de texto favorito.
+
+    [overview-right]#link:ide-editor-templates-full.png[image:ide-editor-templates-cut.png[]]#
+
+=== Editores e Modelos de Arquivo
+
+O editor no NetBeans IDE é muito mais que um editor de texto. O editor do NetBeans recua linhas, associa palavras e colchetes e realça códigos-fonte sintática e semanticamente.
+
+O editor aceita várias linguagens, incluindo Java, C/C++, XML, HTML, PHP, Groovy, CSS e JavaScript. Ele pode ser estendido para suportar qualquer outra linguagem.
+
+O IDE fornece modelos de arquivo para cada tecnologia que suporta, como modelos de arquivo Java, HTML e JavaScript.
+
+link:../../kb/index.html[Trilhas de Aprendizado da Tecnologia NetBeans]
+
+ 
+|===
+
+|=== Análise Estática
+
+ |
+
+=== Parse ao Vivo
+
+ |
+
+=== Refatoração
+
+ 
+
+|[overview-centre]#image:ide-editor-findbugs.png[]#
+Quanto mais um código com bug ficar sem correção, mais seu custo aumentará. O IDE oferece ferramentas de análise estática de código, especificamente integração com o código-fonte aberto comum da ferramenta Java FindBugs.
+
+ |
+
+[overview-centre]#image:ide-editor-parsing.png[]#
+O IDE faz parsing do o código-fonte ao vivo enquanto você digita. O editor marca erros, realça ocorrências, mostra dicas do compilador, correções rápidas, advertências e documentação sobre linguagem.
+
+ |
+
+[overview-centre]#image:ide-editor-refactoring.png[]#
+As ações de refatoração do IDE permitem que você reestruture o código sem interrompê-lo. A ferramenta Inspecionar e Transformar permite executar inspeções avançadas na base de códigos, corrigindo o código automaticamente.
+
+ 
+
+|=== Autocompletar
+
+ |
+
+=== Navegação
+
+ |
+
+=== Inserção
+
+ 
+
+|[overview-centre]#image:ide-editor-completion.png[]#
+O editor oferece o recurso autocompletar código automático em várias linguagens, incluindo Java, C/C++, PHP, Groovy, XML, HTML, CSS e JavaScript.
+
+ |
+
+[overview-centre]#image:ide-editor-navigate.png[]#
+Navegue até qualquer arquivo, tipo ou símbolo usando texto padrão, formato de letras minúsculas concatenadas ou curingas e faça pesquisas diferenciando letras maiúsculas de minúsculas na sua base de códigos.
+
+ |
+
+[overview-centre]#image:ide-editor-codegenerator.png[]#
+O editor pode gerar snippets comuns de código dentro do editor. É possível definir modelos de código para partes comuns do código e adicionar macros de registro conforme você digita.
+
+ 
+
+|=== Sugestão
+
+ |
+
+=== Inspeção
+
+ |
+
+=== Personalização
+
+ 
+
+|[overview-centre]#image:ide-editor-hints.png[]#
+O IDE executa a análise de código-fonte e oferece um conjunto extensivo de dicas para corrigir ou aprimorar rapidamente o código.
+
+ |
+
+[overview-centre]#image:ide-editor-hierarchy.png[]#
+Verifique os membros e hierarquias de supertipo e subtipo de qualquer arquivo nas janelas Navegador e Hierarquia, que oferece filtros para controlar o nível de detalhes exibido.
+
+ |
+
+[overview-centre]#image:ide-editor-customizations.png[]#
+O comportamento e exibição das linguagens no editor pode ser personalizado, incluindo o recurso de autocompletar código, view da documentação, atalhos do teclado, fontes e cores.
+
+ 
+|===
+
+=== Consulte Também
+
+* link:/community/releases/73/index.html[Página de Release do NetBeans IDE 7.3] para obter uma lista de funcionalidades específicas da última versão estável.
+* Obtenha mais detalhes sobre funcionalidades da última release mais estável na link:http://wiki.netbeans.org/NewAndNoteworthyNB73[página Novidades e Destaques do NetBeans IDE 7.3].
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

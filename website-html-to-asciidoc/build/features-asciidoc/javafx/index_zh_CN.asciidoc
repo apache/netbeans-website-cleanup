@@ -1,0 +1,88 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_zh_CN
+:description: Apache NetBeans  index_zh_CN
+:toc: left
+:toc-title:
+
+== JavaFX 2.1
+
+link:javafx2-main-big.png[image:javafx2-main.png[][font-11]#单击图像查看全屏预览#]
+
+*JavaFX 2 是 Java 作为富客户端平台演变的下一阶段。它旨在为企业业务应用程序提供小型硬件加速 Java UI 平台。有了 JavaFX 2，开发者就可以通过标准 Java 开发工具完全使用 Java 编程语言创建 JavaFX 应用程序。他们甚至可以访问本机系统功能，或者无缝连接到基于服务器的中间件应用程序。对于 Windows 和 Mac，JavaFX 2.1 捆绑在 Java JDK 7 update 4 中。也可以从 link:http://www.oracle.com/technetwork/java/javafx/downloads/index.html[Oracle.com] 单独下载 JavaFX 2.1。有关详细信息，请参见 link:../../kb/docs/java/nb_fx_screencast.html[NetBeans IDE 中的 JavaFX 支持视频]。*
+
+|===
+|=== JavaFX 项目 image:new_small.gif[]
+
+在 IDE 中创建 JavaFX 项目。通过 NetBeans IDE，可以创建以下类型的 JavaFX 项目：
+
+* *JavaFX FXML 应用程序**。*JavaFX FXML 应用程序使用 FXML 文档定义图形布局，并使用 Java 控制器类定义操作。NetBeans IDE 可以创建 FXML 文档和 Java 控制器类。您可以使用 IDE 的 Java 和 XML 代码编辑功能来进一步开发应用程序。
+* *JavaFX 应用程序（不带 FXML）*。NetBeans IDE 还允许创建“传统 Java 样式”的 JavaFX 项目，在该项目中，图形布局和操作均在 Java 类中定义。
+* *JavaFX 预加载器*。预加载器是一个小型应用程序，它在主应用程序之前启动以定制启动体验。通过 NetBeans IDE，可以将 JavaFX 预加载器作为单独的项目或 JavaFX 应用程序的一部分进行创建。
+* *JavaFX in Swing 应用程序* NetBeans IDE 简化了 Java SE 应用程序的创建过程，这些应用程序允许使用 JFXPanel Swing 组件嵌入 FX 组件。
+ |
+
+image:javafx2-projecttypes.png[]
+
+ 
+
+|=== 构建和运行 JavaFX 应用程序
+
+构建和运行标准 Java 应用程序时，会构建和运行 JavaFX 应用程序，但区别是您可以将 JavaFX 项目配置为采用以下方式运行：
+
+* *独立的应用程序*。以标准 Java 桌面应用程序的形式构建和运行项目。
+* *Java Web Start*。应用程序使用 JNLP。IDE 在构建应用程序时会构建 JNLP 文件。
+* *在浏览器中*。IDE 使用调用 JNLP 文件的 HTML 页在浏览器中嵌入应用程序。可以让 IDE 生成 HTML 页，也可以使用您自己的 Web 页。如果从 IDE 中运行应用程序，则 IDE 将在本地文件系统上打开指向 HTML 页的浏览器页。
+ |
+
+image:javafx2-select-runas.png[]
+
+ 
+
+|=== 编辑 JavaFX 代码
+
+利用 NetBeans IDE 的强大 link:../java/javase.html[Java 代码编辑器]对您的 JavaFX 应用程序进行编码。
+
+ |image:javafx2-ineditor.png[] 
+
+|=== 调试 JavaFX
+
+使用 NetBeans IDE 的 link:../java/debugger.html[Java 调试工具]（包括新的 GUI 可视调试器）调试 JavaFX 应用程序。
+
+image:arrow-button.gif[] 有关详细信息，请参见link:../../kb/docs/java/debug-visual.html[在 NetBeans IDE 中使用可视调试器]。
+
+ |image:debug-take-snapshot.png[title=""Debug"（调试）菜单中的 "Take GUI Snapshot"（生成 GUI 快照）选项"] 
+
+|=== 样例项目
+
+通过 30 多个 JavaFX 2.1 样例项目了解 JavaFX 2.1 的功能以及 NetBeans IDE 的支持。
+
+ |image:javafx2-sample-projects.png[] 
+
+|image:arrow-button.gif[] link:http://docs.oracle.com/javafx/index.html[JavaFX 文档主页]：下载、演示、常见问题解答和教程。
+
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

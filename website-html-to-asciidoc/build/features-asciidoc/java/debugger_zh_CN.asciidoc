@@ -1,0 +1,92 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= debugger_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  debugger_zh_CN
+:description: Apache NetBeans  debugger_zh_CN
+:toc: left
+:toc-title:
+
+ 
+
+== 调试器和分析器
+
+link:debugger.png[image:debugger-cut.png[][font-11]# 单击图像查看全屏预览#]
+
+为确定并解决应用程序中的问题（例如，死锁和内存泄漏），NetBeans IDE 提供了功能丰富的调试器和分析器。
+
+    [overview-left]#link:debugger.png[image:debugger-cut.png[]]#
+
+=== 调试器
+
+NetBeans 调试器让您能够设置源代码断点、添加字段监视、单步调试代码、运行到方法、生成快照以及监控执行。您也可以将调试器连接到已运行的进程上。
+
+IDE 包含可视调试器，让您能够生成 GUI 快照并直观地浏览 JavaFX 和 Swing 应用程序的 GUI。它让您能够查看组件属性、容器中组件的分层结构，以及定位组件的源代码。您可以使用可视调试器将监听程序轻松地添加到 GUI 操作中，而不需要搜索源代码。
+
+link:../../kb/docs/java/debug-multithreaded.html[在 NetBeans IDE 中调试多线程应用程序]
+link:../../kb/docs/java/debug-visual.html[在 NetBeans IDE 中使用可视调试器]     [overview-right]#link:profiler.png[image:profiler-cut.png[]]#
+
+=== 分析器
+
+Netbeans 分析器为优化应用程序的运行速度和内存使用提供了专家级的帮助，从而便于您构建可靠且可伸缩的 Java SE、JavaFX 和 Java EE 应用程序。
+
+选取几个常见的性能分析任务，例如标准 CPU 或内存性能分析，或者简单的监控。专家已将这些选项预设为默认值，您可以针对特定的应用程序定制设置。
+
+link:../../kb/docs/java/profiler-intro.html[在 NetBeans IDE 中对 Java 应用程序进行性能分析的简介] 
+|===
+
+|=== 多线程调试
+
+ |
+
+=== 堆查看器
+
+ |
+
+=== 年代计数
+
+ 
+
+|[overview-centre]#image:debugger-thread-cut.png[]#
+要切换线程，请使用 "Current Thread Chooser"（当前线程选择器），或直接从编辑器旁注访问线程导航。您可以查看当前会话的线程状态并检查当前线程的调用堆栈和局部变量。
+
+ |
+
+[overview-centre]#image:debugger-heap-cut.png[]#
+使用堆查看器评估 Java 堆内容和识别导致内存泄漏的多余引用。可以浏览堆栈上的类和实例、每个实例或类的字段以及每个实例的引用。
+
+ |
+
+[overview-centre]#image:debugger-generational-cut.png[]#
+通过年代计数，可以标识对象收集的所有尝试下都存活的对象。该信息可用于查找长生存期的对象和泄漏的对象。
+
+link:../../kb/articles/nb-profiler-uncoveringleaks_pt1.html[使用 NetBeans 分析器发现内存泄漏]
+
+ 
+|===
+
+=== 另请参见
+
+* link:/community/releases/81/index.html[NetBeans IDE 8.1 发行版页]，提供最新稳定发行版中的特定功能的列表。
+* link:../../kb/trails/java-se.html[常规 Java 开发学习资源]，提供将帮助您入门的教程。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,151 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= editor
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  editor
+:description: Apache NetBeans  editor
+:toc: left
+:toc-title:
+
+ 
+
+== Editing and Refactoring
+
+link:ide-editor-full.png[image:ide-editor-cut.png[][font-11]#Click image for fullscreen preview#]
+
+The language-aware NetBeans editor detects errors while you type and assists you with documentation popups and smart code completion—all with the speed and simplicity of your favorite lightweight text editor.
+
+    [overview-left]#link:ide-editor-java8-full.png[image:ide-editor-java8-cut.png[]]#
+
+=== Java 8 Language Tools
+
+NetBeans IDE is the official IDE for Java 8. With its editors, code analyzers, and converters, you can quickly and smoothly upgrade your applications to use new Java 8 language constructs, such as lambdas, functional operations, and method references.
+
+Batch analyzers and converters are provided to search through multiple applications at the same time, matching patterns for conversion to new Java 8 language constructs.
+
+link:https://netbeans.org/kb/docs/java/javase-jdk8.html[Overview of JDK 8 Support in NetBeans IDE]
+link:https://www.youtube.com/watch?v=N8HsVgUDCn8[Video: Smart Migration to JDK 8]
+
+     [overview-right]#link:ide-editor-templates-full.png[image:ide-editor-templates-cut.png[]]#
+
+=== Editors and File Templates
+
+The editor in NetBeans IDE is much more than a text editor. The NetBeans editor indents lines, matches words and brackets, and highlights source code syntactically and semantically.
+
+The editor supports several languages including Java, C/C++, XML, HTML, PHP, Groovy, CSS, and JavaScript. It can be extended to support other languages.
+
+The IDE provides file templates for each of the technologies it supports, such as Java file templates, HTML file templates, and JavaScript file templates.
+
+link:../../kb/index.html[NetBeans Technology Learning Trails]
+link:../../kb/docs/java/editor-codereference.html[Code Assistance in the NetBeans IDE Java Editor]
+
+ 
+|===
+
+|=== Static Analysis
+
+ |
+
+=== Live Parsing
+
+ |
+
+=== Rich Refactoring
+
+ 
+
+|[overview-centre]#image:ide-editor-findbugs.png[]#
+The cost of buggy code increases the longer it remains unfixed. The IDE gives you static code analysis tools, in particular, integration with the popular open source Java FindBugs tool.
+
+ |
+
+[overview-centre]#image:ide-editor-parsing.png[]#
+The IDE parses the source code live while you type. The editor marks errors, highlights occurrences, shows compiler hints, quick fixes, warnings, and language documentation.
+
+ |
+
+[overview-centre]#image:ide-editor-refactoring.png[]#
+The IDE's refactoring tools allow you to restructure code without breaking it. The Inspect &amp; Transform tool enables you to run powerful inspections across your codebase, while automatically fixing your code.
+
+ 
+
+|=== Code Completion
+
+ |
+
+=== Intelligent Navigation
+
+ |
+
+=== Quick Insertion
+
+ 
+
+|[overview-centre]#image:ide-editor-completion.png[]#
+The editor provides automatic code completion in several languages, including Java, C/C++, PHP, Groovy, XML, HTML, CSS, and JavaScript.
+
+ |
+
+[overview-centre]#image:ide-editor-navigate.png[]#
+Navigate to any file, type, or symbol using standard text, camel case format, or wild cards, and do case sensitive searches throughout your codebase.
+
+ |
+
+[overview-centre]#image:ide-editor-codegenerator.png[]#
+The editor can generate common code snippets for you within the editor. You can define code templates for common pieces of code and add record macros as you type.
+
+ 
+
+|=== Smart Suggestions
+
+ |
+
+=== Hierarchy Inspection
+
+ |
+
+=== Easy Customization
+
+ 
+
+|[overview-centre]#image:ide-editor-hints.png[]#
+The IDE performs source code analysis and offers an extensive set of hints to quickly fix or enhance your code.
+
+ |
+
+[overview-centre]#image:ide-editor-hierarchy.png[]#
+Inspect the members and supertype or subtype hierarchies of any file in the Navigator window and Hierarchy window, which provide filters to control the level of detail displayed.
+
+ |
+
+[overview-centre]#image:ide-editor-customizations.png[]#
+The behavior and display of the languages in the editor can be customized, including its code completion, documentation view, keyboard shortcuts, fonts, and colors.
+
+ 
+|===
+
+=== See Also
+
+* link:/community/releases/81/index.html[NetBeans IDE 8.1 Release Page] for a list of specific features in the latest stable release.
+* link:../../kb/trails/java-se.html[General Java Development Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

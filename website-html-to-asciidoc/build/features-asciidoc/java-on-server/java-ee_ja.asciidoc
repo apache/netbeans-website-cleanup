@@ -1,0 +1,155 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= java-ee_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  java-ee_ja
+:description: Apache NetBeans  java-ee_ja
+:toc: left
+:toc-title:
+
+ 
+
+== Java Enterprise Editionのサポート
+
+link:web-app.png[image:web-app-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+NetBeans IDEは、Java EEプラットフォームを利用するWebアプリケーションおよびサーバー側アプリケーションの開発に対し、優れたサポートを提供しています。IDEのサポートは、Java EEおよびGlassFishの各チームとの密接な協力のもとで、Java EE仕様との最大限の統合と、できるかぎり容易な使用方法を実現するために開発されました。したがって、Java EEの仕様やフレームワークを扱った経験がない場合に、Java EEプログラミングを短時間で学び、成果を上げるためには、NetBeans IDEを使用するのが最善の方法です。
+
+    [overview-right]#link:java-ee-7-full.png[image:java-ee-7-full-cut.png[]]#
+
+=== Java Enterprise Edition 7のサポート
+
+NetBeans IDEは、JSF 2.2 (Facelets)、Java Persistence 2.1およびContexts and Dependency Injection 1.1、link:web-services.html[JAX-RSおよびJAX-WSベースのWebサービス]、旧Java EE 6およびJava EE 5プラットフォームのサポートも含めて、最新のJava EE 7標準に対する完全なサポートを提供します。
+
+IDEで提供されるサポートは、アプリケーションをすばやく作成できるウィザードから、Java EEアーティファクトを生成して消費する際のエディタ・サポート、アプリケーション構成、ビルド、デプロイメント、実行およびテストのサポートまで多岐にわたります。こうした機能により、アプリケーションのビジネス・ロジック面の実装に労力を集中させることができます。
+
+link:../../kb/trails/java-ee.html[Java EEおよびJava Webの学習]
+
+     [overview-left]#link:ejb-dev.png[image:ejb-dev-cut.png[]]#
+
+=== EJB開発の簡素化
+
+IDEは、Webアプリケーション・プロジェクト内でも最新のEJB 3.2仕様をサポートします。EJBプロジェクト・ファイル・ウイザードには、セッションBean(シングルトン・セッションBeanを含む)、非同期メッセージ処理用のメッセージ駆動型Bean、および定期的な通知で使用するタイマー・セッションBeanを作成するためのオプションが用意されています。ウィザードを使用すると、適切な注釈や一般的に使用されるデフォルト・メソッドも含めて、エンティティ・クラス用のセッションBeanを簡単に作成できます。Beanは、ローカル・インタフェースまたはインタフェースのないビューで公開できます。エディタのコード挿入ウィザードを使用したEJB Beanのコールに対してもサポートが提供されています
+
+link:../../kb/docs/javaee/javaee-entapp-ejb.html[EJB 3.1を使用したエンタープライズ・アプリケーションの作成]
+
+     [overview-right]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== JSF開発
+
+NetBeans IDEは、古い2.1以下の標準に加えて、最新のJavaServer Faces (JSF) 2.2の標準をサポートしています。NetBeans IDEは、Facelets (JSF 2.2の公式ビュー・テクノロジ)をサポートしています。Faceletsフレームワークに基づいて新しいWebアプリケーション・プロジェクトを作成し、標準のJSFリファレンス実装コンポーネントで操作できます。
+
+IDEは、Faceletページの開発を簡略化できる様々なJSFコンポーネント・ライブラリ(*PrimeFaces、RichFaces、ICEfaces*)もサポートしています。PrimeFacesアプリケーションを生成するための、データベース対話コードが組み込まれたコード・ウィザードおよびコード・テンプレートが含まれています。
+
+link:../../kb/docs/web/jsf20-intro.html[JavaServer Faces入門]
+
+     [overview-left]#link:jpa-dev.png[image:jpa-dev-cut.png[]]#
+
+=== JPAのサポート
+
+IDEには、Java Persistence API 2.1で使用するツールが用意されています。ウィザードを使用すると、データベースからエンティティ・クラスを生成したり、エンティティ・クラスからJavaServer Faces CRUD (Create Retrieve Update Delete)アプリケーションを生成したりできます。IDEは、すべてのタイプのエンティティ関係(1対1、1対多、多対1、および多対多)と、すべてのタイプの主キー(単一列、複合、および生成済)をサポートしています。IDEには、持続性ユニットの作成および管理を行うためのテンプレートおよびグラフィック・エディタも提供されています。
+
+IDEには、JPQL問合せをIDEから直接実行できる、スタンドアロンのJPQLエディタがあります。
+
+ 
+|===
+
+|=== JSFテンプレートのサポート
+
+ |
+
+=== JSP開発
+
+ |
+
+=== Webプロファイルのサポート
+
+ 
+
+|[overview-centre]#image:template-wizard-cut.png[]#
+IDEには、Faceletsテンプレートを作成するためのFaceletsテンプレート・ウィザードと、テンプレートに依存するファイルを作成するためのFaceletsテンプレート・クライアント・ウィザードが用意されています。
+
+ |
+
+[overview-centre]#image:jsp-dev-cut.png[]#
+JavaServer Pages (JSP)ファイルのエディタは、コード補完、ハイパーテキスト・ナビゲーション、エラー・チェック、デバッグなどでユーザーを支援します。コード・スニペットをパレットからドラッグ・アンド・ドロップできます。カスタム・タグ・ライブラリの作成および使用がサポートされています。
+
+link:../../kb/docs/web/quickstart-webapps.html[JSPによるWebアプリケーション開発入門]
+
+ |
+
+[overview-centre]#image:ee-7-web-profile-cut.png[]#
+link:http://www.oracle.com/technetwork/java/javaee/tech/index.html[Java EE Webプロファイル]は、Webアプリケーションのビルドに使用できる仕様のサブセットを定義したものです。NetBeansは、Webプロファイルを使用したアプリケーションの作成を標準でサポートしています。
+
+ 
+
+|=== ウィザード・ベースのクライアント生成
+
+ |
+
+=== CDIのサポート
+
+ |
+
+=== JPQLエディタ
+
+ 
+
+|[overview-centre]#image:jsf-crud-gen-cut.png[]#
+JSF CRUD (作成、読取り、更新、削除)アプリケーション・ジェネレータを使用して、データベースのデータを操作するために機能する完全なJSFページを作成できます。新規ファイル・ウィザードでは、カスタマイズ可能なCRUD JSFページを既存のエンティティから作成できます。
+
+ |
+
+[overview-centre]#image:cdi-support-cut.png[]#
+新規プロジェクト・ウィザードや新規ファイル・ウィザードを使用して、コンテキストと依存性の注入(CDI: Contexts and Dependency Injection)に対応するファイルを作成できます。いずれかの注入ポイントを右クリックして、「注入可能に移動」および「注入可能物を検査」メニュー・アクションをトリガーするなどのエディタ・サポートが用意されています。
+
+link:../../kb/docs/javaee/cdi-intro.html[CDIおよびJSF 2.0の開始]
+
+ |
+
+[overview-centre]#image:jpa-jpql-cut.png[]#
+スタンドアロンのJPQLエディタを使用すると、JPAアプリケーションを実行して問合せをテストするのではなく、問合せをIDEから直接実行できます。JPQLエディタは、JPQLキーワードのコード補完をサポートしています。管理対象エンティティの場合、EclipseLinkまたHibernateプロバイダを使用していれば、JPQL問合せのSQL表現が得られます。JPQL問合せの問題箇所も指摘されます。
+
+ 
+
+|=== WebSocketのサポート
+
+ |
+
+ |
+
+ 
+
+|[overview-centre]#image:websocket-endpoint-cut.png[]#
+IDEはブラウザ・クライアントとアプリケーション・サーバー間の双方向通信を可能にするため、Java API for WebSocket (JSR 356)を使用するWebアプリケーションを作成するためのサポートを提供します。
+
+link:../../kb/docs/javaee/maven-websocketapi.html[WebSocket APIの使用]
+
+ 
+|===
+
+=== 関連項目
+
+* 最新の安定版リリースの主な機能のリストについては、link:/community/releases/80/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/java-ee.html[「Java EEおよびJava Webの学習」]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

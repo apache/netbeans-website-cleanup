@@ -1,0 +1,110 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= web-services
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  web-services
+:description: Apache NetBeans  web-services
+:toc: left
+:toc-title:
+
+ 
+
+== Web Services Development Support
+
+link:websvc.png[image:websvc-cut.png[][font-11]#Click image for fullscreen preview#]
+
+NetBeans IDE supports Web services standards from both Java EE 6 and Java EE 5, including the JAX-WS 2.2, JAX-RS 1.1, and JAXB 2.2 web service standards. You can work with GlassFish Server Open Source Edition, Oracle Weblogic, Apache Tomcat, JBoss, and many more. The code completion functionality includes annotations that you can use in your web services.
+
+    [overview-right]#link:rest-services-support.png[image:rest-services-support-cut.png[]]#
+
+=== RESTful Web Services
+
+The IDE assists you in creating (JAX-RS 1.1) RESTful web services from JPA entity classes and patterns, or even directly from a database. The code generated from JPA entities works on top of the Spring framework. RESTful web services are available to wrap entity beans and provide easy CRUD functionality.
+
+For Java EE 6 RESTful web services, the IDE uses JAXB annotations in the entity classes and EJB session facades for the service classes. This removes the need for converter classes and generates simpler code.
+
+You can also use facades for Java EE 5 RESTful web services. The IDE can generate EE 5 RESTful services with JPA Persistence API controller classes instead of generating converter classes.
+
+link:../../kb/docs/websvc/rest.html[Getting Started with RESTful Web Services]
+
+     [overview-left]#link:soap-designer.png[image:soap-designer-cut.png[]]#
+
+=== SOAP-based Web Services
+
+Use the Web Services wizards and Web Service Visual Designer to create and develop web services from Java classes or WSDL files.
+
+The IDE provides tools to work with Web Service annotations (link:http://jcp.org/en/jsr/detail?id=181[Web Services Metadata for Java]). Java classes annotated with @javax.jws.WebService annotation are automatically recognized as web services in a project. The IDE provides support for the link:https://jax-ws.dev.java.net[JAX-WS 2.2] runtime in various features, such as the Visual Designer or Web Service Customization editor. With NetBeans IDE 7.2 extends the Visual Designer to Maven projects.
+
+Convert SOAP based web services to RESTful service resources by using the action available in the web service node. Use the Web Service Customization editor to create asynchronous web service clients.
+
+link:../../kb/docs/websvc/jax-ws.html[Getting Started with JAX-WS Web Services]
+
+     [overview-right]#link:rest-client-gen.png[image:rest-client-gen-cut.png[]]#
+
+=== Web Service Clients
+
+The IDE also supports testing and building client applications that access web services. Generate code for invoking web services (both RESTful and SOAP-based), such as JavaScript client stubs from WADL. You can also generate RESTful Java clients in Java Web and Java applications for services registered with NetBeans IDE. NetBeans IDE comes with several widely used services already registered, such as Flickr and Twitter.
+
+Use the Services tab to easily create server-side mash-up applications, and add services from their web service descriptor files (WSDL or WADL). Drag and drop service operations into a POJO, Servlet, JSP, JSF, or PHP page, and the IDE will generate the access code.
+
+link:../../kb/docs/websvc/client.html[Developing JAX-WS Web Service Clients]
+
+ 
+|===
+
+|=== Access Web Services
+
+ |
+
+=== WSIT Support
+
+ |
+
+=== Mobile Web Services
+
+ 
+
+|[overview-centre]#image:web-services-manager-cut.png[]#
+Use the Web Service Manager to access popular RESTful Web APIs provided by Google, Facebook, Yahoo, flickr, Amazon, Twitter and many more. You can also access SOAP-based web services, e.g. StrikeIron.
+
+ |
+
+[overview-centre]#image:wsit-secure-cut.png[]#
+Web Service Interoperability Technologies (WSIT) are directly available from the Web Services Designer. Use the link:http://metro.dev.java.net/[Metro 2.0] (JAX-WS 2.2) support in GlassFish to help you build interoperable, transactional, reliable, and secure web services.
+
+link:../../kb/docs/websvc/wsit.html[Advanced Web Services Interoperability]
+
+ |
+
+[overview-centre]#image:ws-mobile-cut.png[]#
+Write applications that access web services directly from a JSR-172-enabled phone. Write code that uses the Wireless Connection Bridge to access web services and other server-side data on any device from MIDlets via servlets.
+
+ 
+|===
+
+=== See Also
+
+* link:/community/releases/73/index.html[NetBeans IDE 7.3 Release Page] for a list of specific features in the latest stable release.
+* Get more details about features of the latest stable release on the link:http://wiki.netbeans.org/NewAndNoteworthyNB73[NetBeans IDE 7.3 New and Noteworthy page].
+* link:../../kb/trails/web.html[Web Services Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

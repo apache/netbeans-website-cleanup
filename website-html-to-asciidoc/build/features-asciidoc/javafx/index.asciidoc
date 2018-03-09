@@ -1,0 +1,90 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index
+:description: Apache NetBeans  index
+:toc: left
+:toc-title:
+
+== JavaFX 2.1
+
+link:javafx2-main-big.png[image:javafx2-main.png[][font-11]#Click image for full screen preview#]
+
+*JavaFX 2 is the next step in the evolution of Java as a rich client platform. It is designed to provide a lightweight, hardware-accelerated Java UI platform for enterprise business applications. With JavaFX 2, developers can create JavaFX applications completely in the Java programming language using standard Java development tools. They can even access native system capabilities, or seamlessly connect to server-based middleware applications. JavaFX 2.1 is bundled in Java JDK 7 update 4, for Windows and Mac. You can also download JavaFX 2.1 separately from link:http://www.oracle.com/technetwork/java/javafx/downloads/index.html[Oracle.com]. See link:../../kb/docs/java/nb_fx_screencast.html[Video of JavaFX Support in NetBeans IDE] for details.*
+
+|===
+|=== JavaFX Projects image:new_small.gif[]
+
+Create JavaFX projects in the IDE. NetBeans IDE lets you create the following types of JavaFX project:
+
+* *JavaFX FXML Application**.* JavaFX FXML applications use an FXML document to define graphic layout and a Java controller class to define actions. NetBeans IDE creates the FXML document and Java controller class. You can use the IDE's Java and XML code editing features to develop the application further.
+* *JavaFX Application (without FXML).* NetBeans IDE also lets you create a "traditional Java-style" JavaFX project, where graphic layout and actions are both defined in Java classes.
+* *JavaFX Preloader.* A preloader is a small application that is started before the main application to customize the startup experience. NetBeans IDE lets you create JavaFX preloaders either as separate projects or as part of a JavaFX application.
+* *JavaFX in Swing Application* NetBeans IDE simplifies the creation of Java SE applications that enable you to embed FX components using the JFXPanel Swing component.
+ |
+
+image:javafx2-projecttypes.png[]
+
+ 
+
+|=== Building and Running JavaFX Applications
+
+ 
+
+Build and run a JavaFX application as you build and run a standard Java application, with the difference that you can configure a JavaFX project to run in the following ways:
+
+* *Standalone application.* Project builds and runs as a standard Java desktop application.
+* *Java Web Start.* Application uses JNLP. The IDE generates the JNLP file when it builds the application.
+* *In Browser.* The IDE embeds the application in a browser, using an HTML page that calls a JNLP file. The IDE can generate the HTML page or you can use your own web page. If you run the application from the IDE, the IDE opens a browser page that points to the HTML page on your local file system.
+ |
+
+image:javafx2-select-runas.png[]
+
+ 
+
+|=== Editing JavaFX Code
+
+Leverage NetBeans IDE's powerful link:../java/javase.html[Java code editor] to code your JavaFX application.
+
+ |image:javafx2-ineditor.png[] 
+
+|=== Debugging JavaFX
+
+Use NetBeans IDE's link:../java/debugger.html[Java debugging tools], including the new GUI Visual Debugger, to debug your JavaFX application.
+
+image:arrow-button.gif[] See link:../../kb/docs/java/debug-visual.html[Using the Visual Debugger in NetBeans IDE] for more information.
+
+ |image:debug-take-snapshot.png[title="Take GUI Snapshot option from Debug menu"] 
+
+|=== Sample Projects
+
+Explore the features of JavaFX 2.1 and NetBeans IDE's support in more than 30 JavaFX 2.1 sample projects.
+
+ |image:javafx2-sample-projects.png[] 
+
+|image:arrow-button.gif[] link:http://docs.oracle.com/javafx/index.html[JavaFX Documentation Home]: Downloads, demos, FAQs and tutorials.
+
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

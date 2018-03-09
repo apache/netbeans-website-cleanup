@@ -1,0 +1,82 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index
+:description: Apache NetBeans  index
+:toc: left
+:toc-title:
+
+ 
+
+== Java
+
+link:ide-management-main-full.png[image:ide-management-main-cut.png[][font-11]#Click image for fullscreen preview#]
+
+NetBeans IDE provides Java developers with all the tools needed to create professional desktop, mobile and enterprise applications.
+
+    [overview-left]#link:java-editor-full.png[image:java-editor-cut.png[]]#
+
+=== Creating, Editing, and Refactoring
+
+The IDE provides wizards and templates to let you create Java EE, Java SE, and Java ME applications. A variety of technologies and frameworks are supported out of the box. For example, you can use wizard and templates to create applications that use the OSGi framework or the NetBeans module system as the basis of modular applications.
+
+The language-aware NetBeans editor detects errors while you type and assists you with documentation popups and smart code completion—all with the speed and simplicity of your favorite lightweight text editor.
+
+link:editor.html[Editing and Refactoring in NetBeans IDE]
+
+     [overview-right]#link:ide-buildtools-maven-full.png[image:ide-buildtools-maven-cut2.png[]]#
+
+=== Building
+
+Out of the box, the IDE provides support for the Maven and Ant build systems. In the New Project wizard, when you choose to create a new application, you can choose to create Maven-based or Ant-based applications.
+
+You can open Maven-based applications into the IDE without an import process because the IDE reads project settings from the Maven POM file. In addition, tools are provided for importing Ant-based projects that were not created in the IDE.
+
+The IDE includes a Maven Repository Browser, as well as graphs for analying Maven dependencies.
+
+link:build-tools.html[Build Tools in NetBeans IDE]
+
+     [overview-left]#link:debugger.png[image:debugger-cut.png[]]#
+
+=== Debugging and Profiling
+
+To identify and solve problems in your applications, such as deadlocks and memory leaks, the IDE provides a feature rich debugger and profiler.
+
+link:debugger.html[Debugger and Profiler in NetBeans IDE]
+
+     [overview-right]#link:ide-testing-full.png[image:ide-testing-cut.png[]]#
+
+=== Testing and Code Analysis
+
+When you are testing your applications, the IDE provides tools for using JUnit and TestNG, as well as code analyzers and, in particular, integration with the popular open source FindBugs tool.
+
+link:testing.html[Testing and Code Analysis in NetBeans IDE]
+
+ 
+
+=== See Also
+
+* link:/community/releases/74/index.html[NetBeans IDE 7.4 Release Page] for a list of specific features in the latest stable release.
+* link:../../kb/trails/java-se.html[General Java Development Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,92 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= debugger_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  debugger_ru
+:description: Apache NetBeans  debugger_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Отладчик и профилировщик
+
+link:debugger.png[image:debugger-cut.png[][font-11]# Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+Для выявления и устранения таких неполадок приложения, как взаимоблокировка и утечки памяти, IDE NetBeans предоставляет многофункциональный отладчик и профилировщик.
+
+    [overview-left]#link:debugger.png[image:debugger-cut.png[]]#
+
+=== Отладчик
+
+Отладчик NetBeans позволяет размещать точки останова в исходном коде, добавлять контрольные модули для полей, выполнять код в пошаговом режиме с заходом в методы, создавать снимки и отслеживать выполнение. Также можете присоединить отладчик к уже запущенному процессу.
+
+IDE включает в себя визуальный отладчик, чтобы позволяет принимать снимки графического интерфейса пользователя и визуально исследовать графический интерфейс приложений JavaFX и Swing. Он позволяет просматривать свойства компонентов, иерархию компонентов в контейнере и выполнять поиск исходного кода компонентов. Визуальный отладчик позволяет добавлять прослушивающие процессы в действия графического интерфейса без обязательного просмотра исходного кода.
+
+link:../../kb/docs/java/debug-multithreaded.html[Отладка многопотоковых приложений в IDE NetBeans]
+link:../../kb/docs/java/debug-visual.html[Использование визуального отладчика в IDE NetBeans]     [overview-right]#link:profiler.png[image:profiler-cut.png[]]#
+
+=== Профилировщик
+
+Профилировщик NetBeans предоставляет техническую поддержку для оптимизации быстродействия и использования памяти приложений, а также упрощает создание надежных масштабируемых приложений Java SE, JavaFX и Java EE.
+
+Обеспечивает возможность выбора из нескольких общих задач профилирования, таких как стандартное профилирование ЦП или памяти, либо простого наблюдения. Варианты выбора содержат стандартные значения, предварительно установленные техническими специалистами; кроме того, пользователи могут самостоятельно устанавливать параметры для конкретного приложения.
+
+link:../../kb/docs/java/profiler-intro.html[Введение в профилирование приложений Java в IDE NetBeans] 
+|===
+
+|=== Многопотоковая отладка
+
+ |
+
+=== Средство просмотра кучи
+
+ |
+
+=== Счетчик поколений
+
+ 
+
+|[overview-centre]#image:debugger-thread-cut.png[]#
+Для переключения потоков воспользуйтесь средством выбора текущего потока или переходами по потокам непосредственно из поля редактора. Вы можете проверить состояние потоков текущего сеанса и проверить стек вызовов и переменных региональных настроек текущего потока.
+
+ |
+
+[overview-centre]#image:debugger-heap-cut.png[]#
+HeapWalker позволяет выполнять анализ содержимого кучи Java и идентифицировать неиспользуемые ссылки, являющиеся причиной утечки памяти. Имеется возможность просмотра классов и экземпляров классов в куче, полей каждого экземпляра или класса, а также ссылок на каждый экземпляр.
+
+ |
+
+[overview-centre]#image:debugger-generational-cut.png[]#
+Счетчик поколений позволяет определить объекты, которые сохранились после всех попыток собрать их. Эта информация может быть использована для поиска объектов с длительным жизненным циклом и объектов с утечкой.
+
+link:../../kb/articles/nb-profiler-uncoveringleaks_pt1.html[Выявление утечек памяти с помощью профилировщика NetBeans]
+
+ 
+|===
+
+=== См. также
+
+* link:/community/releases/81/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список специальных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

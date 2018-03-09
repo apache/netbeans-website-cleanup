@@ -1,0 +1,64 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= collaboration_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  collaboration_ja
+:description: Apache NetBeans  collaboration_ja
+:toc: left
+:toc-title:
+
+ 
+
+== チーム・コラボレーション
+
+link:ide-collaboration-full.png[image:ide-collaboration-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+問題トラックと継続的統合により、チームの他のメンバーと連携できます。
+
+    [overview-left]#link:ide-collaboration-full.png[image:ide-collaboration-tracker-cut.png[]]#
+
+=== 問題トラック
+
+独自のJiraまたはBugZillaリポジトリを使用するようにNetBeans IDEを構成できます。
+
+バージョン管理システムと問題トラッカがユーザーにわかりやすく統合されているため、コード変更のコミットや関連付けられた問題のステータスの更新を一度に行うことができます。新しい問題の作成と既存の問題の編集が行えます。また、問題のソートおよびフィルタ、問合せの保存、パッチの作成、添付の追加などがすべてIDEから実行できます。
+
+     [overview-right]#link:ide-collaboration-hudson-full.png[image:ide-collaboration-hudson-cut.png[]]#
+
+=== 継続的統合
+
+NetBeans IDEでは、Hudson継続サーバーと関連のHudsonジョブを作成し、管理することができます。Hudsonインスタンスの登録、新しいHudsonジョブの作成、Hudsonジョブの実行、およびサーバーによって提供される結果の表示が可能です。
+
+ホストされているHudsonジョブ、ビルド、ワークスペースおよびアーティファクトを参照し、「出力」ウィンドウのビルド・コンソールをチェックします。ビルドに失敗すると、IDEのステータス・バーですぐに通知されます。
+
+ジョブに失敗した原因を探すには、ビルドのノードを右クリックし、失敗したテストすべてのスタック・トレースを検査します。IDE内部で、変更のログを表示したり、ファイルの差分をわかりやすい方法で参照したりすることもできます。
+
+link:http://wiki.netbeans.org/HudsonInNetBeans[NetBeans IDEでのHudson]
+
+ 
+
+=== 関連項目
+
+* 最新の安定版リリースの主な機能のリストについては、link:../../community/releases/81/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/java-se.html[「一般的なJava開発の学習」]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

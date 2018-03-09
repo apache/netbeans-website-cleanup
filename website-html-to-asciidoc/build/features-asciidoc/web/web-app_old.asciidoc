@@ -1,0 +1,120 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= web-app_old
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  web-app_old
+:description: Apache NetBeans  web-app_old
+:toc: left
+:toc-title:
+
+== Web Application Frameworks
+
+link:web-app2.png[image:web-app2-cut1.png[][font-11]#Click image for fullscreen preview#]
+
+*Rapidly build web applications using* *JavaServer Faces (JSF),*  *JavaServer Pages (JSP),* *Java Web Start (JNLP),**link:../javascript/index.html[JavaScript], Ajax, CSS, and Applets.*
+
+|===
+|=== Language-Aware Editor
+
+The editor supports HTML, XHTML, JavaScript, JSP, JSF, CSS, expression language, and assists you with error hints, code completion, namespace completion, and documentation popups. It also recognizes Facelets libraries, composite components, and it can auto-import tags.
+
+=== JSF 2.1 Support
+
+NetBeans IDE supports the latest JavaServer Faces (JSF) 2.1 standard, as well as the older 2.0 and 1.2 standards. NetBeans IDE's JSF 2.1 support includes numerous JSF-specific wizards and special functionality provided by the Facelets editor. JSF provides ease-of-use in the following ways:
+
+* Makes it easy to construct a UI from a set of reusable UI components
+* Simplifies migration of application data to and from the UI
+* Helps manage UI state across server requests
+* Provides a simple model for wiring client-generated events to server-side application code
+* Allows custom UI components to be easily built and re-used
+
+You can use either JSP or Facelets (XHTML) for the front end of your JSF-enabled web application. You can use the PrimeFaces, RichFaces and IceFaces suites of JSF components.
+
+You can learn how to use our JavaServer Faces (JSF) support link:java-ee.html[here].
+link:../../kb/docs/web/jsf20-intro.html[Introduction to JavaServer Faces 2.0]
+
+  |image:webapp-css-editor.png[]
+
+image:web-jsf-config.png[]
+ 
+
+|=== Facelets Templates
+
+Use Facelets to build and render the JSF component tree for application views. It supports all JSF components and provides development support when EL errors occur by enabling you to inspect the stack trace, component tree, and scoped variables.
+
+The IDE provides a Facelets Template wizard for creating Facelets templates, and a Facelets Template Client wizard for creating files that rely on a template.
+
+ |image:web-facelets-template.png[] 
+
+|=== Database and Data Binding Tools
+
+Customize queries, add joins, specify criteria, preview results (and more) with the Query Editor. Use the Database Explorer to make connections to database servers, view and change database schema, view the data in your tables and views, and execute arbitrary SQL statements against a database. The IDE supports drag-and-drop binding to data services and includes a Data Provider API for binding to other heterogeneous data sources.
+
+The Database Explorer works with JavaDB (Derby), MySQL, Oracle database, and PostgreSQL out of the box. The Explorer supports any relational database for which there is a link:http://wiki.netbeans.org/wiki/view/DatabasesAndDrivers[JDBC driver], including IBM DB2, Microsoft SQL Server, PointBase, Sybase, Informix, Cloudscape, InstantDB, Interbase, Firebird, FirstSQL, Mckoi SQL, HSQLDB, Hypersonic SQL, and Microsoft Access.
+
+ |
+
+image:javaee-databases.png[]
+
+ 
+
+|=== Hibernate Framework Support
+
+Hibernate libraries are automatically bundled with your application when you select the Hibernate framework in the New Project wizard. The IDE provides wizards for creating Hibernate reverse engineering and configuration XML files and POJO classes.
+
+Refactoring Java classes and fields (find usages, rename, move) also updates the Hibernate mapping files accordingly. The Editor can auto-complete Java classes and fields as well as database table and column names in Hibernate mapping files, and some property names and values in Hibernate configuration files. Use hyperlinks to navigate between configuration and mapping files, as well as between mapping files and referenced Java classes. You can even execute HQL queries right in the IDE (including joins and clauses).
+link:../../kb/docs/web/hibernate-webapp.html[Using Hibernate in a Web Application]
+
+ |
+
+image:hibernate-web-apps.png[]
+
+ 
+
+|=== Spring Framework Support
+
+You can select the Spring framework in the New Project wizard and immediately start out with a skeleton Spring Web MVC application complete with artifacts. Take advantage of refactoring (including XML configuration files), and code completion in the editor. Navigate quickly using hyperlinks and the new Go To Spring Bean dialog. Arrange sets of configuration files into custom groups and get a head-start by using wizards for XML configuration files and Spring Web MVC controllers.
+link:../../kb/docs/web/quickstart-webapps-spring.html[Introduction to Spring Web MVC]
+
+ |
+
+image:spring-completion-thumb3.png[]
+
+ 
+
+|=== Struts Framework Support
+
+Select the Struts 1.3.10 web framework to create flexible web applications based on standard technologies, such as JSP pages, JavaBeans, resource bundles, and XML. Benefit from code completion for Struts tags, and Struts Javadoc pop-ups in the editor.
+
+Create Struts ActionForm Bean and Action class files, and ctrl-click for hypertext navigation between the struts-config.xml file and the corresponding ActionForm bean class. Use the context menu to easily add Forward, Action, and Exclude entries.
+link:../../kb/docs/web/quickstart-webapps-struts.html[Introduction to the Struts Web Framework]
+
+image:arrow-button.gif[] link:../../kb/trails/java-ee.html[Java EE and Web Application Learning Trail]
+
+ |
+
+image:struts.png[]
+
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

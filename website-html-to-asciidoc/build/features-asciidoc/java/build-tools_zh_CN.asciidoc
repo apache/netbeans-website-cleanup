@@ -1,0 +1,67 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= build-tools_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  build-tools_zh_CN
+:description: Apache NetBeans  build-tools_zh_CN
+:toc: left
+:toc-title:
+
+ 
+
+== 构建工具
+
+link:ide-buildtools-maven-full.png[image:ide-buildtools-maven-cut.png[] [font-11]#单击图像查看全屏预览#]
+
+使用集成到 IDE 的标准构建工具在代码所在的位置控制构建。
+
+    [overview-left]#link:ide-buildtools-maven-full.png[image:ide-buildtools-maven-cut2.png[]]#
+
+=== Maven
+
+NetBeans IDE 支持 Maven 构建系统，可帮助您管理项目的依赖关系、构建、报告和文档。打开、构建、运行、调试、性能分析和部署无需导入过程即可打开的现有 Maven 项目。提供了向导用于根据现有 Maven 原型创建新应用程序，通过 Maven 资源库浏览器可以浏览本地资源库和注册的任何远程资源库的内容。图形显示直接和传递依赖关系并标识版本冲突。
+
+link:http://wiki.netbeans.org/MavenBestPractices[NetBeans IDE 中的 Maven]
+
+     [overview-right]#link:ide-buildtools-ant-full.png[image:ide-buildtools-ant-cut.png[]]#
+
+=== Ant
+
+默认 NetBeans IDE 项目系统直接构建于 Ant 构建系统之上。所有项目命令（例如 "Build Project"（构建项目）和 "Run File in Debugger"（在调试器中运行文件））均调用项目 Ant 脚本中的目标。因此，您可以在 IDE 外部构建和运行项目，这与在 IDE 内部构建和运行项目完全相同。
+
+您无需熟悉 Ant 即可在 IDE 中使用应用程序。您可以在项目的 "Project Properties"（项目属性）对话框中设置所有基本的编译和运行时选项，IDE 会自动更新项目的 Ant 脚本。如果您知道如何使用 Ant，则可以直接定制项目的 Ant 脚本，或者为项目编写您自己的 Ant 脚本。
+
+link:https://netbeans.org/kb/articles/freeform-config.html[自由格式项目的高级配置]     [overview-left]#link:groovy-gradle.png[image:groovy-gradle-cut.png[]]#
+
+=== Gradle
+
+社区提供的插件适用于基于 Groovy 的构建系统 Gradle。通过该插件，您可以将 Gradle 项目打开到 IDE，创建新的 Gradle 项目，以及在 IDE 中调用 Gradle 命令。
+
+link:http://plugins.netbeans.org/plugin/44510/gradle-support[Gradle 插件]
+link:http://netbeans.dzone.com/articles/definitive-gradle-guide-for-netbeans[NetBeans IDE Gradle 权威指南] 
+
+=== 另请参见
+
+* link:/community/releases/81/index.html[NetBeans IDE 8.1 发行版页]，提供最新稳定发行版中的特定功能的列表。
+* link:../../kb/trails/java-se.html[常规 Java 开发学习资源]，提供将帮助您入门的教程。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

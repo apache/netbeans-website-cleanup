@@ -1,0 +1,99 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= java-ee_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  java-ee_ja
+:description: Apache NetBeans  java-ee_ja
+:toc: left
+:toc-title:
+
+ 
+
+== Java Enterprise Editionのサポート
+
+link:web-app.png[image:web-app-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+NetBeans IDEは、Java EEアプリケーション・フレームワークを利用するWebアプリケーションおよびサーバー側アプリケーションの開発に対し、優れたサポートを提供しています。IDEのサポートは、Java EEおよびGlassFishの各チームとの密接な協力のもとで、Java EE仕様との最大限の統合と、できるかぎり容易な使用方法を実現するために開発されました。したがって、Java EEの仕様やフレームワークを扱った経験がない場合に、Java EEプログラミングを短時間で学び、成果を上げるためには、NetBeans IDEを使用するのが最善の方法です。
+
+    [overview-right]#link:java-ee-6-full.png[image:java-ee-6-full-cut.png[]]#
+
+=== Java Enterprise Edition 6のフル・サポート
+
+NetBeans IDEは、Java EE 5およびJ2EE 1.4プラットフォームに加え、JSF 2.1 (Facelets)、Java Persistence 2.0、Contexts and Dependency Injection 1.0のサポートなど、最新のJava EE 6標準の完全なサポートを提供します。
+
+IDEで提供されるサポートは、アプリケーションをすばやく作成できるウィザードから、Java EEアーティファクトを生成して消費する際のエディタ・サポート、アプリケーション構成、ビルド、デプロイメント、実行およびテストのサポートまで多岐にわたります。こうした機能により、アプリケーションのビジネス・ロジック面の実装に労力を集中させることができます。
+
+link:web-app.html[NetBeansでのWebアプリケーション開発サポート]
+link:../../kb/docs/javaee/javaee-gettingstarted.html[Java EE 6アプリケーションの概要]
+
+     [overview-left]#link:ejb-dev.png[image:ejb-dev-cut.png[]]#
+
+=== EJB開発の簡素化
+
+IDEは、Webアプリケーション・プロジェクト内でもEJB 3.1をサポートします。EJBプロジェクト・ファイル・ウイザードには、セッションBean(シングルトン・セッションBeanを含む)、非同期メッセージ処理用のメッセージ駆動型Bean、および定期的な通知で使用するタイマー・セッションBeanを作成するためのオプションが用意されています。ウィザードを使用すると、適切な注釈や一般的に使用されるデフォルト・メソッドも含めて、エンティティ・クラス用のセッションBeanを簡単に作成できます。Beanは、ローカル・インタフェースまたはインタフェースのないビューで公開できます。エディタのコード挿入ウィザードを使用したEJB Beanのコールに対してもサポートが提供されています
+
+link:../../kb/docs/javaee/javaee-entapp-ejb.html[EJB 3.1を使用したエンタープライズ・アプリケーションの作成]
+
+     [overview-right]#link:cdi-support.png[image:cdi-support-cut.png[]]#
+
+=== コンテキストと依存性の注入のサポート
+
+新規プロジェクト・ウィザードや新規ファイル・ウィザードを使用して、コンテキストと依存性の注入(CDI: Contexts and Dependency Injection)に対応するファイルを作成できます。CDIにより、サーブレット、エンタープライズBean、JavaBeansなどのJava EEコンポーネントが、アプリケーションのライフサイクル内で明確なスコープを持って存在できるようになります。いずれかの注入ポイントを右クリックすると、「注入可能に移動」および「注入可能物を検査」メニュー・アクションをトリガーできます。エディタのコード補完およびjava docヘルプ・サポートを使用すると、コードに容易に注釈を付けることができます。
+
+link:../../kb/docs/javaee/cdi-intro.html[CDIおよびJSF 2.0の開始]
+
+ 
+|===
+
+|=== Java Persistence
+
+ |
+
+=== サーバーへのデプロイ
+
+ |
+
+=== 保存時にデプロイ
+
+ 
+
+|IDEには、Java Persistence API 2.0で使用するツールが用意されています。ウィザードを使用すると、データベースからエンティティ・クラスを生成したり、エンティティ・クラスからJavaServer Faces CRUD (Create Retrieve Update Delete)アプリケーションを生成したりできます。IDEは、すべてのタイプのエンティティ関係(1対1、1対多、多対1、および多対多)と、すべてのタイプの主キー(単一列、複合、および生成済)をサポートしています。IDEには、持続性ユニットの作成および管理を行うためのテンプレートおよびグラフィック・エディタも提供されています。IDEには、jpqlをideから直接実行できる、スタンドアロンのjpqlエディタがあります。
+
+ |
+
+[overview-centre]#image:javaee-serverdeploy.png[]#
+IDEでは、任意の標準Java EE (Java Enterprise Edition)コンテナを使用でき、GlassFish Server Open Source Edition 3.1.2、WebLogic 12cおよび11g、Apache Tomcat 7.0および6.0、JBoss 6.1などでテスト済です。
+
+ |
+
+IDEは、プロジェクトへの変更が行われると、実行中の任意のJava EEアプリケーションをすぐに再デプロイします。「保存時にデプロイ」は、Web、EJBおよびEARの各アプリケーションで使用でき、GlassFish 3.x、WebLogicおよびTomcat (ディレクトリ・ベースのデプロイメントが前提)でサポートされています。
+
+ 
+|===
+
+=== 関連項目
+
+* 最新の安定版リリースの個別機能のリストについては、link:/community/releases/73/index.html[NetBeans IDE 7.3リリース・ページ]を参照してください。
+* 最近の安定版リリースの機能の詳細は、link:http://wiki.netbeans.org/NewAndNoteworthyNB73[NetBeans IDE 7.3の新機能と注目すべき機能のページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/java-ee.html[「Java EEおよびJava Webの学習」]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,90 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ja
+:description: Apache NetBeans  index_ja
+:toc: left
+:toc-title:
+
+== JavaFX 2.1
+
+link:javafx2-main-big.png[image:javafx2-main.png[][font-11]#イメージをクリックして全画面表示#]
+
+*JavaFX 2は、リッチ・クライアント・プラットフォームとしてのJavaの進化における次のステップです。これは、エンタープライズ・ビジネス・アプリケーションに、軽量の、ハードウェアで高速化されたJava UIプラットフォームを提供するように設計されています。JavaFX 2では、開発者は標準のJava開発ツールを使用して、JavaFXアプリケーションをすべてJavaプログラミング言語で作成できます。ネイティブなシステム機能にアクセスすることも、サーバー・ベースのミドルウェア・アプリケーションにシームレスに接続することもできます。WindowsおよびMacの場合、JavaFX 2.1はJava JDK 7 Update 4にバンドルされています。JavaFX 2.1はlink:http://www.oracle.com/technetwork/java/javafx/downloads/index.html[Oracle.com]から別途ダウンロードすることもできます。詳細は、link:../../kb/docs/java/nb_fx_screencast.html[NetBeans IDEでのJavaFXサポートのビデオ]を参照してください。*
+
+|===
+|=== JavaFXプロジェクト image:new_small.gif[]
+
+IDEでJavaFXプロジェクトを作成できます。NetBeans IDEでは、次のタイプのJavaFXプロジェクトを作成できます。
+
+* *JavaFX FXMLアプリケーション**。*JavaFX FXMLアプリケーションでは、FXMLドキュメントを使用してグラフィック・レイアウトを定義し、Javaコントローラ・クラスを使用してアクションを定義します。NetBeans IDEはこのFXMLドキュメントとJavaコントローラ・クラスを作成します。IDEのJavaおよびXMLのコード編集機能を使用して、アプリケーションをさらに開発できます。
+* *JavaFXアプリケーション(FXMLなし)。*NetBeans IDEでは、従来のJavaスタイルのJavaFXプロジェクトを作成することもでき、この場合、グラフィック・レイアウトとアクションの両方がJavaクラスで定義されます。
+* *JavaFXプレローダ。*プレローダーはメイン・アプリケーションの前に起動し、起動操作をカスタマイズする小さなアプリケーションです。NetBeans IDEでは、JavaFXプレローダーを個別のプロジェクトとして作成するか、JavaFXアプリケーションの一部として作成できます。
+* *SwingアプリケーションでのJavaFX。*NetBeans IDEによってJava SEアプリケーションの作成が簡素化され、ユーザーはJFXPanel Swingコンポーネントを使用してFXコンポーネントを埋め込むことができます。
+ |
+
+image:javafx2-projecttypes.png[]
+
+ 
+
+|=== JavaFXアプリケーションのビルドと実行
+
+ 
+
+JavaFXアプリケーションのビルドおよび実行は、標準のJavaアプリケーションのビルドおよび実行と同様に行いますが、JavaFXプロジェクトは次の方法で実行するように構成できる点が異なります。
+
+* *スタンドアロン・アプリケーション。*プロジェクトは標準のJavaデスクトップ・アプリケーションとしてビルドおよび実行されます。
+* *Java Web Start。*アプリケーションはJNLPを使用します。IDEでは、アプリケーションをビルドするときにJNLPファイルが生成されます。
+* *ブラウザで。*IDEは、JNLPファイルをコールするHTMLページを使用して、アプリケーションをブラウザに埋め込みます。IDEでこのHTMLページを生成するか、ユーザー独自のWebページを使用できます。IDEからアプリケーションを実行した場合、IDEはローカル・ファイル・システム上のHTMLページを指すブラウザ・ページを開きます。
+ |
+
+image:javafx2-select-runas.png[]
+
+ 
+
+|=== JavaFXコードの編集
+
+NetBeans IDEの強力なlink:../java/javase.html[Javaコード・エディタ]を利用して、JavaFXアプリケーションをコーディングできます。
+
+ |image:javafx2-ineditor.png[] 
+
+|=== JavaFXのデバッグ
+
+新しいGUIビジュアル・デバッガなど、NetBeans IDEのlink:../java/debugger.html[Javaデバッグ・ツール]を使用して、JavaFXアプリケーションをデバッグできます。
+
+image:arrow-button.gif[] 詳細は、link:../../kb/docs/java/debug-visual.html[NetBeans IDEでのビジュアル・デバッガの使用]を参照してください。
+
+ |image:debug-take-snapshot.png[title="「デバッグ」メニューの「GUIスナップショットの取得」オプション"] 
+
+|=== サンプル・プロジェクト
+
+JavaFX 2.1とNetBeans IDEのサポートの機能を30を超えるJavaFX 2.1サンプル・プロジェクトで調べることができます。
+
+ |image:javafx2-sample-projects.png[] 
+
+|image:arrow-button.gif[] link:http://docs.oracle.com/javafx/index.html[JavaFXドキュメント・ホーム]: ダウンロード、デモ、FAQおよびチュートリアル。
+
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

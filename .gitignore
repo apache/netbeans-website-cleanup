@@ -4,7 +4,10 @@
 **/.nb-gradle
 **/.project
 **/.settings
-build
+./build
 buildSrc/build
 **/.nb-gradle-properties
 **/.vscode
+/website-html-to-asciidoc/target/
+*.swp
+*.swo

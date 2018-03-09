@@ -1,0 +1,103 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= java-ee_old
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  java-ee_old
+:description: Apache NetBeans  java-ee_old
+:toc: left
+:toc-title:
+
+== Java EE (Enterprise Edition)
+
+link:web-app.png[image:web-app-cut.png[][font-11]#Click image for fullscreen preview#]
+
+*Develop portable, robust, scalable and secure server-side Java applications. Java Enterprise applications are deployed to servers and can be accessed through a web browser.*
+
+|===
+|=== Full Support for Java Enterprise Edition 6
+
+The NetBeans IDE provides complete support for the latest Java EE 6 standards, including JSF 2.1 (Facelets), Java Persistence 2.0 and Contexts and Dependency Injection 1.0, as well as the Java EE 5, and J2EE 1.4 platforms. Use NetBeans IDE for development with the Java Persistence API, servlets, JavaServer Pages (JSP), Enterprise JavaBeans (EJB 3.1), link:web-services.html[web services] and other Java EE technologies.
+link:../../kb/docs/javaee/javaee-gettingstarted.html[Getting Started with Java EE 6 Applications]
+
+=== Contexts and Dependency Injection (JSR 299) image:improved_small.gif[]
+
+Use the New Project wizard or new File wizard to create files that are ready for Contexts and Dependency Injection (CDI). CDI allows Java EE components such as servlets, enterprise beans, and JavaBeans to exist within the lifecycle of an application with well-defined scopes. Right-click any injection point to trigger Go To Injectables and Inspect Injectables menu actions.
+link:../../kb/docs/javaee/cdi-intro.html[Getting Started with Contexts and Dependency Injection and JSF 2.0]
+
+ |
+
+image:javaee-projects_200px.png[]
+
+image:javaee-cdi.png[]
+
+ 
+
+|=== Server Deployment
+
+The IDE works with any standard Java Enterprise Edition (Java EE) container, and was tested with GlassFish Server Open Source Edition 3.1.2, WebLogic 12c and 11g, Apache Tomcat 7.0 and 6.0, JBoss 6.1, and others.
+
+=== JSF 2.0 Development
+
+NetBeans IDE supports Facelets, the official view technology for JSF 2.1. You can create a new web application project based on the Facelets framework and work with standard JSF reference implementation components. This includes a comprehensive library of JavaServer Faces components such as Table, Calendar, Tree, Tab Set, File Upload, and more.
+
+The IDE includes an editor for deployment descriptors (web.xml files) and an HTTP monitor for tracking and debugging the data flow between components of a web application. The IDE also supports various JSF component libraries (PrimeFaces, RichFaces, ICEfaces) that can simplify the development of facelet pages.
+link:../../kb/docs/web/jsf20-intro.html[Introduction to JavaServer Faces 2.0]
+
+=== JSF Code Generation and Palettes
+
+Use the JSF CRUD application generator (Create/Read/Update/Delete) to create a complete functional JSF page for manipulating data from a database. The New File wizard can generate customizable CRUD JSF pages from existing entities.
+
+Use the customizable HTML and JSF components palettes to drag and drop HTML and JSF forms into web pages and to generate JSF data tables from entities. The IDE now generates code using annotations instead of deployment descriptors where possible.
+
+=== Enterprise Java Beans (EJB) Development
+
+The IDE supports EJB 3.1 in web application projects. The EJB project file wizard provides options for creating Singleton session beans as well as Timer session beans for working with timed notifications. You can use a wizard to easily create a Session Bean for an entity class including the appropriate annotations and commonly used default methods. Beans can be exposed with a local interface or a no-interface view.
+link:../../kb/docs/javaee/javaee-entapp-ejb.html[Creating an Enterprise Application with EJB 3.1]
+
+=== Java Persistence
+
+The IDE provides tools to work with the Java Persistence API 2.0. Wizards enable you to generate entity classes from a database, and a JavaServer Faces CRUD (Create Retrieve Update Delete) application from entity classes. The IDE supports all types of entity relationships (one-to-one, one-to-many, many-to-one, and many-to-many) and all types of primary keys (single-column, composite, and generated). The IDE also provides templates and graphic editors for creating and maintaining persistence units.
+
+=== JavaServer Pages (JSP) Development
+
+In JavaServer Pages (JSP) files, the editor assists you with code completion, hypertext navigation, error checking, and debugging. You can also leverage the JavaServer Pages Standard Tag Library (JSTL).
+
+=== Deploy on Save
+
+The IDE instantly redeploys any running Java EE application when a change is made to the project. Deploy on Save is available for web, EJB and EAR applications, and supported for GlassFish 3.x, WebLogic and Tomcat (directory-based deployment is prerequisite).
+
+image:arrow-button.gif[] link:../../kb/trails/java-ee.html[Java EE and Java Web Learning Trail]
+
+ |
+
+image:javaee-serverdeploy.png[]
+
+
+image:javaee-jsfcode.png[]
+
+
+image:persistence-jsf.jpg[]
+
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

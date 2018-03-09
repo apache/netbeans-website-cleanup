@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index
+:description: Apache NetBeans  index
+:toc: left
+:toc-title:
+
+ 
+
+== Base IDE
+
+link:ide-basic-full.png[image:ide-basic-cut.png[][font-11]#Click image for fullscreen preview#]
+
+NetBeans IDE is a modular developer tool for a wide range of application development technologies. The base IDE includes an advanced multi-language editor, Debugger and Profiler, as well as tools for versioning control and developer collaboration.
+
+    [overview-right]#link:ide-basic-templates-full.png[image:ide-basic-templates-full-cut.png[]]#
+
+=== Templates and Sample Applications
+
+NetBeans IDE gives you skeleton applications in the form of project templates for all the technologies it supports. In addition, it provides a set of sample applications, some of which can be recreated step by step by following a related tutorial available on NetBeans.org.
+
+The IDE provides project templates and sample projects that help you create Java SE applications, Java EE applications, Java ME applications, HTML5 applications, NetBeans Platform applications, PHP application, and C/C++ applications.
+
+link:../../kb/index.html[NetBeans Technology Learning Trails]
+
+     [overview-left]#link:ide-basic-services-full.png[image:ide-basic-services-cut.png[]]#
+
+=== Databases and Services
+
+The Services window gives you access to many ancillary resources, such as databases, servers, web services, and issue trackers.
+
+You can start and stop databases and servers directly in the IDE. When working with databases, you can add, remove, and modify your data in the IDE. When you have deployed an application to a server, you can manage your deployed resources because they are displayed in the Servers node.
+
+You can connect to a bug database, such as Issuezilla or Bugzilla, and list issue reports for your project right in the IDE.
+
+link:../../kb/trails/tools.html[Integration with External Tools and Services]
+
+     [overview-right]#link:ide-basic-plugins.png[image:ide-basic-plugins-cut.png[]]#
+
+=== Plugin Manager
+
+While using the IDE, you can always go to the Plugin Manager from the Tools menu to add, remove, or update the installed set of features.
+
+A wide variety of plugins are available for all types of development, from Java SE, Java EE, Java ME, HTML5, Groovy, and PHP to C/C++ development.
+
+Community contributed plugins are also available in the NetBeans Plugin Portal.
+
+link:http://plugins.netbeans.org/[NetBeans Plugin Portal]
+
+ 
+|===
+
+|=== Quick Search
+
+ |
+
+=== Action Items
+
+ |
+
+=== Customizable Workspace
+
+ 
+
+|[overview-centre]#image:ide-basic-quick-search.png[]#
+The Quick Search is a centralized location where you can do searches throughout all Java types in the JDK, actions in the IDE, help sets, options settings, and projects.
+
+ |
+
+[overview-centre]#image:ide-basic-actionitems-cut.png[]#
+The Action Items window automatically scans your code and lists commented lines containing words such as "TODO" or "FIXME", as well as lines with compilation errors, quick fixes, and style warnings.
+
+ |
+
+[overview-centre]#image:ide-basic-customize.png[]#
+The IDE's workspace can be modified. You can customize the buttons in the toolbar and drag and reposition tabs in the IDE application frame to suit your individual workflow. You can undock tabs and drag them outside the application frame, even onto a different monitor.
+
+ 
+|===
+
+=== See Also
+
+* link:../../community/releases/81/index.html[NetBeans IDE 8.1 Release Page] for a list of highlighted features in the latest stable release.
+* link:../../kb/trails/java-se.html[General Java Development Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.
