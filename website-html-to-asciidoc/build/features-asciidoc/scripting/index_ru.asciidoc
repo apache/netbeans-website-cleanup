@@ -1,0 +1,92 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ru
+:description: Apache NetBeans  index_ru
+:toc: left
+:toc-title:
+
+== Динамические языки в IDE NetBeans
+
+link:dynamic-languages-big.png[image:dynamic-languages.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+*IDE NetBeans не только является оптимальным выбором для разработки на Java, но при этом пользователи также получают интегрированную поддержку для динамических языков — и все это в одном многофункциональном средстве.*
+
+|===
+|=== PHP
+
+Среда IDE NetBeans предлагает интегрированную среду разработки для создания, выполнения и отладки приложений PHP, доступную в одной небольшой загрузке.
+
+См. link:../php/index.html[Разработка на PHP].
+
+ |image:php-codecompletion.png[] 
+
+|=== HTML, JavaScript и CSS
+
+IDE NetBeans также обеспечивает полную поддержку редактора для HTML, JavaScript и CSS. Используйте преимущества таких функций, как подсветка синтаксиса, автозавершение кода, всплывающая документация и проверка ошибок для HTML, CSS и JavaScript, включая HTML 5, JavaScript 1.7 и семантическое выделение для E4X (внедрённые объекты XML). Редактор распознает код HTML в файлах JavaScript и код JavaScript в файлах HTML files. Редактор также распознает HTML и JavaScript файлах XHTML, PHP и JSP.
+
+==== HTML image:improved_small.gif[]
+
+Можно использовать редактор в среде IDE для быстрого окружения кода тегами или удаления окружающего тега с помощью нескольких подсказок. Можно переместить встроенные стили в блок стилей или файл .css.
+
+==== CSS image:improved_small.gif[]
+
+Поддержка IDE NetBeans CSS 3. Реорганизация, семантическое выделение, пометка вхождений и другие функции адаптированы к коду CSS3. Автозавершение кода CSS теперь включает в себя автозавершение элементов html, свойств CSS3 и их значений, новых псевдоклассов и псевдоэлементов, а также префиксов пространства имен. Свойства, зависящие от производителя (свойства префикса-дефиса), также добавлены в автозавершение кода. В окне навигатора теперь отображаются классы css, идентификаторы, элементы, пространства имен и правила в виде отдельных наборов элементов.
+
+==== JavaScript
+
+При указании на версий и типов браузера на панели параметров JavaScript редактор предоставляет данные о совместимости с браузером во время ввода.
+
+Перетащите удобные в использовании фрагменты кода для форм и таблиц с палитры HTML в редактор. Измените правила CSS и выполните предварительный просмотр результатов в визуальном редакторе CSS.
+link:../../kb/docs/web/js-toolkits-jquery.html[Использование jQuery для улучшения внешнего вида веб-страницы и упрощения работы с ней]
+
+ |
+
+ 
+
+image:html-surround-tag-hints.png[]
+
+image:css-cc.png[]
+
+image:javascript-browser-options.png[]
+
+ 
+
+|=== Groovy и Grails
+
+IDE NetBeans напрямую поддерживает Groovy, динамический язык программирования для платформы Java, и Grails, веб-платформу приложений, в которой используется язык Groovy. Используйте эту среду для разработки приложений, полностью написанных на языке Groovy, или сочетайте использование Groovy и Java для получения всех преимуществ динамической природы Groovy в своих проектах Java.
+
+ 
+|===
+
+ 
+
+
+|===
+|image:arrow-button.gif[] link:../php/index.html[PHP]
+Быстрая и облегченная IDE PHP. |image:arrow-button.gif[]link:../groovy/index.html[Groovy]
+Интеграция Groovy с Java SE и использование веб-платформы Grails. |image:arrow-button.gif[]link:../javascript/index.html[JavaScript]
+Создание веб-страниц, усовершенствованных с помощью JavaScript. 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

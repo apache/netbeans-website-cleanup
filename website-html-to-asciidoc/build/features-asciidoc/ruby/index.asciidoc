@@ -1,0 +1,91 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index
+:description: Apache NetBeans  index
+:toc: left
+:toc-title:
+
+== Ruby and Ruby on Rails
+
+link:ruby.png[image:ruby-cut.png[][font-11]#Click image for fullscreen preview#]
+
+*NOTE: As of NetBeans IDE 7.0, support for Ruby and Ruby on Rails is no longer available in the standard NetBeans IDE build. Please see the link:http://wiki.netbeans.org/RubySupport[Ruby Support Wiki page] for more information.*
+
+|===
+|=== Ruby Source Code Editor
+
+The editor indents, completes, and highlights your Ruby code syntactically as well as semantically. It assists you with rename refactoring, type inference, and navigation. The editor parses your code live as you type, so it can match words and brackets, mark errors and occurrences, and display new quick fixes and RDoc. With a few keystrokes you insert commonly used code snippets from live templates.
+
+ |
+
+image:ruby-editor.png[]
+
+ 
+
+|=== Ruby Projects
+
+The Ruby project type supports Ruby files, RSpec specification files, and YAML files. Use the Ruby Platform manager to choose between executing projects using JRuby, or any other native Ruby interpreter on your system.
+
+The IDE has Rake build tool integration and gives you access to the Interactive Ruby Shell (IRB). Refactoring and support for Test::Unit, Auto Test, Shoulda tests, and RSpec are well integrated. You can also track hints and errors in the task list.
+
+
+=== Ruby on Rails Projects
+
+The Ruby on Rails project type supports Rake targets and database migrations. The Rake Runner dialog keeps a list of the previously entered parameters and automatically populates the list of parameters for migrate and fixtures tasks. You can generate Rails 3 projects, or generate code through the Rails code generator graphical wizard. The logical project view clearly separates controllers from models, views, and database migrations.
+
+Edit ERB files and deploy projects directly to the WEBrick and Mongrel web servers. You can jump quickly between a Rails action and its corresponding view, and warp to the browser for the URL most relevant to the file you are editing.
+
+=== Ruby and Rails Debugger
+
+Single-step or run through Ruby code and ERB files. Set breakpoints, look at local variables, navigate the call stack, switch threads. Hover the mouse over a variable in the Editor to evaluate the expressions and show it in a tooltip. The NetBeans IDE supports the Fast Ruby Debugger, which also works with JRuby. You can debug Ruby files that are not part of a NetBeans project, or attach the debugger to any remote process started from the command line, and get all the advantages of a user-friendly debugger frontend.
+
+ |
+
+image:ruby-test.png[]
+
+image:ruby-files.png[]
+
+image:ruby-rails.png[]
+
+image:ruby-debugger.png[]
+
+ 
+
+|=== Ruby Gems Installation Manager
+
+Extend your Ruby installation using the integrated Ruby Gems packaging system. You can configure $GEM_PATH or $GEM_HOME using the Gems installation manager. Add and manage freely available Ruby software libraries, and distribute your own packages. The Gem Manager even allows you to uninstall a certain version of a gem.
+
+If you install the Bundler gem, you can run Bundler actions from the project context menu.
+
+ 
+
+image:arrow-button.gif[] link:http://wiki.netbeans.org/wiki/view/Ruby[The Ruby Wiki]
+
+image:arrow-button.gif[] link:http://wiki.netbeans.org/RubySupport[Ruby Support Wiki]
+
+
+ |image:ruby-gems.png[] 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

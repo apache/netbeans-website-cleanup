@@ -1,0 +1,93 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= composer_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  composer_ja
+:description: Apache NetBeans  composer_ja
+:toc: left
+:toc-title:
+
+== JavaFX Composer
+
+link:javafx-composer.png[image:javafx-composer-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+*JavaFXアプリケーションのビジュアル・レイアウト・ツール。*
+
+*警告:* JavaFX Composerは、JavaFX 1.xスクリプト作成言語用のツールです。このスクリプト作成言語は、JavaFX 2.xには含まれていません。そのため、JavaFX ComposerはJavaFX 2.0では使用できません。
+
+JavaFX 1.xおよびJavaFX ComposerをサポートするNetBeans IDEの最後のバージョンはNetBeans IDE 6.9.1です。JavaFX 2.0のサポートはNetBeans IDE 7.1から開始されます。NetBeans IDEでJavaFX 2.0を使用する方法の詳細は、link:http://wiki.netbeans.org/JavaFX[JavaFX NetBeans Wiki]を参照してください。NetBeans IDEでJavaFX 1を使用する方法の詳細は、link:http://wiki.netbeans.org/JavaFX1.3[JavaFX 1.3 NetBeans Wiki]を参照してください。
+
+|===
+|=== JavaFX Composer
+
+ 
+
+NetBeans GUIビルダーがJava SEアプリケーション用のビジュアル・レイアウト・ツールであるように、JavaFX ComposerはJavaFXアプリケーション用のビジュアル・レイアウト・ツールです。標準のJavaFX制御を使用してGUIを作成したり、状態を使用してアプリケーション・フローを定義したりできます。
+
+ |
+
+image:javafx-composer.png[]
+
+ 
+
+|=== 状態管理
+
+ 
+
+JavaFXの「状態」ウィンドウでは、コンポーネントのアニメーション、可視性、およびプロパティをすばやく制御できます。コンポーネントを制御するために、状態(同時点で適用されるプロパティ値のセット)を定義します。
+
+マスター状態にデフォルト・プロパティを定義してから、独立して変更されるプロパティの並列状態セットを作成します。もう1つの状態に切り替えることで、アプリケーションはユーザー入力に応答します。
+
+
+=== 日常のあらゆる画面に
+
+ 
+
+JavaFX Composerを使用すると、モバイル・デバイス、TVシステム、デスクトップ、およびWebブラウザ上で使用できる複数の画面を持つアプリケーションを簡単に開発できます。すべてのプロジェクトには、IDEによって生成されるAntビルド・スクリプトが備わり、アプリケーションのビルドおよび実行に使用されます。ビルド・スクリプトは、JavaFXモバイル・エミュレータやJavaFX TVエミュレータ上で、Web Start (JNLP)またはブラウザ・アプレットとしてアプリケーションを実行するように事前構成されています。
+
+ |
+
+image:javafx-states.png[]
+
+link:http://www.javafx.com/[image:javafx-screens.png[]]
+
+ 
+
+|=== 組込みのデータ接続 image:new_small.gif[]
+
+JavaFXアプリケーションにデータ・ソースへの接続が必要な場合は、プロジェクト・テンプレートを使用すると、JavaFXビジネス・デスクトップ・アプリケーションやJavaFXモバイル・ビジネス・アプリケーションを簡単に作成できます。「デザイン」ビューを使用して、ユーザー・インタフェースをRESTful Webサービス、データベース、ローカル・ファイル・システム、データ・ファイルなどのデータ・ソースへ接続します。
+
+
+image:arrow-button.gif[] link:https://netbeans.org/kb/trails/matisse.html[JavaFXおよびSwing GUIの学習]。
+
+image:arrow-button.gif[] link:http://www.javafx.com/[javafx.com]でダウンロード、デモ、FAQおよびドキュメントを入手できます。
+
+ |
+
+image:javafx-data.png[]
+
+ 
+|===
+
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

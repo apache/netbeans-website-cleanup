@@ -1,0 +1,76 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= build-tools_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  build-tools_pt_BR
+:description: Apache NetBeans  build-tools_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Ferramentas de Compilação
+
+link:ide-buildtools-maven-full.png[image:ide-buildtools-maven-cut.png[] [font-11]# Clique na imagem para exibição em tela inteira#]
+
+Assuma o controle de sua compilação onde seu código estiver, com ferramentas padrão de compilação integradas ao IDE.
+
+    [overview-right]#link:ide-collaboration-hudson-full.png[image:ide-collaboration-hudson-cut.png[]]#
+
+=== Hudson
+
+O NetBeans IDE permite criar e gerenciar servidores contínuos Hudson e trabalhos Hudson relacionados. Você pode registrar as instâncias do Hudson, criar novos trabalhos do Hudson e exibir resultados fornecidos pelo servidor.
+
+Procure seus jobs Hudson hospedados, compilações, espaços de trabalho e artefatos e inspecione a console de compilação na janela de Saída do IDE. Quando uma compilação falha, você é imediatamente notificado na barra de status do IDE.
+
+Para descobrir o motivo da falha do job, clique com o botão direito do mouse em um nó de construção e inspecione os rastreamentos de pilha de todos os testes com falha. Também é possível exibir dentro do IDE o registro de alterações e pesquisar as diferenças do arquivo de forma fácil para o usuário.
+
+link:http://wiki.netbeans.org/HudsonInNetBeans[Hudson no NetBeans IDE]
+
+     [overview-left]#link:ide-buildtools-maven-full.png[image:ide-buildtools-maven-cut2.png[]]#
+
+=== Maven
+
+O NetBeans IDE suporta o sistema de compilação Maven para ajudá-lo a gerenciar dependências de projeto, compilações, relatórios e documentação. Abra, compile, execute, depure, crie perfis e implante projetos existentes do Maven, que podem ser abertos diretamente no IDE, sem um procedimento de importação. São fornecidos assistentes para criar novas aplicações com base nos Arquétipos Maven existentes.
+
+Quando você está executando, testando ou depurando suas aplicações, o IDE executa as metas do Maven no arquivo pom.xml. O editor XML inclui funcionalidades dedicadas do Maven, como preenchimento, modelos e geradores de código.
+
+O browser do Repositório Maven do IDE permite que você navegue no conteúdo do repositório local e de qualquer repositório remoto registrado. Adicione seus próprios repositórios, procure artefatos e adicione artefatos como dependências aos projetos. Você pode exibir dependências de biblioteca, de runtime e de biblioteca de teste. As views distinguem entre tipos de dependência e marcam a disponibilidade local de javadoc e códigos-fonte. Gráficos mostram dependências diretas e transitórias e identificam conflitos de versão. São fornecidas ferramentas para incluir e excluir dependências.
+
+link:http://wiki.netbeans.org/MavenBestPractices[Maven no NetBeans IDE]
+
+     [overview-right]#link:ide-buildtools-ant-full.png[image:ide-buildtools-ant-cut.png[]]#
+
+=== Ant
+
+O sistema de projetos default do NetBeans IDE foi criado diretamente sobre o sistema de compilação Ant. Todos os comandos do projeto, como "Compilar Projeto" e "Executar Arquivo no Depurador", chamam alvos no script Ant do projeto. Portanto, é possível construir e executar um projeto fora do IDE, exatamente como é construído e executado dentro do IDE.
+
+Não é necessário conhecer bem o Ant para trabalhar com aplicações IDE. É possível definir todas as opções básicas de compilação e runtime na caixa de diálogo Propriedades do projeto no projeto e o IDE atualiza automaticamente o script do Ant do projeto. Se você souber como trabalhar com Ant, poderá personalizar um script de Ant do projeto diretamente ou escrever seu próprio script Ant para o projeto.
+
+ 
+
+=== Consulte Também
+
+* link:/community/releases/73/index.html[Página de Release do NetBeans IDE 7.3] para obter uma lista de funcionalidades específicas da última versão estável.
+* Obtenha mais detalhes sobre funcionalidades da última release mais estável na link:http://wiki.netbeans.org/NewAndNoteworthyNB73[página Novidades e Destaques do NetBeans IDE 7.3].
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,75 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= osgi_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  osgi_pt_BR
+:description: Apache NetBeans  osgi_pt_BR
+:toc: left
+:toc-title:
+
+== Interoperabilidade NetBeans OSGi
+
+link:osgi.png[image:osgi-cut.png[]]
+
+link:osgi.png[[font-11]#Clique na imagem para exibição em tela inteira#]
+
+*O melhor dos dois mundos: o OSGi e o Runtime do Contêiner NetBeans coexistem.*
+
+|===
+|=== Interoperabilidade do Framework OSGi
+
+O Framework OSGi é um sistema de registro de módulo e serviço para criar aplicações modulares. Com o NetBeans IDE, é fácil criar pacotes para serem usados nas aplicações Java e nas aplicações com base na Plataforma NetBeans.
+
+=== O OSGi encontra NetBeans
+
+No NetBeans IDE, agora é simples usar pacotes OSGi existentes em suas aplicações da Plataforma NetBeans. Você pode criar uma ponte que permite a reutilização e execução de grupos OSGi próximos aos módulos NetBeans nativos.
+
+=== O OSGi em projetos Maven e Ant
+
+ 
+
+O NetBeans IDE ativa a criação e construção de grupos puros OSGi para um protótipo Maven e, em seguida, acessa os grupos para as aplicações que são executados em um contêiner OSGi, tanto nas aplicações Java já existentes quanto nos aplicação com base em plataforma. É possível adicionar artefatos binários (JARs) de um grupo de pacotes OSGi relacionados como um agrupamento extra para sua aplicação de plataforma NetBeans com base no Ant.
+
+Utilize o submenu OSGi em qualquer menu de contexto de projeto da aplicação da plataforma com base no Ant para converter a aplicação completamente para pacotes OSGi. É possível executá-lo nativamente no contêiner OSGi sem a necessidade de um sistema de módulo NetBeans com ponte.
+
+=== Contêineres OSGi: Felix e Equinox
+
+ 
+
+É possível executar os pacotes OSGi no contêiner de runtime do Apache Felix OSGi, que é agrupado com o NetBeans IDE. A Aplicação da Plataforma com base no Equinox em Novo Projeto > Amostra > Módulos NetBeans e tutoriais relacionados irão ajudar você a integrar os grupos OSGi em uma aplicação de plataforma alimentado pelo contêiner de runtime Equinox.
+
+image:arrow-button.gif[] link:../../kb/trails/platform.html[Tutoriais de OSGi e NetBeans]
+
+image:arrow-button.gif[] link:http://wiki.netbeans.org/OSGiAndNetBeans[Visão Geral de OSGi e NetBeans]
+
+ |
+
+image:maven-osgi.png[]
+
+image:osgi-cluster.png[]
+
+image:osgi-project.png[]
+
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

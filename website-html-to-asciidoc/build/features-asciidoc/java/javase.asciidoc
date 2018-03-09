@@ -1,0 +1,109 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= javase
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  javase
+:description: Apache NetBeans  javase
+:toc: left
+:toc-title:
+
+== Java SE (Standard Edition)
+
+link:java-se.png[image:java-se-cut1.png[][font-11]#Click image for fullscreen preview#]
+
+*The NetBeans IDE provides Java developers with all the tools they need to create professional Java SE applications. The NetBeans IDE supports development for JDK 6 and JDK 7.*
+
+|===
+|=== Desktop Application Development
+
+Java SE is the programming platform for developers who create browser applets, command line tools, and graphical user interfaces targeted for desktop users. Applications written in Java run on Windows, Mac OS, Linux, Solaris and other operating systems.
+
+ 
+
+=== Annotation Processors
+
+ 
+
+Attach annotation processors to a project and use them while working on your code. The NetBeans IDE supports third-party annotation processors, such as JPA 2.0 from JEE or custom ones.
+
+ 
+
+=== Javadoc Integration
+
+Use the Auto Comment action to generate Javadoc code for your methods. Use the Javadoc Analyzer plugin to check and fix existing Javadoc comments.
+
+ 
+
+=== Java Call Hierarchy
+
+The Java Call Hierarchy view displays a tree representing the hierarchy of callers and callees of the selected method in a project.
+
+ 
+
+=== Compile on Save
+
+The Build action has been replaced by the Compile on Save feature: Now the IDE builds your project automatically and the run/debug/test actions are immediately available after saving a file.
+
+If you save changes to a method while the debugger is already running the running application will be automatically reloaded. Compilation errors inside a method don't stop you from running your program: The debugger will halt when the program runs into the method in question.
+
+ |
+
+image:javaSE_logo_150px.png[]
+
+image:annotation-processor.png[]
+
+
+image:java-call-hierarchy.png[]
+
+ 
+
+|=== Unit Testing Tools
+
+JUnit 3 and 4 are integrated into the IDE. You can quickly create, run and re-run unit tests and view the test results in the IDE. The editor provides keyboard shortcuts for fast navigation between the test and the class it is testing.
+
+ |
+
+image:unit-test.png[]
+
+ 
+
+|=== Non-Proprietary Project Build System
+
+The NetBeans IDE stores your project information in open, extendible, non-proprietary formats such as Apache Ant and Maven scripts.
+
+ 
+
+=== Integrated Tools
+
+The Java Bean support makes Bean property generation and BeanInfo editing easier. The NetBeans GUI Builder assists you with Java Swing development, from the prototype to the final graphical user interface. The well-integrated NetBeans debugger and the NetBeans profiler help you to write rock-solid Java desktop software.
+
+ |image:baseIDE_ant_powered_150px.png[] 
+|===
+
+ 
+
+image:arrow-button.gif[] link:../../kb/trails/java-se.html[Basic IDE and Java Programming Learning Trail]
+
+image:arrow-button.gif[] link:../../kb/trails/platform.html[NetBeans Platform Learning Trail]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

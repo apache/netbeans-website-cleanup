@@ -1,0 +1,61 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= development-cycle_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  development-cycle_pt_BR
+:description: Apache NetBeans  development-cycle_pt_BR
+:toc: left
+:toc-title:
+
+== Testando e Analisando Código
+
+<img src="../../images_www/v7/3/features/php/testing-top.png" alt="PHP development in NetBeans IDE" class="box" border="none"
+
+Quando você estiver testando sua aplicação, o IDE oferecerá ferramentas para usar o PHPUnit, gerar relatório de cobertura de código e assim por diante.
+
+[overview-right]#image:phpunit.png[]#
+
+=== Teste da Unidade de PHP
+
+Crie testes link:http://www.phpunit.de/manual/current/en/[PHPUnit] e casos de teste Selenium para arquivos ou pastas, execute testes e exiba os resultados dos testes. Você pode definir grupos de teste para executar seletivamente teste da unidade. Nas propriedades do PHPUnit, você pode definir um arquivo de configuração XML personalizado, um arquivo bootstrap para opções da linha de comando, um conjunto de teste personalizado ou script de PHPUnit específico do projeto. Você pode permitir ao IDE gerar o código de estrutura usando o link:http://www.phpunit.de/manual/current/en/skeleton-generator.html[Gerador de Estrutura do PHPUnit]. Use um atalho do teclado para navegar rapidamente entre o teste e a classe testada.
+link:http://netbeans.org/kb/docs/php/phpunit.html[Testando com PHPUnit e Selenium]
+
+  [overview-left]#image:php-code-coverage.png[]#
+
+=== Cobertura de Código
+
+Gere um relatório de Cobertura de Código para arquivos PHP para ver até que ponto os casos de teste abrangem o código: as instruções de cobertura são marcadas em verde no editor, as instruções que não foram executadas durante o teste são marcadas em vermelho. A avaliação se baseia na quantidade de instruções executáveis, as linhas com espaços em branco e os comentários não interferem no resultado.
+
+  [overview-right]#image:ide-collaboration-hudson-cut.png[]#
+
+=== Suporte de Integração Contínua
+
+O NetBeans IDE suporta integração contínua. Integração contínua é uma prática de desenvolvimento de software que envolve o controle da versão e um servidor especializado. O servidor especializado é executado em testes de Cobertura de Código e PHPUnit no software. Os resultados de teste são associados com informações de controle de versão, portanto, os desenvolvedores podem identificar bugs que eles introduzem para o software de forma rápida e fácil. O Netbeans usa link:http://jenkins-php.org/[Modelo para Jobs de Jenkins para projetos PHP], que deve ser configurado com os plug-ins necessários e ferramentas no servidor de integração.
+
+ 
+
+=== Consulte Também
+
+* link:/community/releases/81/index.html[Página de Release do NetBeans IDE 8.1] para obter uma lista de funcionalidades específicas da última versão estável.
+* link:../../kb/trails/php.html[Trilha de Aprendizado de PHP e HTML5] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

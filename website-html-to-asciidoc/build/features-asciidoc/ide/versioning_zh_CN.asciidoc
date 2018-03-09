@@ -1,0 +1,85 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= versioning_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  versioning_zh_CN
+:description: Apache NetBeans  versioning_zh_CN
+:toc: left
+:toc-title:
+
+ 
+
+== 版本控制
+
+link:versioning-base-full.png[image:versioning-base-cut.png[][font-11]#单击图像查看全屏预览#]
+
+NetBeans IDE 让您可以轻松直观地使用一系列常用的版本控制系统
+
+  [overview-right]#link:ide-collaboration-version-full.png[image:ide-collaboration-version-cut.png[]]#
+
+=== 版本控制工具
+
+NetBeans IDE 使用方便，可用来访问 Git、Mercurial 和 Subversion 资源库。通过提供的插件可以使用 CVS 和 ClearCase 资源库。
+
+NetBeans 编辑器使用颜色编码来突出显示已经添加、删除和修改的行。通过提供的工具可以提取、推入、获取、搁置和查看更改、差异和本地历史记录，以及直观地解决合并冲突。通过提供的可视工具可以执行复杂活动，例如，将功能分支合并回主干，以在分支和修订之间执行比较，在队列之间切换，以及支持重定基址操作。
+
+link:../../kb/docs/ide/git.html[在 NetBeans IDE 中使用 Git 支持]
+link:../../kb/docs/ide/mercurial.html[在 NetBeans IDE 中使用 Mercurial 支持]
+link:../../kb/docs/ide/subversion.html[在 NetBeans IDE 中使用 Subversion 支持]
+link:../../kb/docs/ide/cvs.html[在 NetBeans IDE 中使用 CVS 支持]
+link:../../kb/docs/ide/clearcase.html[在 NetBeans IDE 中使用 ClearCase 支持] 
+|===
+
+|=== Git
+
+ |
+
+=== Mercurial
+
+ |
+
+=== Subversion
+
+ 
+
+|[overview-centre]#image:versioning-git.png[]#
+由于 Git 是分布式修订控制系统，您通常一开始是使用 IDE 来克隆外部资源库以便处理。使用 IDE 将您的更改推送回原始资源库，或者将更改导出并发送到所有者。
+
+ |
+
+[overview-centre]#image:versioning-mercurial.png[]#
+IDE 支持 Mercurial，这样您就可以克隆资源库以及管理在工作时对版本受控制的文件所做的更改。在 IDE 的“项目”、“文件”和“收藏夹”窗口中对文件和目录都可以调用 Mercurial 命令。另请参见 link:http://netbeans.org/kb/docs/ide/mercurial-queues.html[Mercurial 队列指南]。
+
+ |
+
+[overview-centre]#image:versioning-subversion.png[]#
+IDE 支持 Subversion，通过直接在 IDE 各个窗口（例如，“项目”、“文件”、“收藏夹”、“版本控制”）中显示状态信息，使您可以在工作时调用 Subversion 命令，从而管理版本受控制的文件中更改的演变。
+
+ 
+|===
+
+=== 另请参见
+
+* link:../../community/releases/81/index.html[NetBeans IDE 8.1 发行版页]，提供最新的稳定发行版中的重要功能列表。
+* link:../../kb/trails/java-se.html[常规 Java 开发学习资源]，提供将帮助您入门的教程。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

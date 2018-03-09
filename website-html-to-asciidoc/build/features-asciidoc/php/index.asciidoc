@@ -1,0 +1,98 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index
+:description: Apache NetBeans  index
+:toc: left
+:toc-title:
+
+== PHP Development
+
+image:php-ide_top.png[]
+
+A dedicated PHP coding environment and complete integration with web standards, with full support for HTML5, JavaScript, and CSS3 development, as described on the link:../html5/index.html[HTML5 Web Development Support] page.
+
+[overview-right]#image:php-code-completion_small.png[]#
+
+=== Powerful PHP Source Code Editor
+
+The NetBeans PHP editor provides code templates and code generation tools, such as "getter and setter" generation, refactoring, such as "instant rename", parameter tooltips, hints, and quick fixes, and smart code completion.
+
+Benefit from syntactic and semantic code highlighting, pop-up documentation, code formating and folding, marking of occurrences and exit points, clever try/catch code completion, smart method parameter pre-filling, and rectangular selection.
+
+  [overview-left]#image:php-54-traitcc_small.png[]#
+
+=== PHP 5.6 Support
+
+NetBeans IDE for PHP offers a number of features specific to developing with the latest features of PHP.
+
+For example, in support of link:http://php.net/manual/en/migration56.new-features.php[PHP 5.6], the PHP editor supports variadic functions. For example, in support of link:http://php.net/manual/en/migration55.new-features.php[PHP 5.5], the PHP editor provides support for the various new language features.
+
+For example, in support of PHP 5.4, you can set up your PHP project to run on PHP's link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_built[built-in web server]. The IDE's PHP code completion supports PHP 5.4 array styles such as link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_array[array dereferencing] and link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_short[short array syntax]. NetBeans IDE also recognizes link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_traits[Traits] and link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_anonymous[anonymous object variables] (also called "fluent instantiation"). Finally, NetBeans IDE includes link:https://blogs.oracle.com/netbeansphp/entry/php_5_4_support_minor[minor features] such as callable type hints, binary notation for integers, and `Class::{expr}()` invocation.
+
+  [overview-right]#image:frameworks.png[]#
+
+=== Web Frameworks
+
+NetBeans IDE supports the following popular web frameworks:
+
+* link:http://framework.zend.com/[Zend Framework] (link:https://netbeans.org/kb/docs/php/zend-framework-screencast.html[screencast])
+* link:http://symfony.com/[Symfony2 Framework]
+* link:http://symfony.com/legacy[Symfony1 Framework] (link:https://netbeans.org/kb/docs/php/symfony-screencast.html[screencast])
+
+Create new PHP projects with these frameworks, run framework commands, navigate from controllers (actions) to views, use framework annotations and code completion in the editor, and customize settings.
+
+  [overview-left]#image:ide-collaboration-hudson-cut.png[]#
+
+=== Continuous Integration Support
+
+NetBeans IDE for PHP has support for continuous integration. Continuous integration is a software development practice involving version control and a specialized server. The specialized server runs scheduled PHPUnit and Code Coverage tests on the software.
+
+Test results are associated with version control information, so that developers can identify bugs they introduce to the software quickly and easily. The IDE uses link:http://jenkins-php.org/[Template for Jenkins Jobs for PHP Projects], which must be set up with the necessary plugins and tools on the integration server.
+
+link:https://netbeans.org/kb/docs/php/screencast-continuous-builds.html[Support for PHP on Continuous Build Servers]
+
+  [overview-right]#image:php-project.png[]#
+
+=== PHP Projects
+
+The NetBeans project offers a version of the IDE tailor-made for developing PHP web sites that comprise a variety of scripting and mark-up languages. The PHP editor is dynamically integrated with HTML, JavaScript and CSS editing features.
+
+Focus on the code and speed up code scanning by excluding individual directories in the Project properties. The NetBeans IDE fully supports iterative development, so testing PHP projects follows the classic patterns familiar to web developers.
+
+  [overview-left]#image:php-debugger.png[]#
+
+=== Debugger
+
+Debug PHP code using Xdebug: You can inspect local variables, set watches, set breakpoints, and evaluate code live. Navigate to declarations, types and files using Go To shortcuts and hypertext links. Use a global PHP include path for all projects or customize it per project.
+
+The NetBeans IDE for PHP also offers command-line debugging: The PHP program output appears in a command line display in the IDE itself and you can inspect the generated HTML without having to switch to a browser.
+
+You can debug scripts and web pages, either locally or remotely. The NetBeans PHP debugger integration allows you to map server paths to local paths to enable remote debugging.
+
+=== See Also
+
+* link:/community/releases/81/index.html[NetBeans IDE 8.1 Release Page] for a list of specific features in the latest stable release.
+* link:../../kb/trails/php.html[PHP and HTML5 Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

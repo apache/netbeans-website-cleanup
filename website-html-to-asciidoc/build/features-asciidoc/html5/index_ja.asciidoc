@@ -1,0 +1,143 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ja
+:description: Apache NetBeans  index_ja
+:toc: left
+:toc-title:
+
+ 
+
+== HTML5 Web開発のサポート
+
+link:html5-dev.png[image:html5-dev-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+NetBeans IDE 7.3では、HTML5テクノロジ・ファミリを利用したクライアント側Webアプリケーションの開発体験をサポートおよび強化する新機能が導入されています。これを使用すると、デスクトップ・プラットフォームとモバイル・プラットフォームを同時にターゲットとする即応性の高いWebデザイン・パラダイムに対応した、リッチなWebアプリケーションをすばやく直観的に作成できます。また、link:../java-on-server/index.html[Java EE]およびlink:../php/index.html[PHP]アプリケーション内のHTML5テクノロジを使用できます。
+
+    [overview-right]#link:html5-app.png[image:html5-app-cut.png[]]#
+
+=== 高速なHTML5開発のサポート
+
+NetBeans IDEを使用すると、HTML5プロジェクトの作成時からHTML5 Webアプリケーションの開発を高速化できます。一般的なHTML5プロジェクト用オンライン・テンプレートのリストから選択することも、サイト・テンプレートの.zipアーカイブの場所を指定することも可能です。サイト・テンプレートに基づいてプロジェクトを作成する場合、ファイル、ライブラリ、およびプロジェクトの構造はテンプレートによって決まります。
+
+もしくは、link:../java-on-server/index.html[Java EEアプリケーション]およびlink:../php/index.html[PHPアプリケーション]の作成後に後述するすべてのHTML5機能を使用することもできます。
+
+一度設定すれば、Webページのライブ・プレビュー、エディタ・サポート、デバッグ、その他の機能がHTML5、Java EEおよびPHPアプリケーションの開発、テストおよびデバッグを支援します。
+
+link:../../kb/docs/webclient/html5-gettingstarted.html[HTML5開発の開始]
+
+     [overview-left]#link:html5-preview.png[image:html5-preview-cut.png[]]#
+
+=== Webページのライブ・プレビュー
+
+Chromeと内部埋込みWebKitブラウザ(どちらもWebKitベース)の緊密な統合により、コードとページ・デザインのシームレスな結び付きが保証されます。これがWYSIWYGより優れているのは、熟練した開発者のほとんどが認めるところです。
+
+リモートのWebKit APIを使用することで、従来どおりIDEでコードを完全に把握し制御しながら、ブラウザ・ページでビジュアル・フィードバックを即座に得ることができます。
+
+*注意:* Webページのライブ・プレビューはモバイル・デバイスでも使用できます。つまり、Chromeおよび内部埋込みWebKitブラウザだけでなく、Android上のChromeおよびiOS上のMobile Safariでも使用できます。
+
+     [overview-right]#link:html5-layout.png[image:html5-layout-cut.png[]]#
+
+=== レスポンシブWebデザイン機能
+
+NetBeans IDEでは、レスポンシブWebデザイン・アーキテクチャの使用がサポートされており、Webページの各種フォーム・ファクタを選択し、そのフォーム・ファクタに合せてブラウザでWebページのビジュアル要素を即座にレイアウトすることができます。縦モードまたは横モードのスマートフォンからデスクトップまで多岐にわたる事前設定済フォーム・ファクタから選択できます。
+
+ブラウザ機能の強化に加えて、IDEのCSSスタイル・エディタもブラウザに現在表示されているメディア問合せを認識し、CSSの編集内容をそのメディア問合せに自動的に配置します。
+
+     [overview-left]#link:javascript-editing.png[image:javascript-editing-cut.png[]]#
+
+=== JavaScriptサポートの拡張
+
+IDEでのJavaScriptのサポートが大きく改良されました。サポートにはJavaScriptフレームワーク固有の構文の色分け、コード補完の他、その他の編集およびリファクタリングのツールが含まれています。
+
+jQuery、JSON、Knockout、Ext Js、AngularJS、JsDoc、ExtDocおよびScriptDocなどのJavaScriptフレームワークがサポートされています。
+
+また、JavaScript言語自体のフォーマット・オプションも「オプション」ダイアログ・ボックスで制御できるようになりました。
+
+     [overview-right]#link:html5-css-rules.png[image:html5-css-rules-cut.png[]]#
+
+=== CSSの編集およびスタイルのサポート
+
+Sassy CSSおよびLESS CSSプリプロセッサの編集サポートは、言語構造の構文的および意味的な色分け、インデント、再フォーマット、コード折りたたみ、およびファイル・テンプレートを含めて提供されます。コード補完やリファクタリング・ツールは、変数およびmixinsで使用可能です。
+
+WebKitブラウザとの緊密な統合により、「CSSスタイル」ウィンドウで加えた変更をリアルタイムにブラウザで確認できます。ブラウザをリフレッシュするまでの間、CSSの変更がどのように見えるかを推測する必要はなくなりました。変更はリアルタイムに、ソース・コードで行われます。
+
+ブラウザから検査を行い、ブラウザで選択した要素のCSSルールを「CSSスタイル」ウィンドウに自動的に表示することもできます。CSSは、「CSSスタイル」ウィンドウでプロパティを使用して編集することも、CSSソース・コードに直接アクセスしてそこで編集することもできるようになりました。その際、コード補完とインライン・ドキュメントを利用できます。
+
+link:../../kb/docs/webclient/html5-editing-css.html[HTML5アプリケーションでのCSSの使用]
+
+*注意:* CSSの編集およびスタイルのサポートはモバイル・デバイスでも使用できます。つまり、Chromeおよび内部埋込みWebKitブラウザだけでなく、Android上のChromeおよびiOS上のMobile Safariでも使用できます。
+
+     [overview-left]#link:html5-device.png[image:html5-device.png[]]#
+
+=== モバイル・デバイス・サポートとCordova開発
+
+HTML5、JavaScriptおよびCSS3でアプリケーションを開発し、IDEでそのCordova/PhoneGapサポートを介してネイティブ・ディストリビューションを作成します。IDEの各HTML5プロジェクトは、iOSまたはAndroidネイティブ・パッケージに変換し、IDEから直接、ネイティブ・デバイスにデプロイできます。
+
+IDEでは、Chromeブラウザおよび埋込みWebKitブラウザで視覚的にCSSファイルを編集し、JavaScriptをデバッグできます。同様に、iOSデバイス(Safari)およびAndroidデバイス(Chrome)でも直接作業できます。
+
+*注意:* HTML5、Java EEまたはPHPのどの種類のWebアプリケーションでも、モバイル・デバイスでテストしてデバッグできます。
+
+ 
+|===
+
+|=== デバッグとテスト
+
+ |
+
+=== Webサービスの消費
+
+ |
+
+=== 複数のブラウザへの対応
+
+ 
+
+|[overview-centre]#image:html5-debug-cut.png[]#
+Chromeブラウザ、内部埋込みWebKitブラウザ、Android上のChromeブラウザ、およびiOS上のMobile Safariブラウザで、JavaScriptをデバッグできます。
+
+link:../../kb/docs/webclient/html5-js-support.html[JavaScriptのデバッグおよびテスト]
+
+ |
+
+[overview-centre]#image:html5-rest-client-cut.png[]#
+RESTful Webサービス用のJavaScriptクライアントを作成することで、エンタープライズ・データに簡単にアクセスできます。
+
+RESTful JavaScriptクライアント・ウィザードを使用して、Webサービスを含むNetBeansプロジェクトに配置されたRESTful Webサービス用のJavaScriptクライアントをすばやく生成できます。
+
+ |
+
+[overview-centre]#image:html5-css-doc-cut.png[]#
+アプリケーションを複数のブラウザで確実に動作させることができます。
+
+コード補完機能によって利用可能なインライン・ドキュメントにより、特定のコード構造がブラウザでサポートされているかどうかを確認できます。
+
+ 
+|===
+
+=== 関連項目
+
+* 最新の安定版リリースの主な機能のリストについては、link:/community/releases/80/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/php.html[PHPおよびHTML5の学習]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

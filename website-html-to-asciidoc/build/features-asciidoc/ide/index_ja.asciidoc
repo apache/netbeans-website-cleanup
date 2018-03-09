@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ja
+:description: Apache NetBeans  index_ja
+:toc: left
+:toc-title:
+
+ 
+
+== 基本IDE
+
+link:ide-basic-full.png[image:ide-basic-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+NetBeans IDEは、幅広いアプリケーション開発テクノロジを対象とするモジュール方式の開発者ツールです。基本IDEは、高度な複数言語エディタ、デバッガとプロファイラ、およびバージョン管理と開発者間のコラボレーションのためのツールを備えています。
+
+    [overview-right]#link:ide-basic-templates-full.png[image:ide-basic-templates-full-cut.png[]]#
+
+=== テンプレートとサンプル・アプリケーション
+
+NetBeans IDEは、サポートするすべてのテクノロジ向けに、プロジェクト・テンプレートの形式でスケルトン・アプリケーションを提供します。また、一連のサンプル・アプリケーションを備えており、その一部は、NetBeans.orgから入手可能な関連チュートリアルに従ってステップ・バイ・ステップ形式で再作成できます。
+
+IDEには、Java SEアプリケーション、Java EEアプリケーション、Java MEアプリケーション、HTML5アプリケーション、NetBeansプラットフォーム・アプリケーション、PHPアプリケーションおよびC/C++アプリケーションの作成に役立つ、プロジェクト・テンプレートとサンプル・プロジェクトが付属しています。
+
+link:../../kb/index.html[NetBeansテクノロジの学習]
+
+     [overview-left]#link:ide-basic-services-full.png[image:ide-basic-services-cut.png[]]#
+
+=== データベースおよびサービス
+
+「サービス」ウィンドウでは、データベース、サーバー、Webサービス、問題トラッカなど、多くの補助リソースにアクセスできます。
+
+IDEでは、データベースおよびサーバーの開始と停止を直接実行できます。データベースを操作する際は、データの追加、削除および変更がIDEで行えます。アプリケーションをサーバーにデプロイすると、デプロイしたリソースが「サーバー」ノードに表示されるので、それらを管理できます。
+
+bugデータベース(Issuezilla、Bugzillaなど)に接続し、IDEのプロジェクトに対する問題点のレポートを一覧表示することができます。
+
+link:../../kb/trails/tools.html[外部ツールおよびサービスとの統合]
+
+     [overview-right]#link:ide-basic-plugins.png[image:ide-basic-plugins-cut.png[]]#
+
+=== プラグイン・マネージャ
+
+IDEの使用中は、「ツール」メニューからプラグイン・マネージャにいつでもアクセスして、インストールした一連の機能の追加、削除または更新を行うことができます。
+
+Java SE、Java EE、Java ME、HTML5、Groovy、PHPからC/C++開発まで、あらゆるタイプの開発用に様々なプラグインが用意されています。
+
+NetBeansプラグイン・ポータルでコミュニティ提供のプラグインも入手できます。
+
+link:http://plugins.netbeans.org/[NetBeansプラグイン・ポータル]
+
+ 
+|===
+
+|=== クイック検索
+
+ |
+
+=== アクション項目
+
+ |
+
+=== カスタマイズ可能なワークスペース
+
+ 
+
+|[overview-centre]#image:ide-basic-quick-search.png[]#
+クイック検索は、JDKのすべてのJavaタイプ、IDEのアクション、ヘルプ・セット、オプション設定およびプロジェクト全体にわたって検索を実行できる中央の場所です。
+
+ |
+
+[overview-centre]#image:ide-basic-actionitems-cut.png[]#
+「アクション項目」ウィンドウでは、コードが自動的にスキャンされ、TODOやFIXMEなどの語を含むコメント行、およびコンパイル・エラー、簡易修正、スタイル警告を含む行が一覧表示されます。
+
+ |
+
+[overview-centre]#image:ide-basic-customize.png[]#
+IDEのワークスペースは変更可能です。個々のワークフローに合せてツールバーのボタンをカスタマイズしたり、IDEアプリケーション・フレームのタブをドラッグして再配置したりできます。タブを切り離して、アプリケーション・フレーム外部や別のモニター上にドラッグすることができます。
+
+ 
+|===
+
+=== 関連項目
+
+* 最新の安定版リリースの主な機能のリストについては、link:../../community/releases/80/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/java-se.html[「一般的なJava開発の学習」]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

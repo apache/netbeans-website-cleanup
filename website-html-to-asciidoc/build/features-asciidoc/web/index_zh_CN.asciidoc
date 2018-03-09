@@ -1,0 +1,74 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_zh_CN
+:description: Apache NetBeans  index_zh_CN
+:toc: left
+:toc-title:
+
+ 
+
+== Java EE 和 Web 应用程序开发
+
+link:web-app-cut.png[image:web-app-cut.png[][font-11]#单击图像查看全屏预览#]
+
+编写可通过 Web 浏览器、移动设备等各种客户端访问的标准型 Web 和企业应用程序。获得无与伦比的便捷体验：只需单击几下，即可创建支持所有相关 Java EE 6 技术的 Java EE 6 应用程序。可以利用完善的语法突出显示、代码完成、弹出式文档和错误检查功能来处理 JSP、JSF、XML、JavaScript、CSS，甚至处理 PHP！
+
+    [overview-right]#link:ee-dev.png[image:ee-dev-cut.png[]]#
+
+=== 企业应用程序开发
+
+NetBeans IDE 提供对 Java EE 6 的全面支持。开发 Web 页、Servlet、Web 服务、Enterprise Java Beans、JSF、JPA 等组件，并支持上下文和依赖关系注入 (CDI)。
+
+link:java-ee.html[NetBeans 中的 Java EE 支持]
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Web 应用程序开发
+
+通过 NetBeans IDE，可以轻松地使用 JSF 2.1 (Facelets)、JSP 或 Servlet 来创建基于 Java EE 的 Web 应用程序项目。此外，您还可以使用其他像 Spring、Struts 和 Hibernate 这样的框架来创建和使用 Web 应用程序。编辑器支持映射文件的代码完成、导航和重构功能。
+
+link:web-app.html[NetBeans 中的 Web 应用程序开发支持]。
+
+     [overview-right]#link:rest-services-support.png[image:rest-services-support-cut.png[]]#
+
+=== Web 服务开发
+
+NetBeans IDE 同时支持 Java EE 6 和 Java EE 5 中的 Web 服务标准。您可以通过诸如基于向导的代码生成和编辑器中代码插入等功能来创建和使用 Web 服务。代码完成功能包括可在 Web 服务中使用的标注。
+
+link:web-services[NetBeans 中的 Web 服务支持]
+
+     [overview-left]#link:http-monitor.png[image:http-monitor-cut.png[]]#
+
+=== 部署、调试、监视和性能分析
+
+您可以将应用程序部署到 GlassFish、WebLogic、Tomcat 或 JBoss 服务器。通过“在保存时部署”功能，在编辑器中保存文件后，可以立即查看对应用程序所做的更改。此外，还可以将断点放在 Java 或 JSP 文件中，然后调试应用程序，或使用 NetBeans 分析器对其进行分析。此外还提供了 HTTP 服务器端监视器，通过该监视器，您可以诊断来自 JSP 的数据流问题以及 Web 服务器上的 servlet 执行问题。
+
+ 
+
+=== 另请参见
+
+* link:/community/releases/73/index.html[NetBeans IDE 7.3 发行版页]，提供最新稳定发行版中的特定功能的列表。
+* 在link:http://wiki.netbeans.org/NewAndNoteworthyNB73[“NetBeans IDE 7.3 新增功能和重要功能”页]上获取有关最新稳定发行版的功能的详细信息。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

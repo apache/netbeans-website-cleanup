@@ -1,0 +1,68 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= project-management
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  project-management
+:description: Apache NetBeans  project-management
+:toc: left
+:toc-title:
+
+ 
+
+== Project Management
+
+link:ide-management-main-full.png[image:ide-management-main-cut.png[][font-11]#Click image for fullscreen preview#]
+
+NetBeans IDE provides a variety of views on your data, from multiple project windows to file and hierarchy views, letting you drill down into your data quickly and easily.
+
+    [overview-right]#image:ide-management-project-cut.png[]#
+
+=== Project Views
+
+The Projects window is the main entry point to your project sources. It shows a logical view of important project content.
+
+In addition to the Projects window, the IDE provides the Files window, so that you can see all the files that belong to a project, and the Favorites window, where you can add folders and files so that they can be browsed within the IDE.
+
+     [overview-left]#link:ide-management-file-cut.png[image:ide-management-file-cut.png[]]#
+
+=== File Views
+
+The Navigator window provides a compact view of the currently selected file and simplifies navigation between different parts of the file.
+
+For example, for Java files, the Navigator window shows a list of constructors, methods, and fields, while for HTML and CSS files it shows the logical structure of the selected document.
+
+     [overview-right]#link:ide-management-hierarchy-cut.png[image:ide-management-hierarchy-cut.png[]]#
+
+=== Hierarchy Views
+
+The Hierarchy window displays the Supertypes and Subtypes of the currently selected Java file or the currently selected Java type under the cursor in the editor.
+
+The Hierarchy window integrates with the Navigator window and the Javadoc window, so that you can easily see the elements of the selected item, as well as its javadoc.
+
+ 
+
+=== See Also
+
+* link:../../community/releases/81/index.html[NetBeans IDE 8.1 Release Page] for a list of highlighted features in the latest stable release.
+* link:../../kb/trails/java-se.html[General Java Development Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

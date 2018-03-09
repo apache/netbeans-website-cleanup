@@ -1,0 +1,80 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= swing_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  swing_zh_CN
+:description: Apache NetBeans  swing_zh_CN
+:toc: left
+:toc-title:
+
+== Swing GUI 构建器（以前称为 Project Matisse）
+
+link:gui-builder.png[image:gui-builder-cut.png[][font-11]#单击图像查看全屏预览#]
+
+*创建具备自动调整间距和自动对齐的专业 GUI。*
+
+|===
+|=== 专业的 Swing GUI 构建 image:improved_small.gif[]
+
+要设计 Swing GUI，将 GUI 组件从组件面板拖动并定位到画布上。GUI 构建器自动维护间距调整和对齐。单击 JLabel、JButton、ButtonGroup、JTree、JTextField 和 ComboBox，并直接就地编辑它们的属性。您可以使用 GUI 构建器制作直接可供客户使用的 GUI 原型。
+link:../../kb/docs/java/gui-functionality.html[构建 GUI 应用程序简介]
+
+=== 直观且可定制
+
+可以选择应使用全限定类名还是简单类名生成 GUI 代码。帮助栏将显示上下文有关提示，告知选定组件的功能，并给出快捷键，以便帮助您更快地执行后续操作。NetBeans IDE 还为 GUI 本地化和可访问性提供了内置支持。
+
+  |
+
+image:swing-gui-design.png[]
+
+image:swing-gui-options.png[]
+
+ 
+
+|=== 标准 GUI 组件和定制 GUI 组件
+
+可扩展的组件面板配有预安装的 Swing 和 AWT 组件，并包含一个可视的菜单设计程序。使用组件导航器查看组件树和属性。
+
+  |
+
+image:swing-gui-palette.png[]
+
+ 
+
+|=== 可视调试器 image:improved_small.gif[]
+
+无需检查源代码即可调试 Swing GUI 应用程序，并可从高级结构方面控制执行流。选择 "Take GUI Snapshot"（生成 GUI 快照）即可生成应用程序 GUI 的屏幕快照，该 GUI 是可视调试器功能的基础。
+link:../../kb/docs/java/debug-visual.html[使用可视调试器]
+
+ |
+
+image:swing-gui-snapshot.png[]
+
+ 
+|===
+
+image:arrow-button.gif[] link:../../kb/trails/matisse.html[GUI 构建器学习资源]
+
+image:arrow-button.gif[] link:../../kb/trails/platform.html[NetBeans 平台学习资源]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

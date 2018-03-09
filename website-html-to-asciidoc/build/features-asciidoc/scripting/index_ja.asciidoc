@@ -1,0 +1,92 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ja
+:description: Apache NetBeans  index_ja
+:toc: left
+:toc-title:
+
+== NetBeans IDEの動的な言語
+
+link:dynamic-languages-big.png[image:dynamic-languages.png[][font-11]#イメージをクリックして全画面表示#]
+
+*NetBeans IDEは、Java開発のための最良の選択であるのみでなく、動的な言語に対する統合サポートも受けることができる、オール・イン・ワンの強力なツールです。*
+
+|===
+|=== PHP
+
+NetBeans PHP IDEには、1回の小規模なダウンロードでPHPアプリケーションを作成、実行、およびデバッグするための、高速統合開発環境が用意されています。
+
+link:../php/index.html[PHP開発]を参照してください。
+
+ |image:php-codecompletion.png[] 
+
+|=== HTML、JavaScript、およびCSS
+
+NetBeans IDEには、HTML、JavaScript、およびCSSの完全なエディタ・サポートが用意されています。HTML 5、JavaScript 1.7、およびE4X用の意味解釈の強調表示(埋込みXMLオブジェクト)を含む、HTML、CSS、およびJavaScriptでの構文の完全強調表示、コード補完、ドキュメントのポップアップ、およびエラー確認を利用できます。エディタでは、JavaScriptファイル内のHTMLコードおよびHTMLファイル内のJavaScriptコードが認識されます。エディタでは、XHTML、PHP、およびJSPファイル内のHTMLとJavaScriptも認識されます。
+
+==== HTML image:improved_small.gif[]
+
+IDEでエディタを使用すると、新しいヒントを使用して、簡単にコードをタグで囲んだり、囲んでいるタグを除去することができます。インライン・スタイルをスタイル・ブロックまたは.cssファイルに移すことができます。
+
+==== CSS image:improved_small.gif[]
+
+NetBeans IDEは、CSS 3をサポートしています。リファクタリング、意味解釈の強調表示、出現箇所のマークなどの機能がCSS3コードに適応するようになりました。CSSコード補完が拡張されて、html要素、CSS3プロパティとその値、新しい擬似クラスと擬似要素、および名前空間接頭辞を補完するようになりました。ベンダー固有のプロパティ(ダッシュ接頭辞プロパティ)もコード補完に追加されました。ナビゲータ・ウィンドウでは、cssクラス、ID、要素、名前空間、およびルールが個別の要素セットに表示されるようになりました。
+
+==== JavaScript
+
+「オプション」パネルの「JavaScript」でブラウザのタイプおよびバージョンを指定すると、入力中にブラウザの互換性情報がエディタに表示されます。
+
+フォームや表の便利なコード・スニペットを、HTMLパレットからエディタにドラッグ・アンド・ドロップできます。CSSのルールを編集して、ビジュアルCSSエディタで結果をプレビューできます。
+link:../../kb/docs/web/js-toolkits-jquery.html[jQueryを使用した、Webページの見た目と使いやすさの向上]
+
+ |
+
+ 
+
+image:html-surround-tag-hints.png[]
+
+image:css-cc.png[]
+
+image:javascript-browser-options.png[]
+
+ 
+
+|=== GroovyおよびGrails
+
+NetBeans IDEは、Javaプラットフォームの動的スクリプト作成言語であるGroovyと、Groovy言語を活用するWebアプリケーション・フレームワークであるGrailsを直接サポートしています。これを使用して、100%純粋なGroovyアプリケーションを開発したり、GroovyとJavaを組み合せてJavaプロジェクト内でGroovyの動的な性質を利用したりできます。
+
+ 
+|===
+
+ 
+
+
+|===
+|image:arrow-button.gif[] link:../php/index.html[PHP]
+高速で軽量なPHP IDE。 |image:arrow-button.gif[]link:../groovy/index.html[Groovy]
+GroovyをJava SEと統合し、Grails Webフレームワークを使用します。 |image:arrow-button.gif[]link:../javascript/index.html[JavaScript]
+JavaScriptで強化されたWebページを作成します。 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== IDE Base
+
+link:ide-basic-full.png[image:ide-basic-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+O NetBeans IDE é uma ferramenta desenvolvedora modular para uma ampla variedade de tecnologias de desenvolvimento de aplicações. O IDE base inclui um editor avançado para várias linguagens, Depurador e Criador de Perfil, assim como ferramentas para o controle de versões e colaboração com o desenvolvedor.
+
+    [overview-right]#link:ide-basic-templates-full.png[image:ide-basic-templates-full-cut.png[]]#
+
+=== Modelos e Aplicações de Amostra
+
+O NetBeans IDE oferece aplicações base na forma de modelos de projeto para todas as tecnologias e suportes. Além disso, ele oferece um conjunto de aplicações de exemplo, algumas das quais podem ser recriadas etapa por etapa por meio de um tutorial relacionado disponível em NetBeans.org.
+
+O IDE oferece modelos de projeto e projetos de exemplo que o ajudam a criar aplicações em Java SE, Java EE, Java ME, HTML5, Plataforma NetBeans, PHP e C/C++.
+
+link:../../kb/index.html[Trilhas de Aprendizado da Tecnologia NetBeans]
+
+     [overview-left]#link:ide-basic-services-full.png[image:ide-basic-services-cut.png[]]#
+
+=== Bancos de Dados e Serviços
+
+A janela Serviços oferece acesso a muitos recursos complementares, como bancos de dados, servidores, web services e rastreadores de problemas.
+
+Você pode iniciar e parar servidores e bancos de dados diretamente no IDE. Ao trabalhar com bancos de dados, você pode adicionar, remover e modificar seus dados no IDE. Quando você implantar uma aplicação em um servidor, poderá gerenciar os recursos implantados, porque eles serão exibidos no nó Servidores.
+
+Do IDE, você pode se conectar a um banco de dados de bugs, como o Issuezilla ou Bugzilla, e listar relatórios de problemas para o seu projeto.
+
+link:../../kb/trails/tools.html[Integração com Ferramentas e Serviços Externos]
+
+     [overview-right]#link:ide-basic-plugins.png[image:ide-basic-plugins-cut.png[]]#
+
+=== Gerenciador de Plug-ins
+
+Ao usar o IDE, você sempre pode ir para o Gerenciador de Plug-ins no menu Ferramentas para adicionar, remover ou atualizar o conjunto de funcionalidades instaladas.
+
+Uma ampla variedade de plug-ins estão disponíveis para todos os tipos de desenvolvimento, desde Java SE, Java EE, Java ME, HTML5, Groovy a desenvolvimento PHP a C/C++.
+
+Os plug-ins de contribuição da comunidade também estão disponíveis no Portal de Plug-ins do NetBeans.
+
+link:http://plugins.netbeans.org/[Portal de Plug-ins do NetBeans]
+
+ 
+|===
+
+|=== Pesquisa Rápida
+
+ |
+
+=== Itens de Ação
+
+ |
+
+=== Espaço de Trabalho Personalizável
+
+ 
+
+|[overview-centre]#image:ide-basic-quick-search.png[]#
+A Pesquisa Rápida é um local centralizado em que você pode fazer pesquisas por todos os tipos de Java no JDK, ações no IDE, conjuntos de Ajuda, configurações de opção e projetos.
+
+ |
+
+[overview-centre]#image:ide-basic-actionitems-cut.png[]#
+A janela Itens de Ação procura automaticamente seu código e lista linhas comentadas contendo palavras como "TODO" ou "FIXME", assim como linhas com erros de compilação, correções rápidas e advertências sobre estilo.
+
+ |
+
+[overview-centre]#image:ide-basic-customize.png[]#
+É possível modificar o espaço do trabalho do IDE. Você pode personalizar os botões na barra de ferramentas e arrastar e reposicionar guias no quadro de aplicação do IDE para obter adequação com seu fluxo de trabalho individual. É possível desacoplar guias e arrastá-las para fora do frame da aplicação, ou até mesmo para um monitor diferente.
+
+ 
+|===
+
+=== Consulte Também
+
+* link:../../community/releases/81/index.html[Página da Release NetBeans IDE 8.1] para obter uma lista de funcionalidades realçadas na última versão estável.
+* link:../../kb/trails/java-se.html[Trilha de Aprendizado em Desenvolvimento Geral de Java] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

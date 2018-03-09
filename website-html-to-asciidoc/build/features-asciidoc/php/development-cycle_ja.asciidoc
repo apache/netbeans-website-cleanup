@@ -1,0 +1,61 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= development-cycle_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  development-cycle_ja
+:description: Apache NetBeans  development-cycle_ja
+:toc: left
+:toc-title:
+
+== テストとコード分析
+
+<img src="../../images_www/v7/3/features/php/testing-top.png" alt="PHP development in NetBeans IDE" class="box" border="none"
+
+アプリケーションをテストする際、IDEではPHPUnitを使用するためのツールが提供され、コード・カバレージのレポートなどが生成されます。
+
+[overview-right]#image:phpunit.png[]#
+
+=== PHP単体テスト
+
+ファイルまたはフォルダに対するlink:http://www.phpunit.de/manual/current/en/[PHPUnit]テストおよびSeleniumテスト・ケースの作成、テストの実行、およびテスト結果の表示が可能です。テスト・グループを定義して単体テストを選択的に実行できます。PHPUnitプロパティでは、カスタムXML構成ファイル、コマンド行オプションのブートストラップ・ファイル、カスタム・テスト・スイート、またはプロジェクト固有のPHPUnitスクリプトを定義できます。link:http://www.phpunit.de/manual/current/en/skeleton-generator.html[PHPUnitスケルトン・ジェネレータ]を使用すると、スケルトン・コードを自動的に生成できます。キーボード・ショートカットを使用して、テストとテストされたクラスとの間をすばやくナビゲートできます。
+link:http://netbeans.org/kb/docs/php/phpunit.html[PHPUnitとSeleniumを使用したテスト]
+
+  [overview-left]#image:php-code-coverage.png[]#
+
+=== コード・カバレージ
+
+PHPファイルのコード・カバレージ・レポートを生成して、テスト・ケースがコードをどこまでカバーしているかを確認できます。エディタ内でカバーされている文は緑でマークされ、テスト時に実行されなかった文は赤でマークされます。評価は、実行可能な文の数に基づいています。空白行およびコメント行は結果に影響しません。
+
+  [overview-right]#image:ide-collaboration-hudson-cut.png[]#
+
+=== 継続的統合のサポート
+
+NetBeans IDEは、継続的統合をサポートしています。継続的統合は、バージョン管理と特殊化されたサーバーに関連したソフトウェア開発作業です。特殊化されたサーバーでは、スケジュールされたPHPUnitとコード・カバレージのテストがソフトウェアで実行されます。テスト結果は、バージョン管理情報に関連付けられるため、開発者はソフトウェアのbugを簡単に識別できます。NetBeansではlink:http://jenkins-php.org/[PHPプロジェクト向けのJenkinsジョブ用のテンプレート]が使用され、これは、必要なプラグインとツールを使用して統合サーバーに設定する必要があります。
+
+ 
+
+=== 関連項目
+
+* 最新の安定版リリースの個別機能のリストについては、link:/community/releases/81/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/php.html[PHPおよびHTML5の学習]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

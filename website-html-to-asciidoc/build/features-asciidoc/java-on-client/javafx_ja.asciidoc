@@ -1,0 +1,77 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= javafx_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  javafx_ja
+:description: Apache NetBeans  javafx_ja
+:toc: left
+:toc-title:
+
+ 
+
+== JavaFX
+
+link:client-javafx-main-full.png[image:client-javafx-main-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+JavaFXは、リッチ・クライアント・プラットフォームとしてのJavaの進化における次のステップです。これは、エンタープライズ・ビジネス・アプリケーションに、軽量の、ハードウェアで高速化されたJava UIプラットフォームを提供するように設計されています。JavaFXでは、開発者は標準のJava開発ツールを使用して、JavaFXアプリケーションをすべてJavaプログラミング言語で作成できます。ネイティブなシステム機能にアクセスすることも、サーバー・ベースのミドルウェア・アプリケーションにシームレスに接続することもできます。
+
+    [overview-right]#link:client-javafx-scene-full.png[image:client-javafx-scene-cut.png[]]#
+
+=== テンプレートとGUI編集
+
+NetBeans IDEは、プロジェクト・テンプレートの形式でスケルトンJavaFXアプリケーションを提供します。また、IDEは一連のサンプル・アプリケーションを備えており、その一部は、NetBeans.orgから入手可能な関連チュートリアルに従ってステップ・バイ・ステップ形式で再作成できます。
+
+NetBeansの「オプション」ウィンドウでScene Builderを登録し、FXMLファイルがScene Builderで自動的に開くようにすることができます。
+
+link:http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm[JavaFXの概要]
+link:http://www.youtube.com/watch?v=EGEONliKWDk[Scene BuilderとNetBeans IDEの組合せ]     [overview-left]#link:client-javafx-fxml-full.png[image:client-javafx-fxml-cut.png[]]#
+
+=== FXMLエディタ
+
+IDEは、FXMLをサポートするXMLエディタを備えています。FXMLとは、JavaFXアプリケーションのユーザー・インタフェースを定義するためのXMLベースの宣言型マークアップ言語です。
+
+     [overview-right]#link:client-javafx-deploy-full.png[image:client-javafx-deploy-cut.png[]]#
+
+=== デプロイメント・ツール
+
+標準的なJava SEアプリケーションをビルドして実行する場合と同様に、JavaFXアプリケーションをビルドして実行できます。
+
+IDEでは、JavaFXプロジェクトがJava Web Start経由で、またはブラウザでスタンドアロン・アプリケーションとして動作するように構成できます。
+
+     [overview-left]#link:client-swing-visual-full.png[image:client-swing-visual-cut.png[]]#
+
+=== ビジュアル・デバッガ
+
+ソース・コードを見ずにJavaFX GUIアプリケーションをデバッグし、高レベルの構造に関して実行フローを制御できます。
+
+「GUIスナップショットの取得」を選択すると、ビジュアル・デバッガ機能の基礎となるアプリケーションGUIのスクリーンショットを作成できます。
+
+link:../../kb/docs/java/debug-visual.html[NetBeans IDEでのビジュアル・デバッガの使用]
+
+ 
+
+=== 関連項目
+
+* 最新の安定版リリースの主な機能のリストについては、link:../../community/releases/81/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/java-se.html[「一般的なJava開発の学習」]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

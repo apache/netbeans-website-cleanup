@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= javase_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  javase_ru
+:description: Apache NetBeans  javase_ru
+:toc: left
+:toc-title:
+
+== Java SE (Standard Edition)
+
+link:java-se.png[image:java-se-cut1.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+*IDE NetBeans обеспечивает для разработчиков Java все средства, необходимые для создания профессиональных приложений Java SE. В IDE NetBeans поддерживается разработка для JDK 6 и JDK 7.*
+
+|===
+|=== Настольные приложения (Java SE)
+
+Java SE – это платформа программирования для разработчиков, создающих апплеты для браузера, средства командной строки и приложения с графическим интерфейсом, предназначенные для пользователей рабочей среды. Приложения, написанные на языке Java, выполняются в операционных системах Windows, Mac OS, Linux, Solaris и др.
+
+ 
+
+=== Обработчики аннотаций
+
+Используйте средства обработки аннотаций в проекте и при работе с кодом. В IDE NetBeans поддерживаются обработчики аннотаций от сторонних поставщиков, такие как JPA 2.0 от JEE, а также пользовательские обработчики.
+
+ 
+
+=== Интеграция с документацией Javadoc
+
+Используйте функцию "Автоматическое комментирование", чтобы создать код документации Javadoc для своих методов. Воспользуйтесь подключаемым модулем анализатора документации Javadoc для проверки и исправления ошибок в существующих комментариях документации Javadoc.
+
+ 
+
+=== Иерархия вызовов Java
+
+Представление "Иерархия вызовов Java" отображает дерево, которые отражает иерархию вызывающих и вызываемых элементов выбранного метода в проекте.
+
+ 
+
+=== Компиляция при сохранении
+
+Действие сборки (Build) было заменено функцией компиляции при сохранении (Compile on Save). Теперь среда IDE собирает проект автоматически, и действия выполнения, отладки и тестирования доступны сразу же после сохранения файла.
+
+При сохранении изменений в методе во время работы отладчика выполняемое приложение будет автоматически перезагружено. Ошибки компиляции внутри метода не мешают запуску программы: отладчик остановится, когда программа встретит проблемный метод.
+
+ |
+
+image:javaSE_logo_150px.png[]
+
+image:annotation-processor.png[]
+
+
+image:java-call-hierarchy.png[]
+
+ 
+
+|=== Средства модульного тестирования
+
+В среду IDE интегрирована платформа тестирования JUnit 3 и 4. Она позволяет быстро создавать, запускать и перезапускать модульные тесты и просматривать результаты тестирования в среде IDE. Для быстрого и удобного перехода между тестом и классом, подлежащим проверке, используются соответствующие комбинации клавиш.
+
+ |
+
+image:unit-test.png[]
+
+ 
+
+|=== Открытые системы сборки проектов
+
+В IDE NetBeans данные проекты сохраняются в открытом, расширяемом, свободно распространяемом формате, таком как сценарии Apache Ant и Maven.
+
+ 
+
+=== Интегрированные средства
+
+Поддержка Java Beans значительно упрощает создание свойств сериализуемых компонентов и редактирование BeanInfo. Средство GUI Builder в среде NetBeans обеспечивает широкие возможности для разработки приложений Java Swing – от прототипа до готового к использованию графического пользовательского интерфейса. Тесная интеграция отладчика NetBeans и профилировщика NetBeans способствуют созданию надежного программного обеспечения Java для рабочей среды.
+
+ |image:baseIDE_ant_powered_150px.png[] 
+|===
+
+ 
+
+image:arrow-button.gif[] link:../../kb/trails/java-se.html[Учебная карта по основам среды IDE и программирования на языке Java]
+
+image:arrow-button.gif[] link:../../kb/trails/platform.html[Учебная карта по платформе NetBeans]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

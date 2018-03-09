@@ -1,0 +1,115 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ru
+:description: Apache NetBeans  index_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Разработка приложений Java EE и веб-приложений
+
+link:web-app.png[image:web-app-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+Создавайте основанные на стандартах веб-приложения и приложения уровня предприятия с возможностью доступа в различных клиентах, например веб-браузерах, мобильных устройствах и пр. Получите непревзойденные универсальные возможности в одном решении. Создавайте приложения на базе Java EE 7, Java EE 6 и Java EE 5 с поддержкой всех совместимых технологий Java EE всего в несколько действий, используя комплексную поддержку технологий разработки HTML5, JavaScript и CSS3, как указано на странице link:../html5/index.html[Поддержка разработки веб-приложений на HTML5].
+
+    [overview-right]#link:ee-dev.png[image:ee-dev-cut.png[]]#
+
+=== Разработка корпоративных приложений
+
+IDE NetBeans обеспечивает поддержку новейших стандартов Java EE 7. Разработка компонентов, включая веб-страницы, сервлеты, веб-службы, Enterprise Java Beans, JSF, JPA, а также поддержка Contexts and Dependency Injection (CDI).
+
+link:java-ee.html[Поддержка Java EE в NetBeans]
+
+     [overview-left]#link:http-monitor.png[image:http-monitor-cut.png[]]#
+
+=== Развертывание, отладка, мониторинг и профилирование
+
+Созданные приложения можно развертывать на сервере GlassFish, WebLogic, Tomcat или JBoss. Функция развертывания при сохранении позволяет просматривать результаты изменений в приложении сразу после сохранения файлов в редакторе.
+
+Кроме того, можно размещать точки останова в файлах Java или JSF и выполнять отладку или профилирование приложения при помощи средства профилирования NetBeans. Предусмотрен также монитор на стороне HTTP-сервера, который позволяет диагностировать ошибки потока данных из JSF и проблемы при выполнении сервлетов на веб-сервере.
+
+     [overview-right]#link:rest-services-support.png[image:rest-services-support-cut.png[]]#
+
+=== Разработка веб-служб
+
+IDE NetBeans поддерживает стандарты веб-служб из более новых спецификаций Java EE 7 и Java EE 6, а также спецификаций Java EE 5 и более ранних версий.
+
+Можно создавать и использовать веб-службы с помощью таких функций, как создание кода на основе мастеров и вставки кода в редактор. В функциональные возможности дополнения кода входят аннотации, пригодные для веб-служб.
+
+link:web-services.html[Поддержка веб-сервисов в NetBeans]
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Разработка веб-приложений
+
+IDE NetBeans предельно упрощает создание проектов веб-приложений на основе Java EE с JSF 2.2 (фейслет), JSP или сервлетов. Кроме того, можно создавать и работать с веб-приложениями с помощью других платформ, таких как Spring, Struts и Hibernate. Редактор поддерживает автозавершение кода, переходы и реорганизацию для сопоставления файлов.
+
+Кроме того, IDE можно легко настроить для работы с другими платформами путем установки дополнительных подключаемых модулей, получив их в центре обновлений после их появления.
+
+link:../../kb/docs/web/framework-adding-support.html[Добавление поддержки веб-платформы]
+
+ 
+|===
+
+|=== Поддержка Spring
+
+ |
+
+=== Поддержка Struts
+
+ |
+
+=== Поддержка Hibernate
+
+ 
+
+|[overview-centre]#image:spring-completion.png[]#
+Выберите платформу Spring в мастере создания проектов и сразу же начните с работы со схемой приложения Spring Web MVC. Используйте в редакторе функции переработки программного кода (включая файлы настройки XML) и автозавершения кода.
+
+link:../../kb/docs/web/quickstart-webapps-spring.html[Введение в веб-модель MVC Spring]
+
+ |
+
+[overview-centre]#image:struts.png[]#
+Выберите платформу Struts для создания гибких веб-приложений на основе стандартных технологий, таких как JSP-страницы, JavaBeans, комплекты ресурсов и XML. Применяйте автозавершение кода для тегов Struts и всплывающих окон документации Struts Javadoc в редакторе.
+
+link:../../kb/docs/web/quickstart-webapps-struts.html[Введение в веб-платформу Struts]
+
+ |
+
+[overview-centre]#image:hibernate-web-apps.png[]#
+Библиотеки Hibernate автоматически связываются с приложением при выборе платформы Hibernate в мастере создания проектов. Среда IDE предоставляет мастер для создания файла Hibernate реверсивного проектирования и настройки файлов XML и классов POJO.
+
+link:../../kb/docs/web/hibernate-webapp.html[Использование библиотеки Hibernate в веб-приложении]
+
+ 
+|===
+
+=== См. также
+
+* link:/community/releases/81/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список выделенных функций в последней стабильной версии.
+* link:../../kb/trails/java-ee.html[Учебная карта по Java EE и Java Web] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,90 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= java-me_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  java-me_ru
+:description: Apache NetBeans  java-me_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Приложения Java ME и встроенные приложения
+
+link:gamebuilder.png[image:gamebuilder-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+Создавайте, тестируйте, выполняйте отладку и развертывание приложений, которые будут выполняться на Raspberry Pi, мобильных телефонах, КПК, приставках, а также на других мобильных и встраиваемых системах.
+
+    [overview-right]#link:client-jme-pi-full.png[image:client-jme-pi-full.png[]]#
+
+=== Java SE Embedded
+
+Платформа Java SE Embedded оптимизирует Java SE для встроенных систем среднего и высокого класса. Устройства объемом 32 Мб (без графики) и более для Java могут использовать Java SE Embedded.
+
+Среда NetBeans IDE предлагает полную поддержку в процессе разработки для удаленных встраиваемых платформ, включая интуитивную разработку, развертывание одним нажатием, удаленную отладку и комплексное дистанционное профилирование.
+
+Например, среда IDE предоставляет полную сквозную интеграцию с Raspberry Pi. Приложение разворачивается одним нажатием, после чего выполняется его отладка и профилирование.
+
+link:../../kb/index.html[Карты обучения технологии NetBeans]
+
+     [overview-left]#link:client-jme-jdk8-full.png[image:client-jme-jdk8-cut.png[]]#
+
+=== Java ME Embedded
+
+Java ME Embedded представляет собой часть платформы Java SE, сконфигурированную для устройств с ограниченными ресурсами и оптимизированную для встраиваемых систем низкого и среднего уровня. Устройства объемом 8 Мб (без графики) и более для Java могут использовать встроенные приложения Java ME.
+
+Среда IDE поддерживает использование эмулятора платформ Java ME 8 CLDC, предоставляет интуитивно понятные инструменты и редакторы для Java 8 в Java ME и позволяет легко настраивать дополнительные пакеты платформы Java ME Embedded.
+
+     [overview-right]#link:client-jme-full.png[image:client-jme-cut.png[]]#
+
+=== Телефоны, портативные устройства, Java-карты и телевизионные приставки
+
+Создавайте, тестируйте, отлаживайте приложения для Mobile Information Device Profile (MIDP) 1.0, 2.0, 2.1 (MSA), Connected Limited Device Configuration (CLDC) 1.0 и 1.1, а также Connected Device Configuration (CDC).
+
+IDE поставляется в комплекте с Java ME SDK, который поддерживает разработку как CLDC, так и CDC. Можно зарегистрировать другие мобильные и встроенные платформы в меню "Сервис".
+
+link:../../kb/index.html[Карты обучения технологии NetBeans]
+
+     [overview-left]#link:client-jme-card-full.png[image:client-jme-card-cut.png[]]#
+
+=== Java Card
+
+Java Card Platform - это виртуальная машина Java, которая запускается на смарт-картах. Платформа поддерживает знакомые интерфейсы API Java, например сервлеты, и позволяет создавать веб-приложения, выполняемые на портативных устройствах.
+
+IDE поддерживает проекты Java Card, развертывание апплетов Java Card и консоли устройств Java Card.
+
+     [overview-right]#link:ide-basic-plugins.png[image:ide-basic-plugins-cut.png[]]#
+
+=== Visual Mobile Designer
+
+Быстрая разработка графических интерфейсов пользователей с помощью Visual Mobile Designer. Также поддерживаются такие перетаскиваемые компоненты, как экраны ожидания, экраны входа в систему, обозреватели файлов, средство составления SMS-сообщений и экраны-заставки. Средство анализа позволяет уменьшать размер файла за счет идентификации и удаления неиспользуемых компонентов, а также выполнять проверку соответствия платформе MIDP 1.0. VMD также облегчает локализацию графических пользовательских интерфейсов.
+
+*Примечание.*Visual Mobile Designer доступен в центре обновлений NetBeans. Для запуска VMD в среде IDE необходимо установить подключаемый модуль Visual Mobile Designer из центра обновлений (Инструменты > Подключаемые модули > Доступные подключаемые модули).
+
+ 
+
+=== См. также
+
+* link:../../community/releases/81/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список выделенных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,139 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= web-app_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  web-app_ru
+:description: Apache NetBeans  web-app_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Разработка с использованием платформы веб-приложений
+
+link:web-app2.png[image:web-app2-cut1.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+NetBeans IDE поддерживает различные платформы веб-приложений, включая все спецификации для разработки веб-приложений, предоставляемые в комплекте со спецификацией Java EE. Кроме того, можно настроить среду IDE для работы с дополнительными платформами на ваш выбор.
+
+    [overview-right]#link:ee-6-web-profile.png[image:ee-6-web-profile-cut.png[]]#
+
+=== Поддержка веб-профилей Java EE 6
+
+link:http://www.oracle.com/technetwork/java/javaee/downloads/javaee6-standards-jsp-141130.html[Веб-профиль Java EE 6] определяет подмножество спецификаций, которые могут быть использованы для создания веб-приложений. Помимо поддержки полной версии Java EE, среда NetBeans обеспечивает готовую поддержку веб-профиля, включая поддержку JSF, JSP и сервлетов.
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Разработка JSF
+
+IDE NetBeans поддерживает новейший стандарт JavaServer Faces (JSF) 2.1, а также предыдущие стандарты 2.0 и 1.2. IDE NetBeans поддерживает Facelets, официальную технологию представлений для JSF 2.1. Можно создать новый проект веб-приложения на основе платформы Facelets для работы со стандартными компонентами примеров реализации JSF.
+
+IDE также поддерживает различные компоненты библиотек JSF(*PrimeFaces, RichFaces, ICEfaces*), которые могут упростить разработку страниц фейслетов.
+
+link:../../kb/docs/web/jsf20-intro.html[Введение в JavaServer Faces]
+
+     [overview-right]#link:jsf-crud-gen.png[image:jsf-crud-gen-cut.png[]]#
+
+=== Создание клиентов на основе мастеров
+
+Используйте средство создания приложений JSF CRUD (Create/Read/Update/Delete – создание, чтение, обновление, удаление) для построения функциональной страницы JSF для управления данными из базы данных. Мастер создания файла может создавать настраиваемые страницы CRUD JSF из существующих сущностей. Используйте шаблоны настраиваемых компонентов HTML и JSF для перетаскивания форм HTML и JSF на веб-страницы и создавайте таблицы данных JSF из сущностей. Кроме того, доступна возможность создания шаблонов Facelet и работа с ними.
+
+Теперь, везде, где это возможно, среда IDE создает код с использованием аннотаций, а не дескрипторов развертывания.
+
+ 
+|===
+
+|=== Поддержка шаблонов JSF
+
+ |
+
+=== Разработка JSP
+
+ |
+
+=== Поддержка Hibernate
+
+ 
+
+|[overview-centre]#image:template-wizard-cut.png[]#
+Среда IDE предоставляет мастер шаблонов Facelets для создания шаблонов Facelets, а также мастер клиента шаблонов Facelets для создания файлов на основе шаблона.
+
+ |
+
+[overview-centre]#image:jsp-dev-cut.png[]#
+В файлах JavaServer Pages (JSP) редактор предоставляет вам такие вспомогательные функции, как автозавершение кода, гипертекстовый переход, проверку ошибок и отладку. Поддерживается перетаскивание фрагментов кода из палитры. Предусмотрена поддержка создания и использования библиотек пользовательских тегов.
+
+link:../../kb/docs/web/quickstart-webapps.html[Введение в разработку веб-приложений с JSP]
+
+ |
+
+[overview-centre]#image:hibernate-web-apps.png[]#
+Библиотеки Hibernate автоматически связываются с приложением при выборе платформы Hibernate в мастере создания проектов. Среда IDE предоставляет мастер для создания файла Hibernate реверсивного проектирования и настройки файлов XML и классов POJO.
+
+link:../../kb/docs/web/hibernate-webapp.html[Использование библиотеки Hibernate в веб-приложении]
+
+ 
+
+|=== Поддержка Spring
+
+ |
+
+=== Поддержка Struts
+
+ |
+
+=== Другие платформы
+
+ 
+
+|[overview-centre]#image:spring-completion.png[]#
+Выберите платформу Spring в мастере создания проектов и сразу же начните с работы со схемой приложения Spring Web MVC. Используйте в редакторе функции переработки программного кода (включая файлы настройки XML) и автозавершения кода.
+
+link:../../kb/docs/web/quickstart-webapps-spring.html[Введение в Spring Web MVC]
+
+ |
+
+[overview-centre]#image:struts.png[]#
+Выберите платформу Struts для создания гибких веб-приложений на основе стандартных технологий, таких как JSP-страницы, JavaBeans, комплекты ресурсов и XML. Применяйте автозавершение кода для тегов Struts и всплывающих окон документации Struts Javadoc в редакторе.
+
+link:../../kb/docs/web/quickstart-webapps-struts.html[Введение в веб-платформу Grails]
+
+ |
+
+[overview-centre]#image:plugin-portal-uc.png[]#
+Вы можете установить дополнительные подключаемые модули для поддержки других платформ, загрузив их из Центра обновлений IDE.
+
+Например, можно установить подключаемый модуль *Wicket* для поддержки платформы Wicket.
+
+link:../../kb/docs/web/quickstart-webapps-wicket.html[Введение в веб-платформу Wicket]
+
+link:../../kb/docs/web/framework-adding-support.html[Добавление поддержки веб-платформы]
+
+ 
+|===
+
+=== См. также
+
+* link:/community/releases/73/index.html[На странице сведений о версии IDE NetBeans 7.3] приведен список специальных функций в последней стабильной версии.
+* Более подробно о функциях последней стабильной версии см. на странице link:http://wiki.netbeans.org/NewAndNoteworthyNB73[Новые замечательные возможности IDE NetBeans 7.3].
+* link:../../kb/trails/java-ee.html[Учебная карта по Java EE и Java Web] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

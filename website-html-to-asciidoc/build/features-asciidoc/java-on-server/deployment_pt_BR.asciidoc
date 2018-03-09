@@ -1,0 +1,99 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= deployment_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  deployment_pt_BR
+:description: Apache NetBeans  deployment_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Implantação e Monitoramento da Aplicação
+
+link:deploy-monitor.png[image:deploy-monitor-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+O NetBeans IDE suporta várias plataformas de implantação com suporte inovador para a versão mais recente do Glassfish. Depois da implantação, você aproveita o suporte para monitorar, criar perfis e testar suas aplicações.
+
+    [overview-right]#link:deploy-servers.png[image:deploy-servers-cut.png[]]#
+
+=== Implantação em Servidores
+
+O IDE atua com qualquer contêiner padrão do Java EE (Java Enterprise Edition) e oferece suporte ao GlassFish Server Open Source Edition 3.1.2.2, WebLogic 12c e 11g, Apache Tomcat 7.0 e 6.0, JBoss 6.1 e outros.
+
+*Implantar ao Salvar*
+
+O IDE reimplanta instantaneamente qualquer aplicação Java EE em execução quando uma alteração é feita no projeto. Implantar ao Salvar está disponível para aplicações Web, EJB e EAR, além de ser suportado no GlassFish 3.x, no WebLogic e no Tomcat.
+
+O link:http://plugins.netbeans.org/plugin/22254/jrebel-netbeans-plugin[plug-in JRebel] também está disponível, permitindo usar o JRebel para ver alterações feitas no código sem a necessidade de reimplantação.
+
+     [overview-left]#link:http-monitor.png[image:http-monitor-cut.png[]]#
+
+=== Monitoramento de HTTP
+
+Além do suporte à link:../java/debugger.html[depuração e criação de perfil], o IDE oferece o Monitor de HTTP do Servidor para ajudar a diagnosticar problemas com fluxo de dados da página do JSP e execução de servlet no servidor Web. O Monitor do Servidor HTTP coleta dados sobre solicitações HTTP processadas pelo mecanismo do servlet. Para cada solicitação HTTP processada, o monitor registra dados sobre a solicitação recebida e os estados de dados mantidos no servidor. Você pode exibir dados, armazenar dados para futuras sessões e repetir e editar solicitações anteriores.
+
+     [overview-right]#link:javaee-testing-maven.png[image:javaee-testing-maven-cut.png[]]#
+
+=== Testes de Aplicações Java EE
+
+Juntamente com o Maven, o NetBeans IDE permite testar muito rapidamente uma aplicação corporativa. Você pode criar classes de teste para sua aplicação corporativa com um assistente e executar o teste no IDE. A classe de teste criará uma instância do contêiner EJB incorporado no GlassFish para testar a conexão com o back-end.
+
+link:../../kb/docs/javaee/maven-entapp-testing.html[Testando uma Aplicação Java EE baseada em Maven]
+
+ 
+|===
+
+|=== Exibir um Servlet do Arquivo JSP
+
+ |
+
+=== Salvar e Repetir
+
+ |
+
+=== Configuração da Implantação
+
+ 
+
+|[overview-centre]#image:open-servlet-cut.png[]#
+Quando você executa um arquivo JSP, pode exibir a fonte do servlet convertida no Editor de Código-Fonte, que pode ajudá-lo a depurar problemas no arquivo JSP.
+
+ |
+
+[overview-centre]#image:http-replay-cut.png[]#
+No Monitor do Servidor HTTP, você pode salvar e repetir solicitações HTTP. Quando você repetir uma solicitação, a resposta aparecerá no Web browser. Você também pode editar uma solicitação para ajudá-lo a depurar problemas correspondentes a vários cenários para a solicitação.
+
+ |
+
+[overview-centre]#image:webapp-configuration-cut.png[]#
+O IDE atualiza automaticamente seus descritores de implantação quando você codifica a aplicação Web. Você pode configurar manualmente seus descritores de implantação editando os arquivos do descritor com uma view de documento do XML associado.
+
+ 
+|===
+
+=== Consulte Também
+
+* link:/community/releases/81/index.html[Página da Release NetBeans IDE 8.1] para obter uma lista de funcionalidades realçadas na última versão estável.
+* link:../../kb/trails/java-ee.html[Trilha de Aprendizagem do Java EE e Java Web] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

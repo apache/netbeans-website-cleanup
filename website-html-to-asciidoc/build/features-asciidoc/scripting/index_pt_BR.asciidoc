@@ -1,0 +1,92 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+== Linguagens Dinâmicas do NetBeans IDE
+
+link:dynamic-languages-big.png[image:dynamic-languages.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+*O NetBeans IDE não é apenas a melhor escolha para desenvolvimento Java, como também fornece suporte integrado para linguagens dinâmicas - tudo isso em uma poderosa ferramenta.*
+
+|===
+|=== PHP
+
+O NetBeans PHP IDE oferece um ambiente de desenvolvimento integrado e rápido para criar, executar e depurar aplicações PHP em um pequeno download.
+
+Consulte link:../php/index.html[Desenvolvimento em PHP].
+
+ |image:php-codecompletion.png[] 
+
+|=== HTML, JavaScript e CSS
+
+O NetBeans IDE oferece suporte total ao editor de HTML, JavaScript e CSS. Tire vantagem do realce de sintaxe total, do recurso autocompletar código, da documentação pop-up e da verificação de erros para HTML, CSS e JavaScript, incluindo HTML 5, JavaScript 1.7 e do realce semântico para E.4X (objetos XML incorporados). O Editor reconhece o código HTML nos arquivos JavaScript e o código JavaScript em arquivos HTML. O Editor também reconhece HTML e JavaScript nos arquivos XHTML, PHP e JSP.
+
+==== HTML image:improved_small.gif[]
+
+Você pode usar o editor no IDE para circundar rapidamente o código com uma tag ou remover uma tag ao redor usando novas dicas. É possível remover estilos em linha para um bloco de estilos ou para um arquivo .css.
+
+==== CSS image:improved_small.gif[]
+
+O Netbeans IDE suporta CSS 3. A refatoração, o realce de semântica, a marcação de ocorrências e outras funcionalidades foram adaptadas para o código CSS3. A funcionalidade autocompletar código CSS foi expandida para completar elementos html, propriedades do CSS 3 e seus valores, novas pseudoclasses e pseudoelementos e prefixos de namespace. Propriedades específicas do fornecedor (propriedades do prefixo hífen) também foram adicionadas ao recurso autocompletar código. A janela Navegador agora mostra classes, ids, elementos, namespaces e regras css em conjuntos separados de elementos.
+
+==== JavaScript
+
+Quando você especifica tipos e versões de browser no painel Opções do JavaScript, o editor fornece informação de compatibilidade do browser enquanto você digita.
+
+Arraste e solte snippets de código acessíveis e tabelas da Paleta HTML no editor. Editar regras do CSS e exibir os resultados no editor visual de CSS.
+link:../../kb/docs/web/js-toolkits-jquery.html[Usando jQuery para aprimorar a aparência e o uso de uma Página Web]
+
+ |
+
+ 
+
+image:html-surround-tag-hints.png[]
+
+image:css-cc.png[]
+
+image:javascript-browser-options.png[]
+
+ 
+
+|=== Groovy e Grails
+
+O NetBeans IDE suporta diretamente o Groovy, uma linguagem de script dinâmica para Plataforma Java, e o Grails, um framework de aplicação Web que utiliza a linguagem Groovy. Use-a para desenvolver aplicações totalmente em Groovy ou mesclar Groovy com Java e aproveitar a natureza dinâmica do Groovy em seus projetos Java.
+
+ 
+|===
+
+ 
+
+
+|===
+|image:arrow-button.gif[] link:../php/index.html[PHP]
+Um PHP IDE rápido e leve. |image:arrow-button.gif[]link:../groovy/index.html[Groovy]
+Integrar Groovy com Java SE e usar o framework da web de Grails. |image:arrow-button.gif[]link:../javascript/index.html[JavaScript]
+Cria páginas web avançadas de JavaScript. 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

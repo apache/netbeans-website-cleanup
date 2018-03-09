@@ -1,0 +1,107 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ru
+:description: Apache NetBeans  index_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Базовая среда IDE
+
+link:ide-basic-full.png[image:ide-basic-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+IDE NetBeans представляет собой модульный инструмент разработчика для широкого спектра технологий разработки приложений. База IDE включает в себя современный многоязыковой редактор, отладчик и профилировщик, а также средства управления версиями и сотрудничества разработчиков.
+
+    [overview-right]#link:ide-basic-templates-full.png[image:ide-basic-templates-full-cut.png[]]#
+
+=== Шаблоны и демонстрационные приложения
+
+IDE NetBeans предоставляет доступ к схемам приложений в форме шаблонов проектов для всех поддерживаемых ими технологий. Кроме того, он содержит набор примеров приложений, некоторые из которых могут быть воссозданы шаг за шагом, следуя указаниям в соответствующем учебном руководстве, доступном на NetBeans.org.
+
+IDE предоставляет шаблоны проектов и примеры проектов, которые позволяют создавать приложения Java SE, Java EE, Java ME, HTML5, приложения на платформе NetBeans, приложения PHP, приложения на C/C++.
+
+link:../../kb/index.html[Карты обучения технологии NetBeans]
+
+     [overview-left]#link:ide-basic-services-full.png[image:ide-basic-services-cut.png[]]#
+
+=== Базы данных и службы
+
+Окно 'Услуги' дает доступ ко многим вспомогательным ресурсам, таким как базы данных, серверы, веб-службы и средства отслеживания ошибок.
+
+Вы можете запускать и останавливать базы данных и серверы непосредственно в IDE. При работе с базами данных вы можете добавлять, удалять и изменять свои данные в IDE. После развертывания приложения на сервере вы можете управлять развернутыми ресурсами, поскольку они отображаются на узле Servers.
+
+Вы можете подключиться к базам данных ошибок, таким как Issuezilla или Bugzilla, и выводить отчеты об ошибках для своих проектов непосредственно в IDE.
+
+link:../../kb/trails/tools.html[Интеграция с внешними средствами и службами]
+
+     [overview-right]#link:ide-basic-plugins.png[image:ide-basic-plugins-cut.png[]]#
+
+=== Диспетчер подключаемых модулей
+
+При использовании IDE всегда можно вернуться в 'Диспетчер подключаемых модулей' из меню 'Инструменты', чтобы добавить, удалить или обновить установленный набор функций.
+
+Широкий спектр подключаемых модулей доступен для всех типов разработки: от Java SE, Java EE, Java ME, HTML5, Groovy, PHP до C/C++.
+
+Созданные в сообществах подключаемые модули также доступны в портале подключаемых модулей NetBeans.
+
+link:http://plugins.netbeans.org/[Портал подключаемых модулей NetBeans]
+
+ 
+|===
+
+|=== Быстрый поиск
+
+ |
+
+=== Элементы действий
+
+ |
+
+=== Настраиваемое рабочее пространство
+
+ 
+
+|[overview-centre]#image:ide-basic-quick-search.png[]#
+Быстрый поиск представляет собой централизованное местоположение, где можно выполнять поиск по всем типам Java в JDK, действиям в IDE, наборам справочных систем, настройкам параметров и проектам.
+
+ |
+
+[overview-centre]#image:ide-basic-actionitems-cut.png[]#
+В окне 'Элементы действий' автоматически сканируется код и отображаются строки с комментариями, содержащими такие слова, как "TODO" или "FIXME", а также строки с ошибками компиляции, быстрыми исправлениями и предупреждения о стилях.
+
+ |
+
+[overview-centre]#image:ide-basic-customize.png[]#
+Рабочее пространство IDE может быть изменено. Можно настроить кнопки на панели инструментов, перетаскивать и перемещать вкладки во фрейме приложения IDE в соответствии с требованиями к отдельным рабочим процессам. Можно открепить вкладки и перетащить их за пределы фрейма приложения, даже на другой монитор.
+
+ 
+|===
+
+=== См. также
+
+* link:../../community/releases/81/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список выделенных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

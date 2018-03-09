@@ -1,0 +1,90 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= java-me
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  java-me
+:description: Apache NetBeans  java-me
+:toc: left
+:toc-title:
+
+ 
+
+== Java ME and Embedded
+
+link:gamebuilder.png[image:gamebuilder-cut.png[][font-11]#Click image for fullscreen preview#]
+
+Create, test, debug, and deploy applications that will run on the Raspberry Pi, mobile phones, PDAs, and set-top boxes, and other mobile and embedded systems.
+
+    [overview-right]#link:client-jme-pi-full.png[image:client-jme-pi-full.png[]]#
+
+=== Java SE Embedded
+
+The Java SE Embedded platform optimizes Java SE for mid-range to high-end embedded systems. Devices having 32MB (without graphics) or more for Java can use Java SE Embedded.
+
+NetBeans IDE offers full development support against remote embedded platforms, including intuitive development, one-click deployment, remote debugging, and comprehensive remote profiling.
+
+For example, the IDE provides complete end-to-end integration with the Raspberry Pi. In one click, your application is deployed, after which you can debug and profile it.
+
+link:../../kb/index.html[NetBeans Technology Learning Trails]
+
+     [overview-left]#link:client-jme-jdk8-full.png[image:client-jme-jdk8-cut.png[]]#
+
+=== Java ME Embedded
+
+Java ME Embedded is a subset of the Java SE platform that has been scaled down to fit the limitations of resource-constrained devices and optimized for low to mid-range embedded-systems. Devices having 8MB (without graphics) or more for Java can use Java ME Embedded.
+
+The IDE supports the use of the Java ME 8 CLDC Platform Emulator, provides intuitive tools and editors for Java 8 on Java ME, and lets you easily customize optional packages in the Java ME Embedded platform.
+
+     [overview-right]#link:client-jme-full.png[image:client-jme-cut.png[]]#
+
+=== Phones, Hand-Held Devices, Java Card, and Set-Top Boxes
+
+Create, test, and debug applications for the Mobile Information Device Profile (MIDP) 1.0, 2.0, 2.1 (MSA), the Connected Limited Device Configuration (CLDC) 1.0 and 1.1, and the Connected Device Configuration (CDC).
+
+The IDE comes bundled with the Java ME SDK which supports both CLDC and CDC development. You can register other mobile and embedded platforms from the Tools menu.
+
+link:../../kb/index.html[NetBeans Technology Learning Trails]
+
+     [overview-left]#link:client-jme-card-full.png[image:client-jme-card-cut.png[]]#
+
+=== Java Card
+
+The Java Card Platform is a JVM that runs on smart cards. This platform supports familiar Java APIs such as servlets and allows you to write web applications that run on tiny devices that fit in the palm of your hand.
+
+The IDE supports Java Card projects, Java Card applet deployment, and a Java Card device console.
+
+     [overview-right]#link:ide-basic-plugins.png[image:ide-basic-plugins-cut.png[]]#
+
+=== Visual Mobile Designer
+
+Develop GUIs rapidly with the Visual Mobile Designer. Drag and drop components like wait screens, login screens, file browsers, an SMS composer, and splash screens are included. The Analyzer tool helps you decrease file size by identifying unused components for removal, and it also checks for MIDP 1.0 compliance. The VMD also makes GUI localization easier.
+
+*Note:* The Visual Mobile Designer is available in the NetBeans Update Center. To run VMD in the IDE, you need to install the Visual Mobile Designer plugin from the Update Center (Tools > Plugins > Available Plugins).
+
+ 
+
+=== See Also
+
+* link:../../community/releases/81/index.html[NetBeans IDE 8.1 Release Page] for a list of highlighted features in the latest stable release.
+* link:../../kb/trails/java-se.html[General Java Development Learning Trail] for tutorials that will help you get started.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.
