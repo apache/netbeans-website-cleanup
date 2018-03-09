@@ -1,0 +1,92 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= debugger_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  debugger_pt_BR
+:description: Apache NetBeans  debugger_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Depurador e Criador de Perfil
+
+link:debugger.png[image:debugger-cut.png[][font-11]# Clique na imagem para exibição em tela inteira#]
+
+Para identificar e resolver problemas nas suas aplicações, como deadlocks e vazamento de memória, o NetBeans oferece um depurador e um criador de perfil com diversas funcionalidades.
+
+    [overview-left]#link:debugger.png[image:debugger-cut.png[]]#
+
+=== Depurador
+
+O NetBeans Debugger permite a você inserir pontos de interrupção no seu código-fonte, adicionar watches de campo, avançar pelo código, executar métodos, obter telas e monitorar a execução durante sua ocorrência. Você também pode conectar o depurador a um processo já em execução.
+
+O IDE inclui um depurador visual que permite obter telas da GUI e explorar visualmente a GUI das aplicações em JavaFX e Swing. Ele permite exibir propriedades do componente, a hierarquia dos componentes no contêiner e localizar o código-fonte dos componentes. Você pode usar o depurador visual para adicionar com facilidade listeners para ações da GUI sem precisar pesquisar em todo o código-fonte.
+
+link:../../kb/docs/java/debug-multithreaded.html[Depurando Aplicações com Vários Segmentos no NetBeans IDE]
+link:../../kb/docs/java/debug-visual.html[Usando o Visual Debugger no NetBeans IDE]     [overview-right]#link:profiler.png[image:profiler-cut.png[]]#
+
+=== Criador de Perfil
+
+O NetBeans Profiler proporciona assistência especializada para otimizar a velocidade e o uso de memória de sua aplicação e facilita a construção de aplicações Java SE, JavaFX e Java EE confiáveis e dimensionáveis.
+
+Selecione entre várias das tarefas comuns de criação de perfil, tais como criação de perfil padrão da CPU ou da memória ou monitoramento simples. As opções foram predefinidas para valores default por especialistas; você pode personalizar as definições para uma aplicação específica.
+
+link:../../kb/docs/java/profiler-intro.html[Introdução às Aplicações Java de Criação de Perfil no NetBeans IDE] 
+|===
+
+|=== Depuração Multissegmentada
+
+ |
+
+=== Heap Walker
+
+ |
+
+=== Contagem de Geração
+
+ 
+
+|[overview-centre]#image:debugger-thread-cut.png[]#
+Para alternar threads, use o Seletor de encadeamento atual ou acesse a navegação de threads diretamente na margem do editor. É possível verificar o estado dos threads atuais da sessão e verificar a pilha de chamadas e variáveis das configurações regionais do thread atual.
+
+ |
+
+[overview-centre]#image:debugger-heap-cut.png[]#
+Use o HeapWalker para avaliar o conteúdo do heap Java e para identificar referências desnecessárias que causam vazamentos de memória. É possível explorar classes e instâncias de classes no heap, campos de cada instância ou classe e referências a cada instância.
+
+ |
+
+[overview-centre]#image:debugger-generational-cut.png[]#
+As contagens de geração permitem identificar objetos que estão sobrevivendo a todas as tentativas de coletá-los. Essas informações podem ser usadas para localizar objetos antigos e com vazamento.
+
+link:../../kb/articles/nb-profiler-uncoveringleaks_pt1.html[Revelando Vazamentos de Memória com o NetBeans Profiler]
+
+ 
+|===
+
+=== Consulte Também
+
+* link:/community/releases/81/index.html[Página de Release do NetBeans IDE 8.1] para obter uma lista de funcionalidades específicas da última versão estável.
+* link:../../kb/trails/java-se.html[Trilha de Aprendizado em Desenvolvimento Geral de Java] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

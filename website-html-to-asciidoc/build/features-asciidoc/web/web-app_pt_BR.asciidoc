@@ -1,0 +1,139 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= web-app_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  web-app_pt_BR
+:description: Apache NetBeans  web-app_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Desenvolvimento com Frameworks de Aplicações Web
+
+link:web-app2.png[image:web-app2-cut1.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+O NetBeans IDE suporta vários frameworks de aplicações Web, o que inclui todas as especificações de desenvolvimento de aplicações Web fornecidas como parte da especificação Java EE. Você também pode personalizar o IDE para funcionar com frameworks adicionais de sua escolha.
+
+    [overview-right]#link:ee-6-web-profile.png[image:ee-6-web-profile-cut.png[]]#
+
+=== Suporte ao Perfil Web do Java EE 6
+
+O link:http://www.oracle.com/technetwork/java/javaee/downloads/javaee6-standards-jsp-141130.html[Perfil Web do Java EE 6] define um subconjunto de especificações que podem ser usadas para criar aplicações Web. Além de suportar a especificação Java EE total, o NetBeans oferece suporte imediato para perfil Web, inclusive suporte para JSF, JSPs e Servlets.
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Desenvolvimento do JSF
+
+O NetBeans IDE suporta o padrão JavaServer Faces (JSF) 2.1 mais recente, assim como os padrões antigos 2.0 e 1.2. O Netbeans IDE suporta Facelets, a tecnologia oficial da view de JSF 2.1. Você pode criar um novo projeto com base na aplicação Web de framework de Facelets e trabalhar com componentes de implementação de referência de JSF.
+
+O IDE também suporta várias bibliotecas de componente JSF (*PrimeFaces, RichFaces, ICEfaces*) que podem simplificar o desenvolvimento de páginas de facelet.
+
+link:../../kb/docs/web/jsf20-intro.html[Introdução ao JavaServer Faces]
+
+     [overview-right]#link:jsf-crud-gen.png[image:jsf-crud-gen-cut.png[]]#
+
+=== Geração de Cliente Baseada em Assistente
+
+Utilize o gerador de aplicações em JSF CRUD (Create/Read/Update/Delete, criar/ler/atualizar/apagar) para criar uma página JSF completa e funcional para manipular dados de um banco de dados. O assistente Novo Arquivo pode gerar páginas JSF CRUD personalizáveis de entidades existentes. Utilize as paletas personalizadas de componentes JSF e HTML para arrastar e soltar forms JSF e HTML em páginas Web e gere tabelas de dados JSF de entidades. A capacidade para criar e trabalhar com modelos de Facelets também é fornecida.
+
+Quando possível, o IDE gera código utilizando as anotações em vez dos descritores de implantação.
+
+ 
+|===
+
+|=== Suporte a Modelos JSF
+
+ |
+
+=== Desenvolvimento JSP
+
+ |
+
+=== Suporte ao Hibernate
+
+ 
+
+|[overview-centre]#image:template-wizard-cut.png[]#
+O IDE oferece um assistente de Modelo de Facelets para a criação de modelos de Facelets e um assistente de Cliente de modelo de Facelets para a criação de arquivos que dependem de um modelo.
+
+ |
+
+[overview-centre]#image:jsp-dev-cut.png[]#
+Nos arquivos JavaServer Pages (JSP), o editor ajuda você com o recurso autocompletar código, a navegação de hipertexto, a verificação de erros e a depuração. Você pode arrastar e soltar snippets do código de uma paleta. Há suporte para criação e uso das bibliotecas de tags.
+
+link:../../kb/docs/web/quickstart-webapps.html[Introdução ao desenvolvimento de aplicações Web usando o JSP]
+
+ |
+
+[overview-centre]#image:hibernate-web-apps.png[]#
+As bibliotecas de Hibernate são automaticamente empacotadas com a sua aplicação quando você seleciona o framework de Hibernate no assistente de Novo Projeto. O IDE fornece assistentes para criar engenharia reversa de Hibernate e configuração de arquivos XML e classes POJO.
+
+link:../../kb/docs/web/hibernate-webapp.html[Utilizando Hibernate em uma Aplicação Web]
+
+ 
+
+|=== Suporte ao Spring
+
+ |
+
+=== Suporte a Struts
+
+ |
+
+=== Outros Frameworks
+
+ 
+
+|[overview-centre]#image:spring-completion.png[]#
+Selecione o framework do Spring no assistente de Novo Projeto e comece imediatamente com uma estrutura da aplicação Spring Web MVC. Aproveite a refatoração (incluindo arquivos de configuração XML) e o recurso de autocompletar código no editor.
+
+link:../../kb/docs/web/quickstart-webapps-spring.html[Introdução ao Spring Web MVC]
+
+ |
+
+[overview-centre]#image:struts.png[]#
+Selecione o framework do Struts para criar aplicações Web flexíveis com base em tecnologias padrão, como páginas JSP, JavaBeans, pacotes de recursos e XML. Obtenha benefícios do recurso autocompletar código para tags Struts e dos pop-ups de Javadoc do Struts no editor.
+
+link:../../kb/docs/web/quickstart-webapps-struts.html[Introdução ao Framework Web do Struts]
+
+ |
+
+[overview-centre]#image:plugin-portal-uc.png[]#
+Você pode instalar plug-ins adicionais que oferecem suporte para outros frameworks, quando fornecidos, na Central de Atualização do IDE.
+
+Por exemplo, o plug-in *Wicket* pode ser instalado para permitir o suporte do framework Wicket.
+
+link:../../kb/docs/web/quickstart-webapps-wicket.html[Introdução ao Wicket Web Framework]
+
+link:../../kb/docs/web/framework-adding-support.html[Adicionando Suporte para um Framework Web]
+
+ 
+|===
+
+=== Consulte Também
+
+* link:/community/releases/73/index.html[Página de Release do NetBeans IDE 7.3] para obter uma lista de funcionalidades específicas da última versão estável.
+* Obtenha mais detalhes sobre funcionalidades da última release mais estável na link:http://wiki.netbeans.org/NewAndNoteworthyNB73[página Novidades e Destaques do NetBeans IDE 7.3].
+* link:../../kb/trails/java-ee.html[Trilha de Aprendizagem do Java EE e Java Web] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

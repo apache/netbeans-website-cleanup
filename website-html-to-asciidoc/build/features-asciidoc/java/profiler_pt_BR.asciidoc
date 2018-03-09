@@ -1,0 +1,88 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= profiler_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  profiler_pt_BR
+:description: Apache NetBeans  profiler_pt_BR
+:toc: left
+:toc-title:
+
+== Profiler
+
+link:profiler.png[image:profiler-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+*O profiler do NetBeans proporciona assistência especializada para otimizar a velocidade e o uso de memória de sua aplicação e facilita a construção de aplicações Java SE, JavaFX e Java EE confiáveis e dimensionáveis.*
+
+=== Criação de Perfil com Base em Tarefas
+
+Selecione entre várias das tarefas comuns de criação de perfil, tais como criação de perfil padrão da CPU ou da memória ou monitoramento simples. As opções foram predefinidas para valores default por especialistas; você pode personalizar as definições para uma aplicação específica.
+
+É possível controlar com precisão a quantidade de sobrecarga imposta pelo profiler e, assim, analisar a aplicação enquanto ela estiver executando quase a toda velocidade. Você pode armazenar os dados da análise para processamento off-line: salve e exporte snapshots dos resultados coletados como arquivos CSV, HTML ou XML.
+
+|===
+|=== Heap Walker
+
+Use o HeapWalker para avaliar o conteúdo do heap Java e para identificar referências desnecessárias que causam vazamentos de memória. É possível explorar classes e instâncias de classes no heap, campos de cada instância ou classe e referências a cada instância. Utilize consultas OQL compatíveis com jHat para analisar o conteúdo de um heapdump: obtenha benefícios do realce básico de sintaxe e da funcionalidade autocompletar código para OQL.
+
+ |image:profiler-heapwalker_p150.png[] 
+
+|=== Pontos de Determinação de Perfil
+
+Coloque os pontos de criação de perfil em seu código-fonte para controlar mais precisamente a coleção de resultados da criação de perfil, semelhantes aos pontos de interrupção do depurador.
+
+Utilize os pontos de criação de perfil para disparar automaticamente as ações quando certas condições são atendidas, tal como a execução de uma linha de código, tempo decorrido ou memória utilizada. Os pontos de criação de perfil podem disparar os dumps de heap, a redefinição de resultados coletados, a execução de um script gerador de carga e a criação de um snapshot dos resultados.
+
+ |image:javaSE_profiler_profiling_points2_150px.png[] 
+
+|=== Identificando os Gargalos da CPU
+
+O Profiler do NetBeans pode ser configurado para reportar somente métodos particulares ou a aplicação inteira. Um gráfico categoriza onde o tempo da CPU foi gasto. Clique nas seções do gráfico para percorrer desde as categorias de alto nível até as informações mais detalhadas de criação de perfil.
+
+Crie um perfil de todo a aplicação ou de um subconjunto sob uma carga de trabalho realista. É possível realizar teste de carga iniciando os scripts JMeter no início de uma sessão de criação de perfil.
+
+=== Rastreando o Uso de Memória
+
+Identifique os objetos com vazamento de acordo com seus padrões especiais de alocações e coleções de lixo ou com a ausência destes. A criação de perfil da execução do objeto rastreia os eventos de criação do objeto e de coleções de lixo. Inspecione o número, a idade, os caminhos de alocação e outras características de objetos que estão atualmente na memória e compare os snapshots da memória.
+
+ |image:javaSE_profiler_drilldown_150px.png[] 
+
+|=== Monitorando o Status dos Threads
+
+O Profiler do NetBeans exibe o status atual e anterior de todos os threads em uma aplicação na linha de tempo de threads. Os Detalhes do Thread fornecem informações detalhadas sobre um ou mais threads selecionados, incluindo uma lista de todas as alterações de estado na vida do thread.
+
+=== Criação Remota de Perfil
+
+Crie o perfil de uma aplicação que esteja sendo executada em um sistema diferente do NetBeans IDE. O pacote remoto do profiler pode ser instalado em um sistema remoto, o que permite a criação do perfil de uma aplicação que seja iniciada nesse sistema.
+
+=== Anexar Profiler
+
+Anexe o profiler em qualquer aplicação Java, inclusive em aplicações que não sejam iniciadas pelo IDE. Se a aplicação Java e o IDE estiverem sendo executadas com o JDK 6, é possível anexar o profiler dinamicamente, o que permite a criação de perfil de uma aplicação que já esteja sendo executada.
+
+ |image:profiler-threads.png[] 
+|===
+
+ 
+
+image:arrow-button.gif[] link:../../kb/trails/java-se.html[Trilha de Aprendizado do Java SE e IDE de Base]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

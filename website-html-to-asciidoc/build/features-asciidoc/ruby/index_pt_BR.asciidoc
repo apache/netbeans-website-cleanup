@@ -1,0 +1,91 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+== Ruby e Ruby on Rails
+
+link:ruby.png[image:ruby-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+*OBSERVAÇÃO: A partir do NetBeans IDE 7.0, o suporte para Ruby e Ruby on Rails não está mais disponível na compilação padrão do NetBeans IDE. Consulte a página da link:http://wiki.netbeans.org/RubySupport[Wiki de Suporte do Ruby] para obter mais informações.*
+
+|===
+|=== Editor de Código-Fonte do Ruby
+
+O editor recua, completa e realça o código Ruby tanto sintática como semanticamente. Auxilia a renomear refatoração, inferência de tipo e navegação. O editor faz parsing do código digitado, combinando palavras e colchetes, marcação de erros e ocorrências e exibe novas correções rápidas e RDoc. Com alguns poucos pressionamentos de tecla, você insere snippets de código comumente usados usando modelos ao vivo.
+
+ |
+
+image:ruby-editor.png[]
+
+ 
+
+|=== Projetos Ruby
+
+O tipo de projeto Ruby suporta arquivos Ruby, arquivos de especificação RSpec e arquivos YAML. Utilize o gerenciador da plataforma Ruby para escolher entre executar projetos com o JRuby, ou qualquer outro interprete do Ruby nativo no seu sistema.
+
+O IDE possui a integração de ferramentas de construção Rake e oferece acesso ao shell IRB (Interactive Ruby). Refatoração e suporte a Test::Unit, Teste Automático, testes Shoulda e RSpec estão bem integrados. Também é possível rastrear dicas e erros na lista de tarefas.
+
+
+=== Projetos Ruby On Rails
+
+O tipo de projeto Ruby on Rails suporta destinos de Rake e migrações do banco de dados. A caixa de diálogo Rake Runner mantém uma lista de parâmetros inseridos anteriormente e preenche automaticamente a lista de parâmetros para tarefas permanentes e migração. É possível gerar projetos Rails 3 ou gerar código usando o assistente gráfico de código Rails. A view do de projeto lógica separa controladores de modelos, views e migrações de banco de dados.
+
+Edite arquivos ERB e faça implantação de projetos diretamente nos servidores da Web WEBrick e Mongrel. Você pode saltar rapidamente entre uma ação Rails e sua exibição correspondente, e ir para o browser do URL mais relevante para o arquivo que está editando.
+
+=== Depurador Ruby e Rails
+
+Etapa única ou execução usando o código Ruby e arquivos ERB. Defina pontos de interrupção, observe as variáveis locais, navegue na pilha de chamadas, alterne tópicos. Passe o mouse sobre uma variável no editor para avaliar as expressões e mostrá-las em uma dica de ferramenta. O NetBeans IDE oferece suporte ao Depurador Rápido Ruby, que também é compatível com o JRuby. É possível depurar os arquivos Ruby que não fazem parte de um projeto NetBeans ou anexar o depurador a qualquer processo remoto iniciado a partir da linha de comandos e tirar vantagem de um front-end do depurador fácil de usar.
+
+ |
+
+image:ruby-test.png[]
+
+image:ruby-files.png[]
+
+image:ruby-rails.png[]
+
+image:ruby-debugger.png[]
+
+ 
+
+|=== Gerenciador de Instalação Ruby Gems
+
+Estenda a sua instalação do Ruby utilizando o sistema de encapsulamento integrado de Ruby Gems. É possível configurar o $GEM_PATH ou $GEM_HOME por meio do gerenciador de instalação Gems. É possível adicionar e gerenciar livremente as bibliotecas de software Ruby disponíveis e distribuir seus próprios pacotes. O gerenciador de Gem permite, inclusive, desinstalar uma determinada versão de um gem.
+
+Se instalar o gem do empacotador, é possível executar ações do Empacotador do menu de contexto do projeto.
+
+ 
+
+image:arrow-button.gif[] link:http://wiki.netbeans.org/wiki/view/Ruby[O Ruby Wiki]
+
+image:arrow-button.gif[] link:http://wiki.netbeans.org/RubySupport[Wiki de Suporte do Ruby]
+
+
+ |image:ruby-gems.png[] 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

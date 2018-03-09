@@ -1,0 +1,82 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Java
+
+link:ide-management-main-full.png[image:ide-management-main-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+O NetBeans IDE oferece aos desenvolvedores Java todas as ferramentas necessárias para a criação de aplicações desktop, móveis e corporativas.
+
+    [overview-left]#link:java-editor-full.png[image:java-editor-cut.png[]]#
+
+=== Criando, Editando e Refatorando
+
+O IDE oferece assistentes e modelos para permitir a criação de aplicações Java EE, Java SE e Java Me. Várias tecnologias e frameworks são suportados de forma inovadora. Por exemplo, você pode usar assistentes e modelos para criar aplicações que usem o framework OSGi ou sistema de módulos NetBeans como a base de aplicações modulares.
+
+O editor sensível a idiomas do NetBeans detecta erros enquanto você digita e ajuda com pop-ups de documentação e com o recurso inteligente de autocompletar código - tudo com a velocidade e simplicidade de seu editor de texto favorito.
+
+link:editor.html[Editando e Refatorando no NetBeans IDE]
+
+     [overview-right]#link:ide-buildtools-maven-full.png[image:ide-buildtools-maven-cut2.png[]]#
+
+=== Compilando
+
+De forma inovadora, o IDE oferece suporte aos sistemas de compilação Maven e Ant. No Assistente para Novos Projetos, quando você escolhe criar uma nova aplicação, escolhe criar aplicações baseadas em Maven ou Ant.
+
+É possível abrir aplicações baseadas em Maven no IDE sem um processo de importação, pois o IDE lê as configurações do projeto do arquivo POM do Maven. Além disso, são fornecidas ferramentas para importar projetos baseados em Ant que não foram criados no IDE.
+
+O IDE inclui um Maven Repository Browser e gráficos para analisar dependências do Maven.
+
+link:build-tools.html[Crie Ferramentas no NetBeans IDE]
+
+     [overview-left]#link:debugger.png[image:debugger-cut.png[]]#
+
+=== Depurando e Criando Perfil
+
+Para identificar e resolver problemas nas suas aplicações, como deadlocks e vazamento de memória, o NetBeans oferece um depurador e criador de perfil com diversas funcionalidades.
+
+link:debugger.html[Depurador e Criador de Perfil no NetBeans IDE]
+
+     [overview-right]#link:ide-testing-full.png[image:ide-testing-cut.png[]]#
+
+=== Testando e Analisando Código
+
+Quando você estiver testando sua aplicação, o IDE fornecerá ferramentas para usar o JUnit e o TestNG, assim como analisadores de código e, especificamente, integração com a conhecida ferramenta de código-fonte FindBugs.
+
+link:testing.html[Testando e Analisando Código no NetBeans IDE]
+
+ 
+
+=== Consulte Também
+
+* link:/community/releases/74/index.html[Página de Release do NetBeans IDE 7.4] para obter uma lista de funcionalidades específicas da última versão estável.
+* link:../../kb/trails/java-se.html[Trilha de Aprendizado em Desenvolvimento Geral de Java] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

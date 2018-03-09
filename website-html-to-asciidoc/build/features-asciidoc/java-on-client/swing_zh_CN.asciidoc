@@ -1,0 +1,82 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= swing_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  swing_zh_CN
+:description: Apache NetBeans  swing_zh_CN
+:toc: left
+:toc-title:
+
+ 
+
+== Swing
+
+link:client-swing-main-full.png[image:client-swing-main-cut.png[][font-11]#单击图像查看全屏预览#]
+
+创建具备自动调整间距和自动对齐的专业 Swing GUI。
+
+    [overview-right]#link:client-swing-full.png[image:client-swing-cut.png[]]#
+
+=== GUI 构建器
+
+要设计 Swing GUI，将 GUI 组件从组件面板拖动并定位到画布上。GUI 构建器自动维护间距调整和对齐。单击 JLabel、JButton、ButtonGroup、JTree、JTextField 和 ComboBox，并直接就地编辑它们的属性。
+
+您可以使用 GUI 构建器制作直接可供客户使用的 GUI 原型。
+
+link:../../kb/docs/java/gui-functionality.html[GUI 构建简介]
+link:../../kb/trails/matisse.html[Java GUI 应用程序学习资源]
+link:../../kb/docs/java/gui-builder-screencast.html[在 NetBeans IDE 中设计 Swing GUI]     [overview-left]#link:client-swing-palette-full.png[image:client-swing-palette-cut.png[]]#
+
+=== 组件面板
+
+可扩展的组件面板配有预安装的 Swing 和 AWT 组件，并包含一个可视的菜单设计程序。将组件从组件面板拖放到画布上。
+
+使用导航器查看组件树和属性。
+
+     [overview-right]#link:client-swing-visual-full.png[image:client-swing-visual-cut.png[]]#
+
+=== 可视调试器
+
+无需检查源代码即可调试 Swing GUI 应用程序，并可从高级结构方面控制执行流。
+
+选择 "Take GUI Snapshot"（生成 GUI 快照）即可生成应用程序 GUI 的屏幕快照，该 GUI 是可视调试器功能的基础。
+
+link:../../kb/docs/java/debug-visual.html[使用 NetBeans IDE 中的可视调试器]
+
+     [overview-left]#link:platform-screens.png[image:platform-screens.png[]]#
+
+=== NetBeans 平台
+
+NetBeans 平台是 Java 桌面应用程序的通用框架。它提供了每名开发者通常需要自己编写的“管道”- 保存状态、将操作连接到菜单项、工具栏项和快捷键、窗口管理，等等。
+
+NetBeans 平台以现成可用的方式提供了所有这些功能。您无需自行对这些或其他基本应用程序功能进行手动编码。NetBeans 平台不会给应用程序增加大量开销，但会节省大量时间和工作。
+
+link:https://netbeans.org/features/platform/all-docs.html[NetBeans 平台学习资源]
+
+ 
+
+=== 另请参见
+
+* link:../../community/releases/81/index.html[NetBeans IDE 8.1 发行版页]，提供最新的稳定发行版中的重要功能列表。
+* link:../../kb/trails/java-se.html[常规 Java 开发学习资源]，提供将帮助您入门的教程。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

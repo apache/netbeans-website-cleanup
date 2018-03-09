@@ -1,0 +1,64 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= collaboration_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  collaboration_ru
+:description: Apache NetBeans  collaboration_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Совместная работа
+
+link:ide-collaboration-full.png[image:ide-collaboration-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+Работайте совместно с коллегами с помощью отслеживания ошибок и непрерывной интеграции.
+
+    [overview-left]#link:ide-collaboration-full.png[image:ide-collaboration-tracker-cut.png[]]#
+
+=== Отслеживание ошибок
+
+В среде IDE NetBeans можно настроить использование собственного репозитория Jira или BugZilla.
+
+Удобная интеграция между системами контроля версий и отслеживанием ошибок позволяет фиксировать изменения кода и обновлять соответствующие состояния ошибок за один шаг. Создание новых и редактирование существующих ошибок; сортировка и фильтрация ошибок, сохранение запросов, создание исправлений и добавление вложений - все эти действия можно выполнять из IDE.
+
+     [overview-right]#link:ide-collaboration-hudson-full.png[image:ide-collaboration-hudson-cut.png[]]#
+
+=== Непрерывная интеграция
+
+IDE NetBeans позволяет создавать и контролировать как серверы непрерывной интеграции Hudson, так и связанные задания Hudson. Вы можете регистрировать экземпляры Hudson, создавать новые задания Hudson, запускать задания Hudson, а также просматривать результаты, полученные на сервере.
+
+Просматривать размещенные задания Hudson, сборки, рабочие области и артефакты, а также проверять консоль сборки в окне 'Выходные данные'. В случае ошибки сборки пользователь немедленно уведомляется об этом в строке состояния IDE.
+
+Чтобы определить причину ошибки задания, правой кнопкой мыши щелкните узел сборки и просмотрите данные трассировки стека на наличие непройденных проверок. Разработчик также может просмотреть журнал изменений и изучить изменения файла прямо внутри среды IDE.
+
+link:http://wiki.netbeans.org/HudsonInNetBeans[Hudson в IDE NetBeans]
+
+ 
+
+=== См. также
+
+* link:../../community/releases/81/index.html[На странице редакции IDE netbeans 8.1] приведен список выделенных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

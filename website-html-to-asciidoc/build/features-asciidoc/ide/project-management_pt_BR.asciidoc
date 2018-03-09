@@ -1,0 +1,68 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= project-management_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  project-management_pt_BR
+:description: Apache NetBeans  project-management_pt_BR
+:toc: left
+:toc-title:
+
+ 
+
+== Gerenciamento de Projetos
+
+link:ide-management-main-full.png[image:ide-management-main-cut.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+O NetBeans IDE oferece diversas views de dados, de várias janelas do projeto a views de arquivo e hierarquia, permitindo o drill-down dos dados de forma rápida e fácil.
+
+    [overview-right]#image:ide-management-project-cut.png[]#
+
+=== Views do Projeto
+
+A janela Projetos é o ponto de entrada principal para os códigos-fonte do projeto. Ela mostra uma view lógica do conteúdo importante do projeto.
+
+Além da janela Projetos, o IDE oferece a janela Arquivos, em que você pode ver todos os arquivos pertencentes a um projeto, e a janela Favoritos, onde é possível adicionar pastas e arquivos para busca no IDE.
+
+     [overview-left]#link:ide-management-file-cut.png[image:ide-management-file-cut.png[]]#
+
+=== Views do Arquivo
+
+A janela Navegador oferece uma view compacta do arquivo selecionado atualmente e simplifica a navegação entre diferentes partes do arquivo.
+
+Por exemplo, para arquivos Java, a janela Navegador mostra uma lista de construtores, métodos e campos, enquanto para arquivos HTML e CSS ele mostra a estrutura lógica do documento selecionado.
+
+     [overview-right]#link:ide-management-hierarchy-cut.png[image:ide-management-hierarchy-cut.png[]]#
+
+=== Views da Hierarquia
+
+A janela Hierarquia exibe os Supertipos e Subtipos do arquivo Java selecionado no momento ou o tipo de Java selecionado no momento sob o cursor, no editor.
+
+A janela Hierarquia se integra com as janelas Navegador e Javadoc, de forma que você possa ver facilmente os elementos do item selecionado, assim como seu javadoc.
+
+ 
+
+=== Consulte Também
+
+* link:../../community/releases/81/index.html[Página da Release NetBeans IDE 8.1] para obter uma lista de funcionalidades realçadas na última versão estável.
+* link:../../kb/trails/java-se.html[Trilha de Aprendizado em Desenvolvimento Geral de Java] para tutoriais que o ajudarão a começar.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

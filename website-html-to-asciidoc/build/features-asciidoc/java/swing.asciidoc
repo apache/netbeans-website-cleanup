@@ -1,0 +1,80 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= swing
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  swing
+:description: Apache NetBeans  swing
+:toc: left
+:toc-title:
+
+== Swing GUI Builder (formerly Project Matisse)
+
+link:gui-builder.png[image:gui-builder-cut.png[][font-11]#Click image for fullscreen preview#]
+
+*Create professional-looking GUIs with automatic spacing and alignment.*
+
+|===
+|=== Professional Swing GUI Buildingimage:improved_small.gif[]
+
+Design Swing GUIs by dragging and positioning GUI components from a palette onto a canvas. The GUI builder automatically takes care of the correct spacing and alignment. Click into JLabels, JButtons, ButtonGroups, JTrees, JTextFields, ComboBoxes and edit their properties directly in place. You can use the GUI builder to prototype GUIs right in front of customers.
+link:../../kb/docs/java/gui-functionality.html[Introduction to GUI Building]
+
+=== Intuitive and Customizable
+
+You can choose whether the GUI code should be generated with fully qualified or simple class names. The helpbar displays context-sensitive hints about what can be done with the selected component and suggests shortcuts that can speed up your work in the future. The NetBeans IDE also comes with built-in support for GUI localization and accessibility.
+
+  |
+
+image:swing-gui-design.png[]
+
+image:swing-gui-options.png[]
+
+ 
+
+|=== Standard and Custom GUI Components
+
+The extensible Component Palette comes with pre-installed Swing and AWT components and includes a visual menu designer. Use the Component Navigator to view a component's tree and properties.
+
+  |
+
+image:swing-gui-palette.png[]
+
+ 
+
+|=== Visual Debuggerimage:improved_small.gif[]
+
+Debug a Swing GUI application without looking into the source code and control the execution flow in terms of high-level structures. Choose Take GUI Snapshot to make a screenshot of the application GUI that serves as a basis of the Visual Debugger functionality.
+link:../../kb/docs/java/debug-visual.html[Using the Visual Debugger]
+
+ |
+
+image:swing-gui-snapshot.png[]
+
+ 
+|===
+
+image:arrow-button.gif[] link:../../kb/trails/matisse.html[GUI Builder Learning Trail]
+
+image:arrow-button.gif[] link:../../kb/trails/platform.html[NetBeans Platform Learning Trail]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,77 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= javafx_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  javafx_ru
+:description: Apache NetBeans  javafx_ru
+:toc: left
+:toc-title:
+
+ 
+
+== JavaFX
+
+link:client-javafx-main-full.png[image:client-javafx-main-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+JavaFX является следующим шагом в развитии Java как платформы "толстых" клиентов. Эта технология обеспечивает упрощенную платформу пользовательского интерфейса Java с аппаратным ускорением для бизнес-приложений уровня предприятия. JavaFX позволяет разработчикам создавать приложения JavaFX полностью на языке программирования Java с использованием стандартных инструментов разработки Java. Вы сможете получить доступ к встроенным возможностям системы или легко подключиться к серверным приложениям промежуточного ПО.
+
+    [overview-right]#link:client-javafx-scene-full.png[image:client-javafx-scene-cut.png[]]#
+
+=== Редактирование шаблонов и графического интерфейса пользователя
+
+IDE NetBeans предоставляет доступ к схемам приложений в форме шаблонов проектов. Кроме того, IDE предоставляет набор примеров приложений, некоторые из которых могут быть воссозданы шаг за шагом согласно инструкциям в соответствующем учебном курсе, доступном на NetBeans.org.
+
+Через окно параметров NetBeans пользователи смогут зарегистрировать Scene Builder, благодаря чему файлы FXML будут автоматически открываться в нем.
+
+link:http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm[Начало работы с JavaFX]
+link:http://www.youtube.com/watch?v=EGEONliKWDk[Компоновщик сцен в среде NetBeans IDE]     [overview-left]#link:client-javafx-fxml-full.png[image:client-javafx-fxml-cut.png[]]#
+
+=== Редактор FXML
+
+IDE предоставляет редактор XML с поддержкой FXML - декларативного языка разметки на основе XML для определения пользовательских интерфейсов в приложениях JavaFX.
+
+     [overview-right]#link:client-javafx-deploy-full.png[image:client-javafx-deploy-cut.png[]]#
+
+=== Средства развертывания
+
+Построение и запуск приложений JavaFX по мере создания и запуска стандартного приложения Java SE.
+
+В IDE можно настроить проект JavaFX, чтобы он работал как самостоятельное приложение, с помощью Java Web Start или в браузере.
+
+     [overview-left]#link:client-swing-visual-full.png[image:client-swing-visual-cut.png[]]#
+
+=== Визуальный отладчик
+
+Отладка графического интерфейса пользователей приложений JavaFX без обращения к исходному коду и контроль потока выполнения в терминах структур высокого уровня.
+
+Выберите 'Создать снимок графического интерфейса пользователя', чтобы сделать снимок графического интерфейса приложения, которое будет использоваться как основа функционирования визуального отладчика.
+
+link:../../kb/docs/java/debug-visual.html[Использование визуального отладчика в IDE NetBeans]
+
+ 
+
+=== См. также
+
+* link:../../community/releases/81/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список выделенных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

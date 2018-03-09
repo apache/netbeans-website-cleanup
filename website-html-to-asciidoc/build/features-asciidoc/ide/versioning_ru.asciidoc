@@ -1,0 +1,85 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= versioning_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  versioning_ru
+:description: Apache NetBeans  versioning_ru
+:toc: left
+:toc-title:
+
+ 
+
+== Контроль версий
+
+link:versioning-base-full.png[image:versioning-base-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+IDE NetBeans позволяет пользователям легко и удобно работать с рядом популярных систем контроля версий
+
+  [overview-right]#link:ide-collaboration-version-full.png[image:ide-collaboration-version-cut.png[]]#
+
+=== Средства контроля версий
+
+IDE NetBeans - это готовое решение, которое обеспечивает для пользователей доступ к репозиториям Git, Mercurial и Subversion. Доступны подключаемые модули для работы с репозиториями CVS и ClearCase.
+
+Для выделения добавленных/удаленных/измененных строк в редакторе NetBeans используются условные цвета. Поддерживаются средства для получения изменений с последующим слиянием, отправки изменений, получения изменений, сохранения для дальнейшего использования, просмотра изменений, различий и локального журнала, а также для интуитивно понятного разрешения конфликтов при слиянии. Предоставляются визуальные средства для выполнения сложных операций, таких как обратное слияние ветви компонента с деревом, просмотр запланированных различий между ветвями и редакциями, переключение между очередями и операции перебазирования.
+
+link:../../kb/docs/ide/git.html[Использование поддержки Git в IDE NetBeans]
+link:../../kb/docs/ide/mercurial.html[Использование поддержки Mercurial в IDE NetBeans]
+link:../../kb/docs/ide/subversion.html[Использование поддержки Subversion в IDE NetBeans]
+link:../../kb/docs/ide/cvs.html[Использование поддержки CVS в IDE NetBeans]
+link:../../kb/docs/ide/clearcase.html[Использование поддержки ClearCase в IDE NetBeans] 
+|===
+
+|=== Git
+
+ |
+
+=== Mercurial
+
+ |
+
+=== Subversion
+
+ 
+
+|[overview-centre]#image:versioning-git.png[]#
+Поскольку Git является распределенной системой контроля версий, обычно работу следует начинать с создания копий внешнего репозитория в IDE. Используйте IDE для применения изменений в исходном репозитории или для экспорта изменений и отправки их владельцу.
+
+ |
+
+[overview-centre]#image:versioning-mercurial.png[]#
+Поддержка Mercurial IDE обеспечивает возможность создания копий репозиториев и управления изменениями файлов с поддержкой контроля версий в процессе работы. В IDE команды Mercurial можно вызывать как для файлов, так и для каталогов в окнах 'Проекты', 'Файлы' и 'Избранное'. См. также link:http://netbeans.org/kb/docs/ide/mercurial-queues.html[Руководство по Mercurial Queues].
+
+ |
+
+[overview-centre]#image:versioning-subversion.png[]#
+Поддержка Subversion IDE обеспечивает возможность управления развитием изменений файлов с поддержкой контроля версий путем отображения данных о состоянии напрямую в различных окнах IDE (например, 'Проекты', 'Файлы', 'Избранное', 'Контроль версий'), благодаря чему пользователи могут вызывать команды Subversion при выполнении работы.
+
+ 
+|===
+
+=== См. также
+
+* link:../../community/releases/81/index.html[На странице сведений о версии IDE netbeans 8.1] приведен список выделенных функций в последней стабильной версии.
+* link:../../kb/trails/java-se.html[Учебная карта по общим сведениям о разработке на Java] для учебных курсов по началу работы.
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

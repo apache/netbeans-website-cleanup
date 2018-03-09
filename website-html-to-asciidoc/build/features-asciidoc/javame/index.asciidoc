@@ -1,0 +1,123 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index
+:description: Apache NetBeans  index
+:toc: left
+:toc-title:
+
+== Java ME (Micro Edition) &amp; Embedded
+
+link:gamebuilder.png[image:gamebuilder-cut.png[][font-11]#Click image for fullscreen preview#]
+
+*Create, test, debug and deploy applications that will run on mobile phones, PDAs, set-top boxes, embedded systems — literally billions of devices.*
+
+|===
+|=== Phones, Hand-Held Devices, Java Card, and Set-Top Boxes
+
+Create, test and debug applications for the Mobile Information Device Profile (MIDP) 1.0, 2.0, 2.1 (MSA), the Connected Limited Device Configuration (CLDC) 1.0 and 1.1, and the Connected Device Configuration (CDC).
+
+The NetBeans IDE comes bundled with the latest Java ME SDK 3.0.5 which supports both CLDC and CDC development. You can register other mobile and embedded platforms from the Tools menu.
+
+=== Java Card
+
+The Java Card Platform 3.0 is a JVM that runs on smart cards. This platform supports familiar Java APIs such as servlets and allows you to write web applications that run on tiny devices that fit in the palm of your hand. NetBeans supports Java Card projects, Java Card applet deployment, and a Java Card device console.
+
+=== Visual Mobile Designer (VMD)
+
+Develop GUIs rapidly with the Visual Mobile Designer (VMD): Drag and drop components like wait screens, login screens, file browsers, an SMS composer, and splash screens are included. The Analyzer tool helps you decrease file size by identifying unused components for removal, and it also checks for MIDP 1.0 compliance. The VMD also makes GUI localization easier.
+
+_The Visual Mobile Designer is available in the NetBeans Update Center. To run the VMD in the IDE you need to install the Visual Mobile Designer plugin from the Update Center (Tools > Plugins > Available Plugins)._
+
+ |
+
+image:mobile-designer.png[]
+
+image:java-card.png[]
+
+ 
+
+|=== SVG Component Palette
+
+Select basic shapes from the SVG image palette to get started and use the other SVG components in the palette such as SVGForm, Button, CheckBox, TextField, Slider, and more to create rich content interfaces for your mobile applications.
+
+=== Custom SVG Components
+
+Use the SVG Composer to create and modify SVG-based UI components. The SVG Composer supports 90/180/270 degree rotation and Rich SVG components. Drag and drop SVG files onto an SVGForm, and use the SVGForm Property editor to preview and modify the UI files. All of the SVG images that you create and edit can be exported as PNG and JPG files.
+
+ |
+
+image:mobile-svg-palette.png[]
+
+ 
+
+|=== Data Binding
+
+Data Binding to UI components is a simple and consistent way for applications to interact with and display data using the Data Binding property editor together with the DataSet component in the Visual Mobile Designer.
+
+=== Mobile Game Builder
+
+Develop mobile games with a visual editor designed for the MIDP 2.0 Game API. The API allows you to create game scenes with sprites on a game canvas using tiled layers and layer management.
+
+ |
+
+image:mobile-data-binding.png[]
+
+ 
+
+|=== A Solution for the Device Fragmentation Issue
+
+Resolve device fragmentation problems by creating multiple device configurations for your projects. Use the Project Configuration Manager to add new project configurations, create multiple builds, and reuse existing configuration options for new projects. Test your mobile application on a variety of target device emulators by leading manufacturers and deploy to real devices to perform on-device debugging.
+
+ |
+
+image:mobile-conf-mgr.png[]
+
+ 
+
+|=== Access to Web Services
+
+Write applications that access web services directly from JSR-172-enabled phones. Use the Wireless Connection Bridge to access web services or other server-side data via servlets from any device using MIDlets.
+
+=== Modular Build System
+
+Enhance the Mobility pack by plugging-in your own components. You can add new platform types, deployment types, configurations providers, and more.
+
+ |
+
+image:mobile-preprocessor.png[]
+
+ 
+
+|=== Integrated Tools
+
+The IDE integrates tools for JMUnit 1.1.0 testing, MIDlet signing, certificate management, automatic code obfuscation with ProGuard 4.2, integrated over-the-air (OTA) emulation, push registry emulation, WMA emulation for SMS and CBS messages, new deployment methods, and Wireless Messaging and Multimedia APIs. You have complete control over these tool using standard Apache Ant scripts.
+
+ 
+
+image:arrow-button.gif[] link:../../kb/trails/mobility.html[Mobility Learning Trail]
+
+ |link:http://www.ikivo.com/java/java.html[image:ikivo_logo_small.jpg[]] Ikivo Animator: Advanced SVG image and animation editing for the NetBeans IDE. Learn more from this link:http://www.ikivo.com/java/white_paper1.html[white paper] and link:http://www.ikivo.com/java/netbeans_tutorial.html[tutorial]. 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,101 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= frameworks_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  frameworks_ja
+:description: Apache NetBeans  frameworks_ja
+:toc: left
+:toc-title:
+
+== フレームワークとツール
+
+<img src="../../images_www/v7/3/features/php/framework-top.png" alt="PHP development in NetBeans IDE" class="box" border="none"
+
+Zend、Symfony、Doctrine、Smartyのような最も広く使用されているWebフレームワークを標準でサポート
+
+[overview-right]#image:frameworks.png[]#
+
+=== Webフレームワーク
+
+NetBeans IDEは、広く普及している次のWebフレームワークをサポートしています。
+
+* link:http://framework.zend.com/[Zendフレームワーク](link:http://netbeans.org/kb/docs/php/zend-framework-screencast.html[スクリーンキャスト])
+* link:http://symfony.com/[Symfony2フレームワーク]
+* link:http://symfony.com/legacy[Symfony1フレームワーク](link:http://netbeans.org/kb/docs/php/symfony-screencast.html[スクリーンキャスト])
+
+一般に、これらのフレームワークでの新しいPHPプロジェクトの作成、フレームワーク・コマンドの実行、コントローラ(アクション)からそのビューへの移動、エディタでのフレームワーク注釈とコード補完の使用、エディタの設定のカスタマイズが可能です。
+
+  [overview-left]#image:php-generatedoc_small.png[]#
+
+=== ApiGenを使用したPHPコードのドキュメント化
+
+NetBeans PHP IDEでは、link:http://apigen.org/[ApiGen]を使用してPHPコード・ドキュメントを生成できます。ApiGenは自分でダウンロードし、IDEのオプションで、IDEがApiGenのインストールを認識していること、ApiGenスクリプトへの正しいパスを検出していることを確認する必要があります。すべてを正しく設定した後は、プロジェクト・ノードを右クリックして「ドキュメントの生成」を選択するのみです。選択した場所にドキュメント・ファイルが生成されます。
+
+ 
+
+|===
+|=== Doctrine2フレームワークを使用したORM
+
+ |
+
+=== コンポーザ経由での依存性
+
+ |
+
+=== Smartyテンプレート
+
+ 
+
+|[overview-centre]#image:doctrine2-04.png[]#
+NetBeans IDEは、最も広く使用されているORM (オブジェクト・リレーショナル・マッピング)用フレームワークであるlink:http://www.doctrine-project.org[Doctrine2フレームワーク]をサポートしています。すべてのDoctrine2コマンドをIDEから簡単に実行できます。詳細はlink:http://netbeans.org/kb/docs/php/screencast-doctrine2.html[スクリーンキャスト]を参照してください。
+
+ |
+
+[overview-centre]#image:php-composer_small.png[]#
+NetBeans IDEはコンポーザをサポートしています。コンポーザとは、PHPで依存性を管理するためのツールです。これを使用すると、プロジェクトに必要な依存ライブラリを宣言し、プロジェクト内に自動的にインストールすることができます。
+
+ |
+
+[overview-centre]#image:php-smarty_small.png[]#
+Smartyのサポートでは、構文の色分け、コード・テンプレート、コード補完(タグのドキュメントを含む)、ブロック・タグの照合、パーサーのエラー・ヒントなど、NetBeans IDEの標準エディタの機能を提供しています。詳細はlink:http://netbeans.org/kb/docs/php/screencast-smarty.html[スクリーンキャスト]を参照してください。
+
+ 
+
+|=== Twigテンプレート
+
+ 
+
+|[overview-centre]#image:php-twig_small.png[]#
+
+ |
+
+IDEは、Twigテンプレートをサポートしています(TwigテンプレートはSymfonyフレームワークと密接に結び付いています)。link:https://blogs.oracle.com/netbeansphp/entry/twig_code_completion[すべてのTwig要素でコード補完]が行われます。対象となるのは、タグ、フィルタ、関数、テストおよび演算子です。また、すべての要素がドキュメント化されています。link:https://blogs.oracle.com/netbeansphp/entry/another_twig_improvements[組込みのコード・テンプレート]のサポートも利用できます。
+
+ 
+|===
+
+=== 関連項目
+
+* 最新の安定版リリースの個別機能のリストについては、link:/community/releases/81/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/php.html[PHPおよびHTML5の学習]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

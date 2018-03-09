@@ -1,0 +1,62 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ru
+:description: Apache NetBeans  index_ru
+:toc: left
+:toc-title:
+
+== Функции UML в IDE NetBeans
+
+link:uml.png[image:uml-cut.png[]] 
+link:uml.png[[font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+*Подключаемый модуль UML для IDE NetBeans доступен для версии 6.7 и более ранних версий.*
+
+|===
+|=== Visual Paradigm: SDE для NetBeans
+
+link:http://www.visual-paradigm.com/product/sde/nb/[SDE для NetBeans] от Visual Paradigm предоставляет широкий спектр функциональных возможностей класса предприятия, среди них:
+
+* импорт существующих проектов NetBeans UML;
+* возможности совместной работы;
+* создание кода для Java, C++, PHP и пр.
+
+image:arrow-button.gif[] Получите дополнительные сведения на сайте link:http://www.visual-paradigm.com/product/sde/nb/[visual-paradigm.com].
+
+ |image:uml-visual-paradigm.png[] 
+
+|=== JDeveloper
+
+Требуется бесплатная среда моделирования UML с полным набором функций? JDeveloper предоставляет полный набор функциональных возможностей моделирования, в том числе:
+
+* схемы UML, аналогичные схемам вариантов использования, классов, действий и последовательностей;
+* средства моделирования для конкретной области, например блок-схема JSF, схемы EJB, средство моделирования баз данных и редактор схем.
+
+image:arrow-button.gif[] Получите дополнительные сведения на сайте link:http://www.oracle.com/technology/products/jdev/htdocs/netbeans/uml.html[oracle.com].
+
+ |image:uml-jdeveloper.png[]
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

@@ -1,0 +1,115 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_zh_CN
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_zh_CN
+:description: Apache NetBeans  index_zh_CN
+:toc: left
+:toc-title:
+
+ 
+
+== Java EE 和 Web 应用程序开发
+
+link:web-app.png[image:web-app-cut.png[][font-11]#单击图像查看全屏预览#]
+
+编写可通过 Web 浏览器、移动设备等各种客户端访问的标准型 Web 和企业应用程序。获得无与伦比的便捷体验。只需单击几下，即可创建支持所有相关 Java EE 技术的基于 Java EE 7、Java EE 6 和 Java EE 5 的应用程序，同时利用 IDE 对 HTML5、JavaScript 和 CSS3 开发的综合支持，如 link:../html5/index.html[HTML5 Web 开发支持]页上所述。
+
+    [overview-right]#link:ee-dev.png[image:ee-dev-cut.png[]]#
+
+=== 企业应用程序开发
+
+NetBeans IDE 提供对最新的 Java EE 7 规范的支持。开发 Web 页、Servlet、Web 服务、Enterprise Java Beans、JSF、JPA 等组件，并支持上下文和依赖关系注入 (CDI)。
+
+link:java-ee.html[NetBeans 中的 Java EE 支持]
+
+     [overview-left]#link:http-monitor.png[image:http-monitor-cut.png[]]#
+
+=== 部署、调试、监视和性能分析
+
+您可以将应用程序部署到 GlassFish、WebLogic、Tomcat 或 JBoss 服务器。通过“在保存时部署”功能，在编辑器中保存文件后，可以立即查看对应用程序所做的更改。
+
+此外，还可以将断点放在 Java 或 JSF 文件中，然后调试应用程序，或使用 NetBeans 分析器对其进行分析。此外还提供了 HTTP 服务器端监视器，通过该监视器，您可以诊断来自 JSF 的数据流问题以及 Web 服务器上的 servlet 执行问题。
+
+     [overview-right]#link:rest-services-support.png[image:rest-services-support-cut.png[]]#
+
+=== Web 服务开发
+
+NetBeans IDE 支持较新的 Java EE 7 和 Java EE 6 规范以及较旧的 Java EE 5 和早期规范中的 Web 服务标准。
+
+您可以通过诸如基于向导的代码生成和编辑器中代码插入等功能来创建和使用 Web 服务。代码完成功能包括可在 Web 服务中使用的标注。
+
+link:web-services.html[NetBeans 中的 Web 服务支持]
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Web 应用程序开发
+
+通过 NetBeans IDE，可以轻松地使用 JSF 2.2 (Facelets)、JSP 或 Servlet 来创建基于 Java EE 的 Web 应用程序项目。此外，您还可以使用其他像 Spring、Struts 和 Hibernate 这样的框架来创建和使用 Web 应用程序。编辑器支持映射文件的代码完成、导航和重构功能。
+
+而且，可以通过安装更新中心提供的其他插件，轻松地将 IDE 配置为使用其他框架。
+
+link:../../kb/docs/web/framework-adding-support.html[添加对 Web 框架的支持]
+
+ 
+|===
+
+|=== Spring 支持
+
+ |
+
+=== Struts 支持
+
+ |
+
+=== Hibernate 支持
+
+ 
+
+|[overview-centre]#image:spring-completion.png[]#
+在 "New Project"（新建项目）向导中选择 "Spring" 框架，然后立即开始创建框架 Spring Web MVC 应用程序。在编辑器中利用重构（包括 XML 配置文件）和代码完成。
+
+link:../../kb/docs/web/quickstart-webapps-spring.html[Spring Web MVC 简介]
+
+ |
+
+[overview-centre]#image:struts.png[]#
+选择 "Struts" 框架以创建基于标准技术（例如 JSP 页、JavaBean、资源包和 XML）的灵活 Web 应用程序。可以利用编辑器中的 Struts 标记代码完成和 Struts Javadoc 弹出式窗口。
+
+link:../../kb/docs/web/quickstart-webapps-struts.html[Struts Web 框架简介]
+
+ |
+
+[overview-centre]#image:hibernate-web-apps.png[]#
+在新建项目向导中选择 Hibernate 框架时，会自动将 Hibernate 库与应用程序捆绑在一起。IDE 提供了用于创建 Hibernate 逆向工程以及配置 XML 文件和 POJO 类的向导。
+
+link:../../kb/docs/web/hibernate-webapp.html[在 Web 应用程序中使用 Hibernate]
+
+ 
+|===
+
+=== 另请参见
+
+* link:/community/releases/80/index.html[NetBeans IDE 8.1 发行版页]，提供最新的稳定发行版中的重要功能列表。
+* link:../../kb/trails/java-ee.html[Java EE 和 Java Web 学习资源]，提供将帮助您入门的教程。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

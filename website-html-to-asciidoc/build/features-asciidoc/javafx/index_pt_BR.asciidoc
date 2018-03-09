@@ -1,0 +1,90 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_pt_BR
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_pt_BR
+:description: Apache NetBeans  index_pt_BR
+:toc: left
+:toc-title:
+
+== JavaFX 2.1
+
+link:javafx2-main-big.png[image:javafx2-main.png[][font-11]#Clique na imagem para exibição em tela inteira#]
+
+*O JavaFX 2 é a próxima etapa na evolução do Java como uma plataforma cliente avançada. Ele foi projetado para fornecer uma plataforma Java de IU leve e rápida para aplicações de negócios. Com o JavaFX 2, os desenvolvedores podem criar aplicações JavaFX completamente na linguagem de programação Java usando ferramentas padrão de desenvolvimento Java. Eles podem até mesmo acessar as capacidades nativas do sistema ou se conectar de forma transparente a um servidor com base em aplicações middleware. JavaFX 2.1 é empacotado no Java JDK 7 atualização 4, para Windows e Mac. Você também pode fazer download do JavaFX 2.1 separadamente do link:http://www.oracle.com/technetwork/java/javafx/downloads/index.html[Oracle.com]. Consulte o link:../../kb/docs/java/nb_fx_screencast.html[Vídeo do Suporte JavaFX no NetBeans IDE] para obter detalhes.*
+
+|===
+|=== Projetos JavaFX image:new_small.gif[]
+
+Criar projetos JavaFX no IDE. O NetBeans IDE permite a criação dos seguintes tipos de projeto JavaFX:
+
+* *Aplicação FXML de JavaFX**.* As aplicações FXML de JavaFX usam o documento FXML para definir um layout gráfico e uma classe do controlador Java para definir ações. O NetBeans IDE cria o documento FXML e a classe do controlador Java. É possível usar as funcionalidades de edição de código XML e Java do IDE para desenvolver outra aplicação.
+* *Aplicação JavaFX (sem FXML).* O Netbeans IDE também permite que você crie um estilo Java "tradicional "o projeto JavaFX, onde layout gráfico e ações são definidos em classes java.
+* *Pré-carregador JavaFX.* O pré-carregador é uma pequena aplicação que se inicia antes da aplicação principal para personalizar a experiência de inicialização. O NetBeans IDE permite a criação de pré-carregadores JavaFX como projetos separados ou como parte de uma aplicação JavaFX.
+* *O JavaFX na Aplicação Swing* O NetBeans IDE simplifica a criação de aplicações Java SE que permitem incorporar componentes FX usando o componente JFXPanel Swing.
+ |
+
+image:javafx2-projecttypes.png[]
+
+ 
+
+|=== Construindo e Executando Aplicações JavaFX
+
+ 
+
+Construa e execute uma aplicação JavaFX da mesma forma que se cria e executa uma aplicação Java padrão, com a diferença que você pode configurar o projeto JavaFX para executar das seguintes maneiras:
+
+* *Aplicação Standalone.* Construções e execuções do projeto como uma aplicação da área de trabalho Java padrão.
+* *Java Web Start.* A aplicação usa JNLP. O IDE gera o arquivo JNLP ao construir a aplicação.
+* *No Browser.* O IDE incorpora a aplicação em um browser, usando uma página HTML que chama um arquivo JNLP. O IDE pode gerar a página HTML ou você pode usar usa própria página web. Se você executar a aplicação no IDE, o IDE abrirá uma página no browser que apontará para a página HTML no seu sistema de arquivos local.
+ |
+
+image:javafx2-select-runas.png[]
+
+ 
+
+|=== Editando Código JavaFX
+
+Aproveito o link:../java/javase.html[editor de código Java] avançado para codificar sua aplicação JavaFX.
+
+ |image:javafx2-ineditor.png[] 
+
+|=== Depuração de JavaFX
+
+Use as link:../java/debugger.html[ferramentas de depuração Java], incluindo o novo Depurador Visual de GUI, para depurar sua aplicação JavaFX.
+
+image:arrow-button.gif[] Consulte link:../../kb/docs/java/debug-visual.html[Usando o Depurador Visual no NetBeans IDE] para obter mais informações.
+
+ |image:debug-take-snapshot.png[title="Opção Obter Snapshot de GUI do menu Depurar"] 
+
+|=== Projetos de Amostra
+
+Explore as funcionalidades do JavaFX 2.1 e do suporte do NetBeans IDE em mais de 30 exemplos de projetos JavaFX 2.1.
+
+ |image:javafx2-sample-projects.png[] 
+
+|image:arrow-button.gif[] link:http://docs.oracle.com/javafx/index.html[Home da Documentação JavaFX]: Downloads, demonstrações, FAQs e tutoriais.
+
+ 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

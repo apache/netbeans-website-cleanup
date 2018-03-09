@@ -1,0 +1,115 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ja
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ja
+:description: Apache NetBeans  index_ja
+:toc: left
+:toc-title:
+
+ 
+
+== Java EEおよびWebアプリケーション開発
+
+link:web-app.png[image:web-app-cut.png[][font-11]#イメージをクリックして全画面表示#]
+
+Webブラウザ、モバイル・デバイスなど、幅広い種類のクライアントからアクセスできる標準ベースのWebアプリケーションやエンタープライズ・アプリケーションを作成できます。何も設定しなくても圧倒的な開発を体験できます。すべての関連Java EEテクノロジのサポートを使用して、数回のクリックでJava EE 7、Java EE 6およびJava EE 5ベースのアプリケーションを作成できます。同時に、link:../html5/index.html[HTML5 Web開発のサポート]・ページの説明のような、HTML5、JavaScriptおよびCSS3開発のためのIDEの包括的サポートも利用できます。
+
+    [overview-right]#link:ee-dev.png[image:ee-dev-cut.png[]]#
+
+=== エンタープライズ・アプリケーション開発
+
+NetBeans IDEは、最新のJava EE 7仕様のサポートを提供します。Webページ、サーブレット、Webサービス、Enterprise Java Beans、JSF、JPA、コンテキストと依存性の注入(CDI)のサポートなどのコンポーネントを開発できます。
+
+link:java-ee.html[NetBeansでのJava EEサポート]
+
+     [overview-left]#link:http-monitor.png[image:http-monitor-cut.png[]]#
+
+=== デプロイ、デバッグ、モニターおよびプロファイリング
+
+作成したアプリケーションをGlassFish、WebLogic、Tomcat、またはJBossサーバーにデプロイできます。「保存時にデプロイ」機能を使用すると、エディタでファイルを保存した後すぐに、アプリケーションへの変更を反映できます。
+
+また、JavaファイルまたはJSFファイルでブレークポイントを配置してアプリケーションをデバッグしたり、NetBeansプロファイラでそれをプロファイルしたりできます。また、WebサーバーでのJSF実行およびサーブレット実行からのデータ・フローの問題を診断できるHTTPサーバー側モニターもあります。
+
+     [overview-right]#link:rest-services-support.png[image:rest-services-support-cut.png[]]#
+
+=== Webサービス開発
+
+NetBeans IDEは、より最新のJava EE 7およびJava EE 6仕様からより古いJava EE 5以下の仕様まで、Webサービス標準をサポートしています。
+
+ウィザード・ベースのコード生成やエディタ内コード挿入などの機能を使用してWebサービスを作成し、消費することができます。このエディタのコード補完機能には、Webサービスで使用できる注釈も含まれます。
+
+link:web-services.html[NetBeansでのWebサービス・サポート]
+
+     [overview-left]#link:jsf-dev.png[image:jsf-dev-cut.png[]]#
+
+=== Webアプリケーション開発
+
+NetBeans IDEでは、JSF 2.2 (Facelets)、JSP、サーブレットのいずれかを使用して、Java EEベースのWebアプリケーション・プロジェクトを簡単に作成できます。また、その他のフレームワーク(Spring、Struts、Hibernateの各フレームワークなど)を使用してWebアプリケーションを作成し、使用することもできます。エディタでは、コード補完、ナビゲーション、およびマッピング・ファイルのためのリファクタリングがサポートされています。
+
+さらに、入手可能になった追加のプラグインを更新センターからインストールすれば、IDEが他のフレームワークと連携するように簡単に構成できます。
+
+link:../../kb/docs/web/framework-adding-support.html[Webフレームワークのサポートの追加]
+
+ 
+|===
+
+|=== Springのサポート
+
+ |
+
+=== Strutsのサポート
+
+ |
+
+=== Hibernateのサポート
+
+ 
+
+|[overview-centre]#image:spring-completion.png[]#
+新規プロジェクト・ウィザードでSpringフレームワークを選択して、スケルトンSpring Web MVCアプリケーションからすぐに作業を開始することができます。リファクタリング(XML構成ファイルを含む)やエディタでのコード補完を利用できます。
+
+link:../../kb/docs/web/quickstart-webapps-spring.html[Spring Web MVC入門]
+
+ |
+
+[overview-centre]#image:struts.png[]#
+JSPページ、JavaBeans、リソース・バンドル、XMLなどの標準テクノロジに基づいた、柔軟性のあるWebアプリケーションを作成するには、Strutsフレームワークを選択します。Strutsタグのコード補完、およびエディタでのStruts Javadocのポップアップを活用できます。
+
+link:../../kb/docs/web/quickstart-webapps-struts.html[Struts Webフレームワーク入門]
+
+ |
+
+[overview-centre]#image:hibernate-web-apps.png[]#
+新規プロジェクト・ウィザードでHibernateフレームワークを選択すると、アプリケーションにHibernateライブラリが自動的にバンドルされます。IDEには、Hibernateリバース・エンジニアリングおよび構成XMLファイルとPOJOクラスを作成するためのウィザードが用意されています。
+
+link:../../kb/docs/web/hibernate-webapp.html[WebアプリケーションでのHibernateの使用]
+
+ 
+|===
+
+=== 関連項目
+
+* 最新の安定版リリースの主な機能のリストについては、link:/community/releases/81/index.html[NetBeans IDE 8.1リリース・ページ]を参照してください。
+* 作業を開始する際に役立つチュートリアルについては、link:../../kb/trails/java-ee.html[「Java EEおよびJava Webの学習」]を参照してください。
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.

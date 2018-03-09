@@ -1,0 +1,91 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= index_ru
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  index_ru
+:description: Apache NetBeans  index_ru
+:toc: left
+:toc-title:
+
+== Ruby и Ruby on Rails
+
+link:ruby.png[image:ruby-cut.png[][font-11]#Для перехода к полноэкранному предварительному просмотру щелкните изображение#]
+
+*Примечание. Начиная с IDE NetBeans 7.0 поддержка Ruby и Ruby on Rails более недоступна в стандартной сборке IDE NetBeans. Дополнительные сведения можно найти на link:http://wiki.netbeans.org/RubySupport[вики-странице о поддержке Ruby].*
+
+|===
+|=== Редактор исходного кода Ruby
+
+Редактор поддерживает возможность вставки отступов, а также завершения и выделения кода Ruby на основе синтаксического и семантического анализа. Редактор предоставляет вспомогательные функции для реорганизации с переименованием, логического вывода типа и переходов. Редактор анализирует исходный код непосредственно во время ввода — таким образом, обеспечивается проверка соответствия слов и скобок, возможность выделения ошибок и вхождений, а также отображения новых вариантов быстрого ввода и RDoc. Нажатием нескольких клавиш можно вставить часто используемые фрагменты кода из динамических шаблонов.
+
+ |
+
+image:ruby-editor.png[]
+
+ 
+
+|=== Проекты Ruby
+
+Для типа проекта Ruby поддерживаются файлы Ruby, файлы спецификации RSpec и файлы YAML. Диспетчер платформ Ruby предоставляет возможность выбора между выполнением проектов с использованием JRuby или любого другого собственного интерпретатора Ruby в системе.
+
+В среду IDE интегрировано средство сборки Rake; пользователю также предоставляется доступ к интерактивному интерпретатору Interactive Ruby Shell (IRB). Кроме того, обеспечивается интегрированная поддержка реорганизации кода и тестов Test::Unit, Auto Test, Shoulda и RSpec. Также существует возможность отслеживания подсказок и ошибок в списке задач.
+
+
+=== Проекты Ruby on Rails
+
+Для проектов типа Ruby on Rails поддерживаются цели Rake и возможность переноса базы данных. Диалоговое окно "Rake Runner" содержит список введенных ранее параметров и автоматически заполняет список для задач переноса и исправления. Имеется возможность создания проектов Rails 3 или создания кода посредством графического мастера генератора кода Rails. Логический вид проекта позволяет проводить четкое различие между контроллерами и моделями, представлениями и переносами баз данных.
+
+Существует возможность правки файлов ERB и развертывания проектов непосредственно на веб-серверах WEBrick и Mongrel. Кроме того, возможен быстрый переход "Goto Rails Action/View" и независимое перемещение в браузере к URL-адресу, наиболее соответствующему редактируемому файлу.
+
+=== Отладчик Ruby и Rails
+
+Позволяет выполнять код Ruby и файлы ERB как в пошаговом режиме, так и целиком. Этот отладчик предоставляет возможность установки точек останова, просмотра локальных переменных, переходов в рамках стека вызовов и переключения между потоками выполнения. Для анализа и отображения выражения во всплывающей подсказке достаточно навести указатель мыши на переменную в редакторе. IDE NetBeans поддерживает отладчик Fast Ruby, который также можно использовать с JRuby. Выполните отладку файлов Ruby, не являющихся частью проекта NetBeans, или присоедините отладчик к удаленному процессу, запущенному из командной строки и используйте дружелюбный к пользователю внешний интерфейс отладчика.
+
+ |
+
+image:ruby-test.png[]
+
+image:ruby-files.png[]
+
+image:ruby-rails.png[]
+
+image:ruby-debugger.png[]
+
+ 
+
+|=== Диспетчер установки Ruby Gems
+
+Эта функция позволяет расширять установку Ruby за счет использования интегрированной пакетной системы библиотек Gem языка Ruby. Появилась возможность настройки $GEM_PATH или $GEM_HOME при помощи диспетчера установки Gem. Кроме того, можно добавлять доступные бесплатно программные библиотеки Ruby и управлять ими, а также подготавливать дистрибутивы собственных пакетов. Диспетчер Gem также позволяет удалить определенные версии библиотек gem.
+
+При установке библиотеки gem Bundler можно выполнять действия Bundler из контекстного меню проекта.
+
+ 
+
+image:arrow-button.gif[] link:http://wiki.netbeans.org/wiki/view/Ruby[Wiki по Ruby]
+
+image:arrow-button.gif[] link:http://wiki.netbeans.org/RubySupport[Wiki по поддержке Ruby]
+
+
+ |image:ruby-gems.png[] 
+|===
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-09, and needs to be reviewed.
