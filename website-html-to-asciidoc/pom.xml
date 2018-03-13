@@ -80,6 +80,24 @@
                             </arguments>
                         </configuration>
                     </execution>
+                                        <execution>
+                        <!-- mvn >= 3.3.1 mvn exec:java@tutorials -->
+                        <id>tutorials</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>org.netbeans.website.cleanup.html2asciidoc.HTMLConverter</mainClass>
+                            <arguments>
+                                <!-- Directory to transform -->
+                                <argument>../src/content/kb/docs</argument>
+                                <!-- Output directory -->
+                                <argument>build/tutorials-asciidoc</argument>
+                                <!-- Images root directory -->
+                                <argument>../src/content/</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>

@@ -104,6 +104,7 @@ public class CustomAsciiDocDocumentBuilder extends AsciiDocDocumentBuilder {
         @Override
         protected void emitContent(String content) throws IOException {
             String href = attributes.getHref();
+            href = href == null ? "" : href;
             if (href.indexOf("image") != -1) {
                 String originalImageLink = href;
                 Matcher m = CLEANUP_LEADING_BARS_AND_DOTS.matcher(href);
@@ -121,7 +122,7 @@ public class CustomAsciiDocDocumentBuilder extends AsciiDocDocumentBuilder {
                         href = image.getName();
                     }
                 }
-                System.err.println("IMAGE LINK HREF: '" + href + "' from '" + originalImageLink + "'");
+                // System.err.println("IMAGE LINK HREF: '" + href + "' from '" + originalImageLink + "'");
             }
             // link:http://url.com[label]
             CustomAsciiDocDocumentBuilder.this.emitContent("link:"); //$NON-NLS-1$
@@ -159,7 +160,7 @@ public class CustomAsciiDocDocumentBuilder extends AsciiDocDocumentBuilder {
             CustomAsciiDocDocumentBuilder.this.emitContent("[source," + language + "]\n");
             CustomAsciiDocDocumentBuilder.this.emitContent("----\n");
             CustomAsciiDocDocumentBuilder.this.emitContent(content.startsWith("\n") ? content : "\n" + content);
-            CustomAsciiDocDocumentBuilder.this.emitContent("----\n");
+            CustomAsciiDocDocumentBuilder.this.emitContent("\n----\n");
         }
     }
 
@@ -242,6 +243,12 @@ public class CustomAsciiDocDocumentBuilder extends AsciiDocDocumentBuilder {
                     return new LinkBlock((LinkAttributes) attributes);
                 }
                 return new AsciiDocContentBlock("", "", 0, 0); //$NON-NLS-1$ //$NON-NLS-2$
+            case DELETED:
+                return new AsciiDocContentBlock("[line-through]#", "#", 0, 0);
+            case UNDERLINED:
+                return new AsciiDocContentBlock("[underline]#", "#", 0, 0);
+            case MONOSPACE:
+                return new AsciiDocContentBlock("`", "`", 0, 0); //$NON-NLS-1$ //$NON-NLS-2$
             default:
                 return super.computeSpan(type, attributes);
         }
