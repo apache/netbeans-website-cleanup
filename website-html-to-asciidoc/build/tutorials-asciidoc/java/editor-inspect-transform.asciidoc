@@ -1,0 +1,235 @@
+// 
+//     Licensed to the Apache Software Foundation (ASF) under one
+//     or more contributor license agreements.  See the NOTICE file
+//     distributed with this work for additional information
+//     regarding copyright ownership.  The ASF licenses this file
+//     to you under the Apache License, Version 2.0 (the
+//     "License"); you may not use this file except in compliance
+//     with the License.  You may obtain a copy of the License at
+// 
+//       http://www.apache.org/licenses/LICENSE-2.0
+// 
+//     Unless required by applicable law or agreed to in writing,
+//     software distributed under the License is distributed on an
+//     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+//     KIND, either express or implied.  See the License for the
+//     specific language governing permissions and limitations
+//     under the License.
+//
+
+= editor-inspect-transform
+:jbake-type: page
+:jbake-tags: old-site, needs-review
+:jbake-status: published
+:keywords: Apache NetBeans  editor-inspect-transform
+:description: Apache NetBeans  editor-inspect-transform
+:toc: left
+:toc-title:
+
+== Refactoring with Inspect and Transform in the NetBeans IDE Java Editor
+
+The NetBeans IDE Java Editor features an Inspect and Transform feature, which is a refactoring tool for running various inspections and transformations on the selected scope of files at once. It also enables a user to define a custom inspection.
+
+In this tutorial, you will learn to perform a code review using inspections with refactoring and predefined set of inspections, manage configurations, and create custom inspections.
+
+==== Contents
+
+image:netbeans-stamp.png[title="Content on this page applies to NetBeans IDE 8.0"]
+
+* link:#setup[Setting Up the Tutorial Environment]
+* link:#run[Running Inspections]
+* link:#configuration[Using Configurations]
+* link:#migrate5[Migrate to JDK 5]
+* link:#convert[Migrate to JDK 7]
+* link:#migrate8[Migrate to JDK 8]
+* link:#organize[Organize Imports]
+* link:#create[Managing Custom Inspections]
+* link:#summary[Summary]
+* link:#seealso[See Also]
+
+=== Requirements
+
+*To complete this tutorial, you need the following software and resources.*
+
+|===
+|Software or Resource |Version Required 
+
+|link:http://netbeans.org/downloads/index.html[NetBeans IDE] |Version 8.0 
+
+|link:http://www.oracle.com/technetwork/java/javase/downloads/index.html[Java Development Kit] (JDK) |Version 7 or 8 
+|===
+
+=== Setting Up the Tutorial Environment
+
+In addition to the required software listed above you should have the link:https://netbeans.org/projects/samples/downloads/download/Samples/Java/inspecttransform.zip[InspectTransform.zip] file unzipped into your NetBeans project folder and opened in the NetBeans IDE as follows:
+
+image:proj.png[]
+
+=== Running Inspections
+
+The Single Inspection option in the Inspect and Transform dialog box (Refactor > Inspect and Transform) offers a big variety of inspections related to particular refactoring transformations. The complete list of such operations is available in the Manage Inspections dialog box after clicking the Browse button to the right of the Single Inspection option.
+
+link:manage-inspections.png[image:manage-inspections-small.png[]]
+
+The Search field enables you to check if a required inspection is available using a keyword lookup. For example, there are several inspections found when `operator` is searched for.
+
+link:search.png[image:search-small.png[]]
+
+Every inspection is provided with a description available either in the Description field in the Manage Inspection dialog box.
+
+*To run an inspection and apply an existing Inspection:*
+
+1. In the Projects window, select the `InspectTransform.java` file.
+2. Choose Refactor > Inspect and Transform from the IDE's menu.
+3. In the Inspect and Transform dialog box, select the Single Inspection option and click Browse.
+4. In the Manage Inspections dialog box, choose the `Assignment replaceable with operator-assignment` inspection in the Assignment Issues node.
+5. Click OK to close the Manage Inspections dialog box.
+6. Click Inspect in the Inspect and Transform dialog box.
+The suggested refactoring changes display in the preview panel.
+
+link:single-inspection.png[image:single-inspection-small.png[]]
+
+7. Click Do Refactoring to apply the changes if required.
+
+link:#top[top]
+
+=== Using Configurations
+
+A set of refactorings grouped together constitute a configuration that can be run on your scope of interest, for example, a class or several classes, packages, or projects. The IDE offers the following two predefined configurations:
+
+* link:#migrate5[Migrate to JDK 5]
+* link:#convert[Migrate to JDK 7]
+* link:#migrate8[Migrate to JDK 8]
+* link:#organize[Organize Imports]
+
+==== Migrate to JDK 5
+
+The `Migrate to JDK 5` configuration available in the IDE by default incorporates such refactoring operations as static imports, JDK 5 for-loop usage, unnecessary boxing and unboxing, and switch over Strings application.
+
+link:jdk5-conf.png[image:jdk5-conf-small.png[]]
+
+*Note:* The list of refactorings in the configuration can be modified in the Inspections list of the Manage Inspections dialog box by selecting and deselecting the items under the `JDK Migration Support` node.
+
+==== Migrate to JDK 7
+
+The `Migrate to JDK 7` configuration available in the IDE by default incorporates such refactoring operations as diamond operator usage, try-with-resources conversion, multicatch usage, switch over Strings application, and others.
+
+link:jdk7-conf.png[image:jdk7-conf-small.png[]]
+
+*Note:* The list of refactorings in the configuration can be modified in the Inspections list of the Manage Inspections dialog box by selecting and deselecting the items under the `JDK Migration Support` node.
+
+*To run and apply the default `Migrate to JDK 7` configuration:*
+
+1. In the Projects window, select the `PredefinedSet.java` file.
+2. Choose Refactor > Inspect and Transform from the IDE's menu.
+3. In the Inspect and Transform dialog box, select the Configuration option and choose the `Migrate to JDK 7` set of inspections from the drop-down list.
+4. Click Inspect.
+Changes that convert the code to JDK 7 syntax display in the preview panel.
+
+link:jdk7-ref.png[image:jdk7-ref-small.png[]]
+
+5. Click Do Refactoring to apply the changes if required.
+
+==== Migrate to JDK 8
+
+The `Migrate to JDK 8` configuration available in the IDE by default incorporates such refactoring operations as Lambda or Member Reference conversion, static imports, multicatch usage, switch over Strings application, and others.
+
+link:jdk8-conf.png[image:jdk8-conf-small.png[]]
+
+*Note:* The list of refactorings in the configuration can be modified in the Inspections list of the Manage Inspections dialog box by selecting and deselecting the items under the `JDK Migration Support` node.
+
+==== Organize Imports
+
+The `Organize Imports` configuration enables you to inspect the way import statements are organized in the code and refactor your code if desired. By default it includes a single inspection that checks whether import statements correspond to the specified code style rules.
+
+*Note:* To configure the code style rules for import statements:
+
+1. Choose Tools > Options > Editor > Formatting in the main IDE toolbar.
+2. Select Java in the Language drop-down list.
+3. Select Imports in the Category drop-down list.
+4. Specify the available options as required.
+
+link:org-imports.png[image:org-imports-small.png[]]
+
+5. Click OK to save your edits.
+
+*To run and apply the default `Organize Imports` configuration:*
+
+1. In the Projects window, select the `Imports.java` file.
+2. Choose Refactor > Inspect and Transform from the IDE's menu.
+3. In the Inspect and Transform dialog box, select the Configuration option and choose the `Organize Imports` item.
+4. Click Inspect.
+The preview panel displays one occurrence proposed for the Import section of the `Imports.java` file to make it aligned with the specified code style rules.
+
+link:imports-ref.png[image:imports-ref-small.png[]]
+
+5. Click Do Refactoring to apply the changes if necessary.
+
+link:#top[top]
+
+=== Managing Custom Inspections
+
+A custom inspection can be created to instruct the IDE what code structures are to be found and how to transform them.
+
+*Note:* To avoid adding a duplicate inspection to the IDE, choose Refactor > Inspect and Transform from the main menu, click either Manage or Browse, and, in the Manage Inspections dialog box, use the Search field to look for the required inspection prior to creating a new inspection.
+
+*To create a custom inspection:*
+
+1. Choose Refactor > Inspect and Transform from the IDE's menu.
+2. In the Inspect and Transform dialog box, click either Manage or Browse.
+3. In the Manage Inspections dialog box, click New.
+A `Custom > Inspection` node is created in the Inspections list.
+
+link:custom-hint.png[image:custom-hint-small.png[]]
+
+4. (Optional) Right-click `Inspection`, choose Rename from the popup menu, specify the name required for your custom inspection (for example, `MyCustomInspection`), and press Enter.
+5. Click Edit Script. The Script text area displays.
+
+link:script.png[image:script-small.png[]]
+
+6. Type the inspection description and code in the Script text area or click Open in Editor and specify the same in the `MyCustomInspection.hint` file.
+
+link:hint-file.png[image:hint-file-small.png[]]
+
+7. Click Save below the Script text area or press Ctrl-S in the Editor to save your edits.
+8. Click OK to close the Manage Inspections dialog box or close the `MyCustomInspection.hint` file in the Editor.
+Your custom inspection is done and ready to be applied.
+
+*To run the custom inspection you created:*
+
+1. Choose Refactor > Inspect and Transform from the IDE's menu.
+2. In the Inspect list of the Inspect and Transform dialog box, specify a file, package, or project(s) to be inspected. Alternatively, click the button to the right to open the Custom Scope dialog box and specify the custom code to be inspected.
+3. Select the Single Inspection option and choose the `MyCustomInspection` inspection.
+
+link:mycustomhint.png[image:mycustomhint-small.png[]]
+
+4. Click Inspect.
+The suggested refactoring changes display in the preview panel.
+5. Click Do Refactoring to apply the changes if required.
+
+link:#top[top]
+
+=== Summary
+
+This tutorial covers most frequent usages of the Inspect and Transform feature. Please note that with the Inspect and Transform functionality you can also perform custom refactoring at project scope, or apply particular refactoring configurations to several projects open in the IDE, etc.
+
+link:#top[top]
+
+link:/about/contact_form.html?to=3&subject=Feedback:%20Refactoring%20with%20Inspect%20and%20Transform%20in%20the%20NetBeans%20IDE%20Java%20Editor[Send Feedback on This Tutorial]
+
+
+=== See Also
+
+For related material see the following documents:
+
+* link:http://www.oracle.com/pls/topic/lookup?ctx=nb8000&id=NBDAG613[Using Hints in Source Code Analysis and Refactoring] in _Developing Applications with NetBeans IDE_
+* link:http://wiki.netbeans.org/Java_Hints[Complete List of NetBeans Java Hints]
+* link:http://wiki.netbeans.org/JavaDeclarativeHintsDescriptionSketch[Description of NetBeans Java Declarative Hints]
+* link:code-inspect.html[Static Code Analysis in the NetBeans IDE Java Editor]
+* link:http://wiki.netbeans.org/Refactoring[Refactoring Simplified]
+* link:http://platform.netbeans.org/tutorials/nbm-java-hint.html[NetBeans Java Hint Module Tutorial]
+
+link:#top[top]
+
+
+NOTE: This document was automatically converted to the AsciiDoc format on 2018-03-13, and needs to be reviewed.
